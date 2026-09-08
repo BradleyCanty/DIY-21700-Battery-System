@@ -1,5 +1,5 @@
 # DIY-21700-Battery-System
-This is a do-it-yourself 21700 battery for use in UAVs or UGVs. The parametric nature allows designing and building a lithium ion battery specific to your vehicle's requirements.
+This is a do-it-yourself 21700 battery for use in UAVs or UGVs. The parametric nature allows designing and building a lithium ion battery system specific to your vehicle's requirements.
 
 ## Use of 21700 Cells
 Cylindrical cells having 21[mm] height and 70[mm] length (i.e. 21700 cells) are used since they are cheap, easily obtained, and have high gravimetric energy density. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026).
