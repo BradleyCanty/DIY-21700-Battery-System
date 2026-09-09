@@ -35,25 +35,25 @@ The battery system consists of the following components:
 
 Each component is sized according to the chosen battery configuration. Possible battery configurations are:
 * Six in series:
-    - Three in parallel (6s3p)
-    - Four in parallel (6s4p)
-    - Five in parallel (6s5p)
-    - Six in parallel (6s6p)
+    - Three in parallel (21700_6s3p)
+    - Four in parallel (21700_6s4p)
+    - Five in parallel (21700_6s5p)
+    - Six in parallel (21700_6s6p)
 * Eight in series:
-    - Three in parallel (8s3p)
-    - Four in parallel (8s4p)
-    - Five in parallel (8s5p)
-    - Six in parallel (8s6p)
+    - Three in parallel (21700_8s3p)
+    - Four in parallel (21700_8s4p)
+    - Five in parallel (21700_8s5p)
+    - Six in parallel (21700_8s6p)
 * Ten in series:
-    - Three in parallel (10s3p)
-    - Four in parallel (10s4p)
-    - Five in parallel (10s5p)
-    - Six in parallel (10s6p)
+    - Three in parallel (21700_10s3p)
+    - Four in parallel (21700_10s4p)
+    - Five in parallel (21700_10s5p)
+    - Six in parallel (21700_10s6p)
 * Twelve in series:
-    - Three in parallel (12s3p)
-    - Four in parallel (12s4p)
-    - Five in parallel (12s5p)
-    - Six in parallel (12s6p)
+    - Three in parallel (21700_12s3p)
+    - Four in parallel (21700_12s4p)
+    - Five in parallel (21700_12s5p)
+    - Six in parallel (21700_12s6p)
  
 ## The Choice to Use 21700 Cells
 Cylindrical cells having 21[mm] height and 70[mm] length (i.e. 21700 cells) are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026).
@@ -79,16 +79,6 @@ For a UAV, the appropriate battery configuration can be determined as follows:
 4) Determine the battery's number of cells in series ((nominal voltage required)/(cell voltage))
 5) Determine the number of cells in parallel (max battery discharge rate)/(max cell discharge rate), and select the 21700 cell having the highest charge capacity for the intended discharge rate. This is iterative. **NEEDS CLARIFICATION. NEEDS TO TAKE INTO ACCOUNT THE RANGE/ENDURANCE REQUIREMENTS.**
 
-## Repo Directory Battery Naming Convention
-	21700_MsNp
-	where
-	M = number of cells in series
-	N = number of cells in parallel
-
-	For example...
-	21700_6s4p indicates a battery using cylindrical cells having diameter of 21[mm] and length of 70[mm], with 6 cells in series and 4 cells in parallel
-	The total number of cells used in this battery is M*N = 6*4 = 24
-
 ## Required Tools
 
 ## Bill of Materials and Total Cost
@@ -108,13 +98,13 @@ This section describes the build steps for
 ### Charging Station Build Steps
 [COMPLETE THIS]
 
-## Future Improvements to be Implemented
+## TO DO IN FUTURE
 * extend temperature sensor functionality to PX4 control software (currently only works with Ardupilot)
 * replace battery latch mechanism push button with internal clamp-to-unlatch mechanism hidden by spring-actuated trap doors: this will enable the battery to fit into a "fuselage cutout" of a fixed-wing UAV without imposing a drag penalty
 * make an automated battery swapping system composed of a robot arm, gripper, and some way to precisely orient the gripper to actuate the latching mechanism on the battery
 * Complete the battery low voltage alarm (flashing orange LED lights and loud buzzer) and add the details to this project
 
-# TO DO
+# TO DO IMMEDIATELY
 * Take pictures of build steps
 * Write out build steps and include pictures here
 * Add PCB design files (KiCad project files)
