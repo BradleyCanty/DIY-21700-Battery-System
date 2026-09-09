@@ -98,13 +98,13 @@ This section describes the build steps for
 ### Charging Station Build Steps
 [COMPLETE THIS]
 
-## TO DO IN FUTURE
+## FUTURE TO DO
 * extend temperature sensor functionality to PX4 control software (currently only works with Ardupilot)
 * replace battery latch mechanism push button with internal clamp-to-unlatch mechanism hidden by spring-actuated trap doors: this will enable the battery to fit into a "fuselage cutout" of a fixed-wing UAV without imposing a drag penalty
 * make an automated battery swapping system composed of a robot arm, gripper, and some way to precisely orient the gripper to actuate the latching mechanism on the battery
 * Complete the battery low voltage alarm (flashing orange LED lights and loud buzzer) and add the details to this project
 
-# TO DO IMMEDIATELY
+## IMMEDIATE TO DO
 * Take pictures of build steps
 * Write out build steps and include pictures here
 * Add PCB design files (KiCad project files)
