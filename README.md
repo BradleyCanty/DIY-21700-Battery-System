@@ -88,6 +88,7 @@ For a UAV, the appropriate battery configuration can be determined as follows:
 
 ## Required Tools
 
+## Bill of Materials and Total Cost
 
 ## Build Steps
 This section describes the build steps for 
@@ -116,3 +117,5 @@ This section describes the build steps for
 * Add PCB design files (KiCad project files)
 * Add PCB fabrication files (gerber)
 * Complete the temperature sensor circuit: use ATtiny3227 microcontroller instead of ATmega328P
+* Refactor the steps for selecting the battery configuration of a UAV
+* Create steps for selecting the battery configuration of a UGV
