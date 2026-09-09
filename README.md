@@ -23,6 +23,9 @@ Building this system consists of many steps (see 'Pre-build Steps' section and '
 3) Test the battery by performing a few charge/discharge cycles your battery charger (battery charger not in the kit)
 In this way, all you would need to complete the build is a suitable spot welder, hex wrenches, and a suitable battery charger.
 The web store for buying these kits is under development as of 2026/09/08
+The link to purchase kits is here [PUT LINK TO WEB STORE]
+
+Whether building from raw materials or building from the kit, pictures and descriptions are provided at each step of the build process.
 
 ## The Battery System
 The battery system consists of the following components:
