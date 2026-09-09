@@ -2,7 +2,7 @@
 This is a do-it-yourself battery system consisting of 
 1) a battery using lithium ion 21700-form-factor cells
 2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism
-3) a charging station
+3) an off-vehicle charging station
 
 It is intended to be used with Unmanned Aerial Vehicles or Unmanned Ground Vehicles: the parametric nature allows designing and building a battery system specific to the vehicle's requirements. As such, the value add of such a system is threefold:
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity)
