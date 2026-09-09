@@ -1,7 +1,7 @@
 # DIY-21700-Battery-System
-This is a do-it-yourself battery system using 21700-form-factor cells, intended for use on UAVs or UGVs. Its parametric nature allows designing and building a lithium ion battery system specific to your vehicle's requirements. The value add is threefold:
-1) you can use your choice of cells
-2) you enjoy a 50% discount by building it yourself
+This is a do-it-yourself battery system using 21700-form-factor cells, intended for use on UAVs or UGVs. Its parametric nature allows designing and building a lithium ion battery system specific to your vehicle's requirements. Proceeding to purpose, the value add is threefold:
+1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity)
+2) you can enjoy a 60% discount by building it yourself
 3) the battery has a press-to-release latching mechanism, which gives a common interface for battery swapping (either manually or by robot arm)
 
 ## Use of 21700 Cells
