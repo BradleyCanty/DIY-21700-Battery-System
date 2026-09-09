@@ -1,8 +1,13 @@
 # DIY-21700-Battery-System
 This is a do-it-yourself battery system consisting of 
-1) a battery using lithium ion 21700-form-factor cells
-2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism
-3) an off-vehicle charging station
+1) a battery using lithium ion 21700-form-factor cells\
+   [PUT IMAGE HERE]
+   
+3) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism\
+   [PUT IMAGE HERE]
+   
+5) an off-vehicle charging station\
+   [PUT IMAGE HERE]
 
 # TO DO
 * Take pictures of build steps
