@@ -48,9 +48,9 @@ where\
 $cell\ max\ voltage$ = 4.1 V (for LiIon cells)
 
 The number of cells in parallel determines the battery charge capacity:\
-$battery\ charge\ capacity = (expected\ cell\ charge\ capacity) * (number\ of\ cells\ in\ parallel)$\
+$battery\ charge\ capacity = (cell\ expected\ charge\ capacity) * (number\ of\ cells\ in\ parallel)$\
 where\
-$expected\ cell\ charge\ capacity$ = a function of expected average current draw in cruise (fixed wing) or hover (VTOL)
+$cell\ expected\ charge\ capacity$ = a function of expected average current draw in cruise (fixed wing) or hover (VTOL)
 
 Specifically, to find the cell's expected charge capacity, check its datasheet for the plot of Voltage vs Charge Capacity, which contains curves of various discharge rates, and then match the expected average current draw to the corresponding discharge rate curve. Finally, find the capacity corresponding to the "empty" voltage of 2.8 V.
 
