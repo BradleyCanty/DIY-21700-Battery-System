@@ -10,7 +10,7 @@ This is a do-it-yourself battery system intended for use with Unmanned Aerial Ve
 3) an off-vehicle charging station\
    [PUT IMAGE HERE]
 
-The parametric nature of this system allows designing and building a battery system specific to the vehicle's requirements. As such, the value add of such a system is threefold:
+The parametric nature of this system allows designing and building a battery system specific to your vehicle's requirements. As such, the value add of such a system is threefold:
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity)
 2) you can enjoy a 50% discount by building it yourself
 3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm), which vastly increases system uptime when compared to on-board charging
