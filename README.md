@@ -42,12 +42,12 @@ Each component is sized according to the chosen battery configuration. Possible 
 
 ## Steps for Selecting a Battery Configuration
 In general,\
-The number of cells in series determines the battery voltagey:\
+**The number of cells in series determines the battery voltagey:**\
 $battery\ max\ voltage = (cell\ max\ voltage) * (number\ of\ cells\ in\ series)$\
 where\
 $cell\ max\ voltage$ = 4.1 V (for LiIon cells)
 
-The number of cells in parallel determines the battery charge capacity:\
+**The number of cells in parallel determines the battery charge capacity:**\
 $battery\ charge\ capacity = (cell\ expected\ charge\ capacity) * (number\ of\ cells\ in\ parallel)$\
 where\
 $cell\ expected\ charge\ capacity$ = a function of expected average current draw in cruise (fixed wing) or hover (VTOL)
