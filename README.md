@@ -1,4 +1,5 @@
 # DIY-21700-Battery-System
+## Overview
 This is a do-it-yourself battery system consisting of 
 1) a battery using lithium ion 21700-form-factor cells\
    [PUT IMAGE HERE]
@@ -8,13 +9,6 @@ This is a do-it-yourself battery system consisting of
    
 5) an off-vehicle charging station\
    [PUT IMAGE HERE]
-
-# TO DO
-* Take pictures of build steps
-* Write out build steps and include pictures here
-* Add PCB design files (KiCad project files)
-* Add PCB fabrication files (gerber)
-* Complete the temperature sensor circuit: use ATtiny3227 microcontroller instead of ATmega328P
 
 It is intended for use with Unmanned Aerial Vehicles or Unmanned Ground Vehicles: the parametric nature allows designing and building a battery system specific to the vehicle's requirements. As such, the value add of such a system is threefold:
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity)
@@ -115,3 +109,10 @@ This section describes the build steps for
 * replace battery latch mechanism push button with internal clamp-to-unlatch mechanism hidden by spring-actuated trap doors: this will enable the battery to fit into a "fuselage cutout" of a fixed-wing UAV without imposing a drag penalty
 * make an automated battery swapping system composed of a robot arm, gripper, and some way to precisely orient the gripper to actuate the latching mechanism on the battery
 * Complete the battery low voltage alarm (flashing orange LED lights and loud buzzer) and add the details to this project
+
+# TO DO
+* Take pictures of build steps
+* Write out build steps and include pictures here
+* Add PCB design files (KiCad project files)
+* Add PCB fabrication files (gerber)
+* Complete the temperature sensor circuit: use ATtiny3227 microcontroller instead of ATmega328P
