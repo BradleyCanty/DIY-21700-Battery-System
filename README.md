@@ -6,7 +6,7 @@ This is a do-it-yourself battery system consisting of
 
 It is intended to be used with Unmanned Aerial Vehicles or Unmanned Ground Vehicles: the parametric nature allows designing and building a battery system specific to the vehicle's requirements. As such, the value add of such a system is threefold:
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity)
-2) you can enjoy a 60% discount by building it yourself
+2) you can enjoy a 50% discount by building it yourself
 3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm), which vastly increases system uptime when compared to on-board charging
 
 ## Use of 21700 Cells
@@ -42,14 +42,17 @@ Each component is sized according to the chosen battery configuration. Possible 
 
 ## Steps for Selecting a Battery Configuration
 In general,\
-The number of cells in series determines the voltage of the battery:\
-$battery max voltage = (cell max voltage) * (number of cells in series)$ 
-where LiIon cell max voltage is typically 4.1 V
-
-The number of cells in parallel determines the charge capacity of the battery:\
-$battery charge capacity = (expected cell charge capacity) * (number of cells in parallel)$
+The number of cells in series determines the battery voltagey:\
+$battery\\max\\voltage = (cell\\max\\voltage) * (number\\of\\cells\\in\\series)$ 
 where\
-expected cell charge capacity is a function of expected average current draw in cruise/hover (check the cell's datasheet for the plot of Voltage vs Charge Capacity, which shows curves of various discharge rates... match the expected average current draw to the corresponding discharge rate curve, then find the capacity when voltage reaches the "empty" voltage of 2.8 V)
+LiIon cell max voltage is typically 4.1 V
+
+The number of cells in parallel determines the battery charge capacity:\
+$battery\\charge\\capacity = (expected\\cell\\charge\\capacity) * (number\\of\\cells\\in\\parallel)$\
+where\
+expected cell charge capacity is a function of expected average current draw in cruise (fixed wing) or hover (VTOL)
+
+Specifically, to find the cell's expected charge capacity, check its datasheet for the plot of Voltage vs Charge Capacity, which contains curves of various discharge rates, and then match the expected average current draw to the corresponding discharge rate curve. Finally, find the capacity corresponding to the "empty" voltage of 2.8 V.
 
 For a UAV, the appropriate battery configuration can be determined as follows:
 1) Decide the max payload mass, and the max vehicle range or endurance
@@ -58,7 +61,7 @@ For a UAV, the appropriate battery configuration can be determined as follows:
 4) Determine the battery's number of cells in series ((nominal voltage required)/(cell voltage))
 5) Determine the number of cells in parallel (max battery discharge rate)/(max cell discharge rate), and select the 21700 cell having the highest charge capacity for the intended discharge rate. This is iterative. **NEEDS CLARIFICATION. NEEDS TO TAKE INTO ACCOUNT THE RANGE/ENDURANCE REQUIREMENTS.**
 
-## Battery Naming Convention
+## Battery Naming Convention Used in the Repo Directories
 	21700_MsNp
 	where
 	M = number of cells in series
