@@ -25,7 +25,7 @@ In this way, all you would need to complete the build is a suitable spot welder,
 The web store for buying these kits is under development as of 2026/09/08
 The link to purchase kits is here [PUT LINK TO WEB STORE]
 
-Whether building from raw materials or building from the kit, pictures and descriptions are provided at each step of the build process.
+Whether building from raw materials or building from the kit, pictures and descriptions are provided at each step to aid in the build process.
 
 ## The Battery System
 The battery system consists of the following components:
