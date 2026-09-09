@@ -42,13 +42,14 @@ Each component is sized according to the chosen battery configuration. Possible 
 
 ## Steps for Selecting a Battery Configuration
 In general,\
-The number of cells in series determines the voltage of the battery:
+The number of cells in series determines the voltage of the battery:\
 $battery max voltage = (cell max voltage) * (number of cells in series)$ 
 where LiIon cell max voltage is typically 4.1 V
 
-The number of cells in parallel determines the charge capacity of the battery: 
-$battery charge capacity = (expected cell charge capacity) * (number of cells in parallel)
-where expected cell charge capacity is a function of expected average current draw in cruise/hover (look in the cell's datasheet for the voltage vs charge capacity plot featuring curves corresponding to various discharge rates. If the cell's datasheet doesn't have the information... DONT USE IT!!!)
+The number of cells in parallel determines the charge capacity of the battery:\
+$battery charge capacity = (expected cell charge capacity) * (number of cells in parallel)$
+where\
+expected cell charge capacity is a function of expected average current draw in cruise/hover (check the cell's datasheet for the plot of Voltage vs Charge Capacity, which shows curves of various discharge rates... match the expected average current draw to the corresponding discharge rate curve, then find the capacity when voltage reaches the "empty" voltage of 2.8 V)
 
 For a UAV, the appropriate battery configuration can be determined as follows:
 1) Decide the max payload mass, and the max vehicle range or endurance
