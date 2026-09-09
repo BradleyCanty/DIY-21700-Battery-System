@@ -4,10 +4,22 @@ This is a do-it-yourself battery system consisting of
 2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism
 3) an off-vehicle charging station
 
+# TO DO
+* Take pictures of build steps
+* Write out build steps and include pictures here
+* 
+
 It is intended to be used with Unmanned Aerial Vehicles or Unmanned Ground Vehicles: the parametric nature allows designing and building a battery system specific to the vehicle's requirements. As such, the value add of such a system is threefold:
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity)
 2) you can enjoy a 50% discount by building it yourself
 3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm), which vastly increases system uptime when compared to on-board charging
+
+Building this system consists of many steps (see 'Pre-build Steps' section and 'Build Steps' section), and requires specific tools (see 'Required Tools' section). As a consequence, many people may find that doing this on their own is too advanced for them. The way I can address this is by selling a build kit: in essence, all you would need to do upon receiving the kit is
+1) spot weld the terminals of your favorite cells (purchased separately) to the pre-wired bus bars included in the kit
+2) fasten the fully-prepared 3D printed parts and pre-populated PCBs together with screws
+3) Test the battery by performing a few charge/discharge cycles your battery charger (battery charger not in the kit)
+In this way, all you would need to complete the build is a suitable spot welder, hex wrenches, and a suitable battery charger.
+The web store for buying these kits is under development as of 2026/09/08
 
 ## Use of 21700 Cells
 Cylindrical cells having 21[mm] height and 70[mm] length (i.e. 21700 cells) are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026).
@@ -61,7 +73,7 @@ For a UAV, the appropriate battery configuration can be determined as follows:
 4) Determine the battery's number of cells in series ((nominal voltage required)/(cell voltage))
 5) Determine the number of cells in parallel (max battery discharge rate)/(max cell discharge rate), and select the 21700 cell having the highest charge capacity for the intended discharge rate. This is iterative. **NEEDS CLARIFICATION. NEEDS TO TAKE INTO ACCOUNT THE RANGE/ENDURANCE REQUIREMENTS.**
 
-## Battery Naming Convention Used in the Repo Directories
+## Repo Directory Battery Naming Convention
 	21700_MsNp
 	where
 	M = number of cells in series
@@ -71,3 +83,24 @@ For a UAV, the appropriate battery configuration can be determined as follows:
 	21700_6s4p indicates a battery using cylindrical cells having diameter of 21[mm] and length of 70[mm], with 6 cells in series and 4 cells in parallel
 	The total number of cells used in this battery is M*N = 6*4 = 24
 
+## Required Tools
+
+
+## Build Steps
+This section describes the build steps for 
+1. the battery
+2. the vehicle adapter
+3. the charging station
+
+### Battery Build Steps
+[COMPLETE THIS]
+
+### Vehicle Adapter Build Steps
+[COMPLETE THIS]
+
+### Charging Station Build Steps
+[COMPLETE THIS]
+
+## Future Improvements to be Implemented
+* replace battery latch mechanism push button with internal clamp-to-unlatch mechanism hidden by spring-actuated trap doors: this will enable the battery to fit into a "fuselage cutout" of a fixed-wing UAV without imposing a drag penalty
+* make an automated battery swapping system composed of a robot arm, gripper, and some way to precisely orient the gripper to actuate the latching mechanism on the battery
