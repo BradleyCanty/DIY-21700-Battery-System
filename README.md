@@ -42,7 +42,7 @@ Each component is sized according to the chosen battery configuration. Possible 
 
 ## Steps for Selecting a Battery Configuration
 In general,\
-**The number of cells in series determines the battery voltagey:**\
+**The number of cells in series determines the battery voltage:**\
 $battery\ max\ voltage = (cell\ max\ voltage) * (number\ of\ cells\ in\ series)$\
 where\
 $cell\ max\ voltage$ = 4.1 V (for LiIon cells)
