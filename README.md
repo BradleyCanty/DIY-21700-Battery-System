@@ -7,12 +7,16 @@ This is a do-it-yourself battery system consisting of
 # TO DO
 * Take pictures of build steps
 * Write out build steps and include pictures here
-* 
+* Add PCB design files (KiCad project files)
+* Add PCB fabrication files (gerber)
+* Complete the temperature sensor circuit: use ATtiny3227 microcontroller instead of ATmega328P
 
-It is intended to be used with Unmanned Aerial Vehicles or Unmanned Ground Vehicles: the parametric nature allows designing and building a battery system specific to the vehicle's requirements. As such, the value add of such a system is threefold:
+It is intended for use with Unmanned Aerial Vehicles or Unmanned Ground Vehicles: the parametric nature allows designing and building a battery system specific to the vehicle's requirements. As such, the value add of such a system is threefold:
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity)
 2) you can enjoy a 50% discount by building it yourself
 3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm), which vastly increases system uptime when compared to on-board charging
+
+Additionally, safety is paramount. A temperature sensor circuit consisting of a microcontroller and thermistors is used to monitor the temperature at each cell station on the battery during flight, with options of alerting the pilot or autolanding the vehicle if a measured temperature exceeds some threshold temperature. The circuit itself is integrated into the battery power PCB, and thus it is conveniently tucked away within the battery itself. The temperature sensor microcontroller communicates with the flight controller via I2C ports located next to the power connected on the bottom surface of the battery. **Currently, the temperature sensing functionality works on vehicles using Ardupilot control software, however, functionality with PX4 is in-progress.**
 
 Building this system consists of many steps (see 'Pre-build Steps' section and 'Build Steps' section), and requires specific tools (see 'Required Tools' section). As a consequence, many people may find that doing this on their own is too advanced for them. The way I can address this is by selling a build kit: in essence, all you would need to do upon receiving the kit is
 1) spot weld the terminals of your favorite cells (purchased separately) to the pre-wired bus bars included in the kit
@@ -102,5 +106,7 @@ This section describes the build steps for
 [COMPLETE THIS]
 
 ## Future Improvements to be Implemented
+* extend temperature sensor functionality to PX4 control software (currently only works with Ardupilot)
 * replace battery latch mechanism push button with internal clamp-to-unlatch mechanism hidden by spring-actuated trap doors: this will enable the battery to fit into a "fuselage cutout" of a fixed-wing UAV without imposing a drag penalty
 * make an automated battery swapping system composed of a robot arm, gripper, and some way to precisely orient the gripper to actuate the latching mechanism on the battery
+* Complete the battery low voltage alarm (flashing orange LED lights and loud buzzer) and add the details to this project
