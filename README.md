@@ -24,7 +24,7 @@ Building this system consists of many steps (see 'Pre-build Steps' section and '
 In this way, all you would need to complete the build is a suitable spot welder, hex wrenches, and a suitable battery charger.
 The web store for buying these kits is under development as of 2026/09/08
 
-## Use of 21700 Cells
+## Choice of 21700 Cells
 Cylindrical cells having 21[mm] height and 70[mm] length (i.e. 21700 cells) are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026).
 
 ## The Battery System
