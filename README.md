@@ -1,16 +1,16 @@
 # DIY-21700-Battery-System
 ## Overview
-This is a do-it-yourself battery system consisting of 
+This is a do-it-yourself battery system intended for use with Unmanned Aerial Vehicles or Unmanned Ground Vehicles, and consists of 
 1) a battery using lithium ion 21700-form-factor cells\
    [PUT IMAGE HERE]
    
-3) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism\
+2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism\
    [PUT IMAGE HERE]
    
-5) an off-vehicle charging station\
+3) an off-vehicle charging station\
    [PUT IMAGE HERE]
 
-It is intended for use with Unmanned Aerial Vehicles or Unmanned Ground Vehicles: the parametric nature allows designing and building a battery system specific to the vehicle's requirements. As such, the value add of such a system is threefold:
+The parametric nature of this system allows designing and building a battery system specific to the vehicle's requirements. As such, the value add of such a system is threefold:
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity)
 2) you can enjoy a 50% discount by building it yourself
 3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm), which vastly increases system uptime when compared to on-board charging
@@ -23,9 +23,6 @@ Building this system consists of many steps (see 'Pre-build Steps' section and '
 3) Test the battery by performing a few charge/discharge cycles your battery charger (battery charger not in the kit)
 In this way, all you would need to complete the build is a suitable spot welder, hex wrenches, and a suitable battery charger.
 The web store for buying these kits is under development as of 2026/09/08
-
-## Choice of 21700 Cells
-Cylindrical cells having 21[mm] height and 70[mm] length (i.e. 21700 cells) are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026).
 
 ## The Battery System
 The battery system consists of the following components:
@@ -54,6 +51,9 @@ Each component is sized according to the chosen battery configuration. Possible 
     - Four in parallel (12s4p)
     - Five in parallel (12s5p)
     - Six in parallel (12s6p)
+ 
+## The Choice to Use 21700 Cells
+Cylindrical cells having 21[mm] height and 70[mm] length (i.e. 21700 cells) are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026).
 
 ## Steps for Selecting a Battery Configuration
 In general,\
