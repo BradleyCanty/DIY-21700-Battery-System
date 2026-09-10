@@ -98,6 +98,8 @@ This section describes the build steps for
 [COMPLETE THIS]
 
 ## FUTURE TO DO
+* Add battery configurations for 3 cells in parallel
+* Add battery configurations for 14 cells in series
 * extend temperature sensor functionality to PX4 control software (currently only works with Ardupilot)
 * replace battery latch mechanism push button with internal clamp-to-unlatch mechanism hidden by spring-actuated trap doors: this will enable the battery to fit into a "fuselage cutout" of a fixed-wing UAV without imposing a drag penalty
 * make an automated battery swapping system composed of a robot arm, gripper, and some way to precisely orient the gripper to actuate the latching mechanism on the battery
