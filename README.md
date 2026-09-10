@@ -29,7 +29,7 @@ The link to purchase kits is here [PUT LINK TO WEB STORE]
 
 Whether building from raw materials or building from the kit, pictures and descriptions are provided at each step to aid in the build process.
 
-## Components
+## Battery System Components
 The battery system consists of the following components:
 1) the battery
 2) the vehicle adapter
