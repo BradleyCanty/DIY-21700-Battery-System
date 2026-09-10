@@ -1,6 +1,6 @@
 # DIY-21700-Battery-System
 ## Overview
-This is a do-it-yourself battery system intended for use with Unmanned Aerial Vehicles or Unmanned Ground Vehicles, and consists of 
+This is a do-it-yourself battery system intended for use with Unmanned Aerial Vehicles or Unmanned Ground Vehicles. It consists of 
 1) a battery using lithium ion 21700-form-factor cells\
    [PUT IMAGE HERE]
    
