@@ -13,7 +13,7 @@ This is a do-it-yourself battery system intended for use with Unmanned Aerial Ve
 The parametric nature of this system allows designing and building a battery system specific to your vehicle's requirements. As such, the value add of this system is threefold:
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity)
 2) you can enjoy a 50% discount by building it yourself
-3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm), which vastly increases system uptime when compared to on-board charging
+3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm); this is important since battery swapping vastly increases system uptime when compared with on-board charging
 
 Additionally, safety is paramount. A temperature sensor circuit consisting of a microcontroller and thermistors is used to monitor the temperature at each cell station on the battery during flight, with options of alerting the pilot or autolanding the vehicle if a measured temperature exceeds some threshold temperature (e.g., 80% of thermal runaway temperature). The circuit itself is integrated into the battery power PCB, conveniently tucked away within the battery itself. The temperature sensor microcontroller communicates with the flight controller via I2C ports located next to the power connecter on the bottom surface of the battery. **Currently, the firmware for temperature sensing functionality is implemented for vehicles using Ardupilot control software, however, functionality with PX4 is in-progress.**
 
