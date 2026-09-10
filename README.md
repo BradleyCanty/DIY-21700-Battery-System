@@ -17,6 +17,8 @@ The parametric nature of this system allows designing and building a battery sys
 
 Additionally, safety is paramount. A temperature sensor circuit consisting of a microcontroller and thermistors is used to monitor the temperature at each cell station on the battery during flight, with options of alerting the pilot or autolanding the vehicle if a measured temperature exceeds some threshold temperature (e.g., 80% of thermal runaway temperature). The circuit itself is integrated into the battery power PCB, conveniently tucked away within the battery itself. The temperature sensor microcontroller communicates with the flight controller via I2C ports located next to the power connecter on the bottom surface of the battery. **Currently, the firmware for temperature sensing functionality is implemented for vehicles using Ardupilot control software, however, functionality with PX4 is in-progress.**
 
+Cylindrical cells having 21[mm] height and 70[mm] length (i.e. 21700 cells) are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026).
+
 Building this system consists of many steps (see 'Pre-build Steps' section and 'Build Steps' section), and requires specific tools (see 'Required Tools' section). As a consequence, many people may find that doing this on their own is too advanced for them. The way I can address this is by selling a build kit: in essence, all you would need to do upon receiving the kit is
 1) spot weld the terminals of your favorite cells (purchased separately) to the pre-wired bus bars included in the kit
 2) fasten the fully-prepared 3D printed parts and pre-populated PCBs together with screws
@@ -27,7 +29,7 @@ The link to purchase kits is here [PUT LINK TO WEB STORE]
 
 Whether building from raw materials or building from the kit, pictures and descriptions are provided at each step to aid in the build process.
 
-## The Battery System
+## Components
 The battery system consists of the following components:
 1) the battery
 2) the vehicle adapter
@@ -54,9 +56,6 @@ Each component is sized according to the chosen battery configuration. Possible 
     - Four in parallel (21700_12s4p)
     - Five in parallel (21700_12s5p)
     - Six in parallel (21700_12s6p)
- 
-## The Choice to Use 21700 Cells
-Cylindrical cells having 21[mm] height and 70[mm] length (i.e. 21700 cells) are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026).
 
 ## Steps for Selecting a Battery Configuration
 In general,\
