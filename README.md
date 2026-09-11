@@ -78,6 +78,9 @@ For a UAV, the appropriate battery configuration can be determined as follows:
 4) Determine the battery's number of cells in series ((nominal voltage required)/(cell voltage))
 5) Determine the number of cells in parallel (max battery discharge rate)/(max cell discharge rate), and select the 21700 cell having the highest charge capacity for the intended discharge rate. This is iterative. **NEEDS CLARIFICATION. NEEDS TO TAKE INTO ACCOUNT THE RANGE/ENDURANCE REQUIREMENTS.**
 
+"Generally speaking for efficiency you want to maximize prop diameter. You can also benefit from higher voltage if it means you can use thinner wiring and lower-current ESCs (though they need to support the higher voltage). This generally means motors with lower Kv to avoid spinning the prop unnecessarily fast. Pick the props first, then figure out how fast you need to spin them, then pick a motor/cell-count to give that speed, then pick an ESC and battery capacity and C-rating to be able to supply the necessary current for the required amount of time."
+Look into using **ecalc.ch**
+
 ## Required Tools
 
 ## Bill of Materials and Total Cost
