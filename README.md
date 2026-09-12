@@ -10,22 +10,28 @@ This is a do-it-yourself battery system intended for use with Unmanned Aerial Ve
 3) an off-vehicle charging station\
    [PUT IMAGE HERE]
 
+### Value Add
 The parametric nature of this system allows designing and building a battery system specific to your vehicle's requirements. As such, **the value add of this system is threefold:**
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity)
 2) you can enjoy a 50% discount by building it yourself
 3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm); this is important since battery swapping vastly increases system uptime when compared with on-board charging
 
+### Cell Choice
 Considering the cells, cylindrical cells having 21[mm] height and 70[mm] length (i.e. 21700 cells) are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026). Concerning battery design, the battery configuration is defined by its number of cells in series (which sets its voltage) and its number of cells in parallel (which sets its charge capacity). In the system presented here, the possible number of cells in series ranges from 6 to 12, while the possible number of cells in parallel ranges from 4 to 6. That is, the smallest possible battery configuration is one having 6 cells in series and 4 cells in parallel (24 cells total), while the largest battery configuration is one having 12 cells in series and 6 cells in parallel (72 cells total).
 
+### Safety
 Additionally, safety is paramount. A temperature sensor circuit consisting of a microcontroller and thermistors is used to monitor the temperature at each cell station on the battery during flight, with options of alerting the pilot or autolanding the vehicle if a measured temperature exceeds some threshold temperature (e.g., 80% of thermal runaway temperature). The circuit itself is integrated into the battery power PCB, conveniently tucked away within the battery itself. The temperature sensor microcontroller communicates with the flight controller via I2C ports located next to the power connecter on the bottom surface of the battery. **Currently, the firmware for temperature sensing functionality is implemented for vehicles using Ardupilot control software, however, functionality with PX4 is in-progress.**
 
-Building this system consists of many steps (see 'Pre-build Steps' section and 'Build Steps' section), and requires specific tools (see 'Required Tools' section). As a consequence, many people may find that doing this on their own is too advanced for them. The way I can address this is by selling a build kit: in essence, all you would need to do upon receiving the kit is
-1) spot weld the terminals of your favorite cells (purchased separately) to the pre-wired bus bars included in the kit
+### DIY or Purchase a Kit
+Building this system consists of many steps (see the 'Pre-build Steps' and 'Build Steps' sections), and requires specific tools (see 'Required Tools' section). As a consequence, many people may find that doing this on their own is too advanced for them. Therefore, a kit is available to make the the build process easier: in essence, all you need to do upon receiving the kit is
+1) spot weld the terminals of your favorite cells (purchased separately) to the pre-wired bus bars
 2) fasten the fully-prepared 3D printed parts and pre-populated PCBs together with screws
-3) Test the battery by performing a few charge/discharge cycles your battery charger (battery charger not in the kit)
-In this way, all you would need to complete the build is a suitable spot welder, hex wrenches, and a suitable battery charger.
-The web store for buying these kits is under development as of 2026/09/08
-The link to purchase kits is here [PUT LINK TO WEB STORE]
+3) Test the battery by performing a few charge/discharge cycles on your battery charger (the battery charger is not included in the kit)
+Then, the tools required for building the battery system from the kit is
+1) a suitable spot welder
+2) metric hex wrenches
+3) a suitable battery charger
+The web store for purchasing these kits is here [PUT LINK TO WEB STORE] (under development as of 2026/09/08)
 
 Whether building from raw materials or building from the kit, pictures and descriptions are provided at each step to aid in the build process.
 
