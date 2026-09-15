@@ -13,7 +13,7 @@ This is a do-it-yourself battery system intended for use with Unmanned Aerial Ve
 ## Purpose
 The parametric nature of this system allows designing and building a battery system specific to your vehicle's requirements. As such, **the value add of this system is threefold:**
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity)
-2) you can enjoy a 50% discount by building it yourself
+2) you can enjoy a significant cost savings (~50% discount at the time of this writing) by building it yourself
 3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm); this is important since battery swapping vastly increases system uptime when compared with on-board charging
 
 ## Cell Choice
