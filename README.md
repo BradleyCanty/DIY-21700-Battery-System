@@ -107,12 +107,9 @@ This section describes the build steps for
 [COMPLETE THIS]
 
 ## FUTURE TO DO
-* Add battery configurations for 3 cells in parallel
-* Add battery configurations for 14 cells in series
 * extend temperature sensor functionality to PX4 control software (currently only works with Ardupilot)
-* replace battery latch mechanism push button with internal clamp-to-unlatch mechanism hidden by spring-actuated trap doors: this will enable the battery to fit into a "fuselage cutout" of a fixed-wing UAV without imposing a drag penalty
-* make an automated battery swapping system composed of a robot arm, gripper, and some way to precisely orient the gripper to actuate the latching mechanism on the battery
-* Complete the battery low voltage alarm (flashing orange LED lights and loud buzzer) and add the details to this project
+* make an automated battery swapping system composed of a robot arm with a gripper and some way to precisely orient the gripper to actuate the latching mechanism on the battery (maybe can use RTK GPS to make the vehicle position very accurate, move robot arm over that position, then have a camera on the robot arm find an ArUco target located next to the battery and use it to 1) orient the gripper, 2) center gripper over battery)
+* Complete the battery low voltage alarm circuit (flashing orange LED lights and loud buzzer) and add the details to this project
 * Eliminate balance pins entirely (such as Tattu Plus DroneCAN battery): the battery would instead have an internal battery management system that broadcasts telemetry (real-time individual cell voltages, cycles, capacity, and temperature) directly onto a Controller Area Network (CAN) bus (use DroneCAN protocol?). The charger would reads this data dynamically to manage current distribution safely. See https://ardupilot.org/copter/docs/common-tattu-dronecan-battery.html?st_source=ai_mode
 
 ## IMMEDIATE TO DO
