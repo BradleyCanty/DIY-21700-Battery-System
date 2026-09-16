@@ -114,7 +114,8 @@ This section describes the build steps for
 * Complete the temperature sensor circuit: use ATtiny3227 microcontroller instead of ATmega328P
 * Refactor the steps for selecting the battery configuration of a UAV
 * Create steps for selecting the battery configuration of a UGV
-* 
+* Clean up this README and repository to make it easy to understand (see https://github.com/sabogalc/KiCad-Arduino-Boards/tree/main and https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper for examples of GitHub repos with clear documentation)
+
 ## FUTURE TO DO
 * extend temperature sensor functionality to PX4 control software (currently only works with Ardupilot)
 * make an automated battery swapping system composed of a robot arm with a gripper and some way to precisely orient the gripper to actuate the latching mechanism on the battery (maybe can use RTK GPS to make the vehicle position very accurate, move robot arm over that position, then have a camera on the robot arm find an ArUco target located next to the battery and use it to 1) orient the gripper, 2) center gripper over battery)
