@@ -99,19 +99,31 @@ Look into using **ecalc.ch**
 
 ## Bill of Materials and Total Cost
 
-## Build Steps
-This section describes the build steps for 
+## Pre-build and Build Steps
+This section describes the pre-build and build steps for 
 1. the battery
 2. the vehicle adapter
 3. the charging station
 
-### Battery Build Steps
+### Battery Pre-build and Build Steps
+#### Pre-build Steps
 [COMPLETE THIS]
 
-### Vehicle Adapter Build Steps
+#### Build Steps
 [COMPLETE THIS]
 
-### Charging Station Build Steps
+### Vehicle Adapter Pre-build and Build Steps
+#### Pre-build Steps
+[COMPLETE THIS]
+
+#### Build Steps
+[COMPLETE THIS]
+
+### Charging Station Pre-build and Build Steps
+#### Pre-build Steps
+[COMPLETE THIS]
+
+#### Build Steps
 [COMPLETE THIS]
 
 ## IMMEDIATE TO DO
