@@ -105,6 +105,11 @@ This section describes the pre-build and build steps for
 2. the vehicle adapter
 3. the charging station
 
+Things you should know before starting:
+1. ASA filament is used for 3D printing all the parts because it is ultraviolet resistant, so it can be left outdoors without degrading in strength. However, 3D printing it releases toxic fumes, so use a fan-filter system when printing ASA. Also, ASA is prone to warping and so must be printed in a heated enclosure. Even with a heated enclosure, a brim is often needed on large parts to keep them from peeling away from the print bed. If the peeling at edges occurs at any time during the print, its a failed print so cancel it and reprint it with a 5 mm increase to the brim width. Do this iteratively until the print is successful.
+2. The printed circuit boards (PCBs) can be manufactured by uploading the zipped gerber files (provided in the repo) to a PCB manufacturer, such as PCBWay or JLCPCB
+3. The PCB components can be purchases from electronic component suppliers, such as DigiKey or Mouser
+
 ### Battery Pre-build and Build Steps
 #### Pre-build Steps
 [COMPLETE THIS]
