@@ -114,7 +114,7 @@ This section describes the build steps for
 * Complete the temperature sensor circuit: use ATtiny3227 microcontroller instead of ATmega328P
 * Refactor the steps for selecting the battery configuration of a UAV
 * Create steps for selecting the battery configuration of a UGV
-* Clean up this README and repository to make it easy to understand (see https://github.com/sabogalc/KiCad-Arduino-Boards/tree/main and https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper for examples of GitHub repos with clear documentation)
+* Clean up this README and repository to make it easy to understand (for examples of GitHub repos with clear documentation see https://github.com/sabogalc/KiCad-Arduino-Boards/tree/main and https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper)
 
 ## FUTURE TO DO
 * extend temperature sensor functionality to PX4 control software (currently only works with Ardupilot)
