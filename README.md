@@ -85,7 +85,7 @@ For a UAV, the appropriate battery configuration can be determined as follows:
 5) Determine the number of cells in parallel (max battery discharge rate)/(max cell discharge rate), and select the 21700 cell having the highest charge capacity for the intended discharge rate. This is iterative. **NEEDS CLARIFICATION. NEEDS TO TAKE INTO ACCOUNT THE RANGE/ENDURANCE REQUIREMENTS.**
 
 "Generally speaking for efficiency you want to maximize prop diameter. You can also benefit from higher voltage if it means you can use thinner wiring and lower-current ESCs (though they need to support the higher voltage). This generally means motors with lower Kv to avoid spinning the prop unnecessarily fast. Pick the props first, then figure out how fast you need to spin them, then pick a motor/cell-count to give that speed, then pick an ESC and battery capacity and C-rating to be able to supply the necessary current for the required amount of time."
-Look into using **ecalc.ch**
+[Mention use of ecalc: **ecalc.ch**]
 
 ## Required Tools
 * Soldering iron (for general soldering)
@@ -97,42 +97,33 @@ Look into using **ecalc.ch**
 * Wire cutter
 * Super glue
 
-## Bill of Materials and Total Cost
+## Bill of Materials (BOM)
+### Battery BOM
+[COMPLETE THIS]
 
-## Pre-build and Build Steps
-This section describes the pre-build and build steps for 
-1. the battery
-2. the vehicle adapter
-3. the charging station
+### Vehicle Adapter BOM
+[COMPLETE THIS]
 
+### Charging Station BOM
+[COMPLETE THIS]
+
+## Build Steps
 Things you should know before starting:
 1. ASA filament is used for 3D printing all the parts because it is ultraviolet resistant, so it can be left outdoors without degrading in strength. However, 3D printing it releases toxic fumes, so use a fan-filter system when printing ASA. Also, ASA is prone to warping and so must be printed in a heated enclosure. Even with a heated enclosure, a brim is often needed on large parts to keep them from peeling away from the print bed. If the peeling at edges occurs at any time during the print, its a failed print so cancel it and reprint it with a 5 mm increase to the brim width. Do this iteratively until the print is successful.
 2. The printed circuit boards (PCBs) can be manufactured by uploading the zipped gerber files (provided in the repo) to a PCB manufacturer, such as PCBWay or JLCPCB
 3. The PCB components can be purchases from electronic component suppliers, such as DigiKey or Mouser
 
-### Battery Pre-build and Build Steps
-#### Pre-build Steps
+### Battery Build Steps
 [COMPLETE THIS]
 
-#### Build Steps
+### Vehicle Adapter Build Steps
 [COMPLETE THIS]
 
-### Vehicle Adapter Pre-build and Build Steps
-#### Pre-build Steps
-[COMPLETE THIS]
-
-#### Build Steps
-[COMPLETE THIS]
-
-### Charging Station Pre-build and Build Steps
-#### Pre-build Steps
-[COMPLETE THIS]
-
-#### Build Steps
+### Charging Station Build Steps
 [COMPLETE THIS]
 
 ## IMMEDIATE TO DO
-* Take pictures of build steps
+* Take pictures of build steps while building an 8s4p battery
 * Write out build steps and include pictures here
 * Add PCB design files (KiCad project files)
 * Add PCB fabrication files (gerber)
