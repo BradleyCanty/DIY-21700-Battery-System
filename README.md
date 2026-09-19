@@ -96,6 +96,8 @@ For a UAV, the appropriate battery configuration can be determined as follows:
 * Wire stripper
 * Wire cutter
 * Super glue
+* Sheet metal shears (for cutting busbars)
+* Hand drill or drill press (for cutting wire pass-through holes into busbars)
 
 ## Bill of Materials (BOM)
 ### Battery BOM
