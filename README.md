@@ -17,14 +17,14 @@ The parametric nature of this system allows designing and building a battery sys
 3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm); this is important since battery swapping vastly increases system uptime when compared with on-board charging
 
 ## Battery Top-mounting Choice
-This battery system is designed such that the battery itself is top-mounted onto the vehicle its powering, and top-mounted into its charging station. This was chosen to simplify battery swapping (either by human hand or by robot gripper). The algorithm to swap the battery is as follows:\
+This battery system is designed such that the battery itself is top-mounted onto the vehicle its powering, and top-mounted into its charging station. This was chosen to simplify battery swapping (either by human hand or by robot gripper). The algorithm to swap the battery is as follows:
 1. get within close proximity to the battery
 2. orient grippers to the end plates of the battery
 3. orient gripper under each end plate ledge
 4. press down on the buttons
 5. lift battery away from vehicle
 6. carry battery to its charging station
-A similar, but reversed, process occurs for taking a fully charged battery off its charging station to the vehicle.\
+A similar, but reversed, process occurs for taking a fully charged battery off its charging station to the vehicle.
 
 However, if you intend to power a multirotor using this battery, you might ask "wouldn't the multirotor be top heavy?". No, it wouldn't if you mount the battery directly above the bulkhead where the motor arms are mounted to the body. Then, the center of mass would be nearer the thrust plane (i.e. the plane where the rotors spin), so there wouldn't be any stability issue. Additionally, if the aforementioned configuration is used then typically a bottom mounted payload shifts the center of gravity downward, so this offsets any concerns of a misbehaving multirotor due to it being top-heavy.
 
