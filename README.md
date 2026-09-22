@@ -16,15 +16,17 @@ The parametric nature of this system allows designing and building a battery sys
 2) you can enjoy a significant cost savings (~50% discount at the time of this writing) by building it yourself
 3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm); this is important since battery swapping vastly increases system uptime when compared with on-board charging
 
-## Battery Top Mounting Choice
-Considering the top mounted battery configuration, this was chosen to simplify battery swapping (either by human hand or by robot gripper). The algorithm to swap the battery is as follows:\
+## Battery Top-mounting Choice
+This battery system is designed such that the battery itself is top-mounted onto the vehicle its powering, and top-mounted into its charging station. This was chosen to simplify battery swapping (either by human hand or by robot gripper). The algorithm to swap the battery is as follows:\
 1. get within close proximity to the battery
 2. orient grippers to the end plates of the battery
 3. orient gripper under each end plate ledge
 4. press down on the buttons
 5. lift battery away from vehicle
 6. carry battery to its charging station
-A similar, but reversed, process occurs for taking a fully charged battery off its charging station to the vehicle.
+A similar, but reversed, process occurs for taking a fully charged battery off its charging station to the vehicle.\
+
+However, if you intend to power a multirotor using this battery, you might ask "wouldn't the multirotor be top heavy?". No, it wouldn't if you mount the battery directly above the bulkhead where the motor arms are mounted to the body. Then, the center of mass would be nearer the thrust plane (i.e. the plane where the rotors spin), so there wouldn't be any stability issue. Additionally, if the aforementioned configuration is used then typically a bottom mounted payload shifts the center of gravity downward, so this offsets any concerns of a misbehaving multirotor due to it being top-heavy.
 
 ## Cell Form Factor Choice
 Considering the cell form factor, cylindrical cells having 21[mm] height and 70[mm] length (i.e. 21700 cells) are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026). Concerning battery design, the battery configuration is defined by its number of cells in series (which sets its voltage) and its number of cells in parallel (which sets its charge capacity). In the system presented here, the possible number of cells in series ranges from 6 to 12, while the possible number of cells in parallel ranges from 3 to 6. That is, the smallest possible battery configuration is one having 6 cells in series and 3 cells in parallel (18 cells total), while the largest battery configuration is one having 12 cells in series and 6 cells in parallel (72 cells total).
