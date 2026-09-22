@@ -78,7 +78,7 @@ $cell\ expected\ charge\ capacity$ = a function of expected average current draw
 
 Specifically, to find the cell's expected charge capacity, check its datasheet for the plot of Voltage vs Charge Capacity, which contains curves of various discharge rates, and then match the expected average current draw to the corresponding discharge rate curve. Finally, find the capacity corresponding to the "empty" voltage of 2.8 V.
 
-For a UAV, the appropriate battery configuration can be determined as follows:
+For a UAV, the appropriate battery configuration can be determined as follows: **[SECTION IN PROGRESS]**
 1) Decide the max payload mass, and the max vehicle range or endurance
 2) Using a battery mass fraction of 66%, estimate the total vehicle mass
 3) Select the motors to be used in the vehicle, then use the motor's max voltage rating as the battery's max voltage, and then calculate the expected max discharge rate (in Amps) using the motor's thrust table (should be provided with the motor, and should list the thrust, efficiency, and current draw at each throttle percentage corresponding to each motor-prop pair)
@@ -112,7 +112,7 @@ For a UAV, the appropriate battery configuration can be determined as follows:
 
 ## Build Steps
 Things you should know before starting:
-1. ASA filament is used for 3D printing all the parts because it is ultraviolet resistant, so it can be left outdoors without degrading in strength. However, 3D printing it releases toxic fumes, so use a fan-filter system when printing ASA. Also, ASA is prone to warping and so must be printed in a heated enclosure. Even with a heated enclosure, a brim is often needed on large parts to keep them from peeling away from the print bed. If the peeling at edges occurs at any time during the print, its a failed print so cancel it and reprint it with a 5 mm increase to the brim width. Do this iteratively until the print is successful.
+1. ASA filament is used for 3D printing all the parts because it is ultraviolet resistant, so it can be left outdoors without degrading in strength. However, 3D printing it releases toxic fumes (specifically, printing with ASA releases volatile organic compounds along with ultrafine particles, either of which may be carcinogenic), so use a fan-filter system when printing ASA. Also, ASA is prone to warping and so must be printed in a heated enclosure. Even with a heated enclosure, a brim is often needed on large parts to keep them from peeling away from the print bed. If the peeling at edges occurs at any time during the print, its a failed print so cancel it and reprint it with a 5 mm increase to the brim width. Do this iteratively until the print is successful.
 2. The printed circuit boards (PCBs) can be manufactured by uploading the zipped gerber files (provided in the repo) to a PCB manufacturer, such as PCBWay or JLCPCB
 3. The PCB components can be purchased from electronic component suppliers, such as DigiKey or Mouser
 4. The build process is very frustrating and time-consuming, especially
