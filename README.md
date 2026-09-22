@@ -116,7 +116,7 @@ Things you should know before starting:
 2. The printed circuit boards (PCBs) can be manufactured by uploading the zipped gerber files (provided in the repo) to a PCB manufacturer, such as PCBWay or JLCPCB
 3. The PCB components can be purchased from electronic component suppliers, such as DigiKey or Mouser
 4. The build process is very frustrating and time-consuming, especially
-   - 3D printing the parts, with prints likely to fail due to warping
+   - 3D printing the parts, with ASA prints likely to fail due to warping
    - populating the antispark circuits with SMD components and soldering them using a hot plate
    - cutting wires to length and soldering them
    To save time and frustration, pre-made kits for each battery configuration are available for purchase here: [PUT LINK TO ECOMMERCE STORE HERE]
