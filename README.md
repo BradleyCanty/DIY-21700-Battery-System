@@ -135,13 +135,12 @@ Things you should know before starting:
 * Write out build steps and include pictures here
 * Add PCB design files (KiCad project files)
 * Add PCB fabrication files (gerber)
-* Complete the temperature sensor circuit: use ATtiny3227 microcontroller instead of ATmega328P
 * Refactor the steps for selecting the battery configuration of a UAV
 * Create steps for selecting the battery configuration of a UGV
 * Clean up this README and repository to make it easy to understand (for examples of GitHub repos with clear documentation see https://github.com/sabogalc/KiCad-Arduino-Boards/tree/main and https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper)
 
 ## FUTURE TO DO
-* extend temperature sensor functionality to PX4 control software (currently only works with Ardupilot)
+* implement the voltage sensing functionality and report over MAVLink via UART
 * make an automated battery swapping system composed of a robot arm with a gripper and some way to precisely orient the gripper to actuate the latching mechanism on the battery (maybe can use RTK GPS to make the vehicle position very accurate, move robot arm over that position, then have a camera on the robot arm find an ArUco target located next to the battery and use it to 1) orient the gripper, 2) center gripper over battery)
 * Complete the battery low voltage alarm circuit (flashing orange LED lights and loud buzzer) and add the details to this project
 * Eliminate balance pins entirely (such as Tattu Plus DroneCAN battery): the battery would instead have an internal battery management system that broadcasts telemetry (real-time individual cell voltages, cycles, capacity, and temperature) directly onto a Controller Area Network (CAN) bus (use DroneCAN protocol?). The charger would reads this data dynamically to manage current distribution safely. See https://ardupilot.org/copter/docs/common-tattu-dronecan-battery.html?st_source=ai_mode
