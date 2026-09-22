@@ -18,12 +18,13 @@ The parametric nature of this system allows designing and building a battery sys
 
 ## Battery Mounting Choice
 This battery system is designed such that the battery itself is top-mounted onto the vehicle its powering (and top-mounted onto its charging station). This mounting method was chosen to simplify battery swapping (either by human hand or by robot gripper): the algorithm to swap the battery is as follows:
-1. get within close proximity to the battery
-2. orient grippers to the end plates of the battery
-3. orient gripper under each end plate ledge
-4. press down on the buttons
-5. lift battery away from vehicle
-6. carry battery to its charging station
+1. get within close proximity of the battery
+2. translate grippers directly over the battery
+3. rotate grippers to be aligned with the battery end plates
+4. translate grippers underneath each end plate ledge
+5. close grippers such that the end plate buttons are pressed down, thus unlatching the battery from the vehicle adapter
+6. lift battery away from vehicle
+7. carry battery to its charging station
 A similar, but reversed, process occurs for taking a fully charged battery off its charging station to the vehicle.
 
 This all sounds great, but if you want this to power your multirotor you might be asking "wouldn't the multirotor be top heavy, affecting stability and control?". The simple answer is no, it wouldn't **if you mount the battery directly above the bulkhead where the motor arms are mounted to the body**. In doing this, the center of mass would be nearer the thrust plane (i.e. the plane where the rotors spin), so there wouldn't be any stability or control issues. Additionally, if the aforementioned multirotor configuration is used then typically a bottom mounted payload shifts the center of gravity downward. As a final attestation, I have personally flight tested a multirotor using a 12s4p battery, with no stability or control issues whatsoever.
