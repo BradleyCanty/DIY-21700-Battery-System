@@ -144,6 +144,7 @@ Things you should know before starting:
 
 ## IMMEDIATE TO DO
 * Take pictures of build steps while building an 8s4p battery
+* Remove artifacts of the safety system (I2C ports, cables, thermistor references, etc) from the PCB design files, CAD, and instructions
 * Write out build steps and include pictures here
 * Add PCB design files (KiCad project files)
 * Add PCB fabrication files (gerber)
