@@ -47,7 +47,7 @@ Then, the tools required for building the battery system from the kit is
 
 The web store for purchasing these kits is here [PUT LINK TO WEB STORE] (under development as of 2026/09/08)
 
-Whether building from raw materials or building from the kit, pictures and descriptions are provided at each step to aid in the build process.
+Whether building from raw materials or building from the kit, **pictures and descriptions are provided at each step to aid in the build process**.
 [NOTE: the kits are not yet available as of 2026/09/21... TBD]
 
 ## Battery System Components in Detail
