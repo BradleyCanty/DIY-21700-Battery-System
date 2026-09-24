@@ -103,6 +103,7 @@ For a UAV, the appropriate battery configuration can be determined as follows: *
 
 ## Required Tools
 * Soldering iron (for general soldering)
+* Threaded insert soldering iron tip 
 * Hot plate (for SMD soldering)
 * Spot welder (for battery bus bar welding)
 * 3D printer
