@@ -8,7 +8,7 @@ It consists of...
 2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism
 3) an off-vehicle charging station
 
-(12s4p charging station shown below)
+(12s4p battery system configuration shown below)
    <p align="center">
       <img src="Images/Readme_Images/readme_12s4p_battery_system.jpg" width="1000" height="1000">
    </p>
