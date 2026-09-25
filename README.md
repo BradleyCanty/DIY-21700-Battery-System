@@ -4,19 +4,19 @@ This is a do-it-yourself battery system intended for use with Unmanned Aerial Ve
 
 It consists of...
 
-1) a battery using lithium ion 21700-form-factor cells, with battery configurations spanning from 6s3p to 12s6p (8s5p battery shown)
+1) a battery using lithium ion 21700-form-factor cells, with battery configurations spanning from 6s3p to 12s6p (8s5p battery shown below)
    <p align="center">
       <img src="Images/Readme_Images/readme_battery_top.jpg" width="500" height="500">
    </p>
 
 
-2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism (8s5p vehicle adapter shown)
+2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism (8s5p vehicle adapter shown below)
    <p align="center">
       <img src="Images/Readme_Images/readme_vehicle_adapter.jpg" width="500" height="500">
    </p>
 
 
-3) an off-vehicle charging station (8s5p charging station shown)
+3) an off-vehicle charging station (8s5p charging station shown below)
    <p align="center">
       <img src="Images/Readme_Images/readme_charging_station.jpg" width="500" height="500">
    </p>
