@@ -17,7 +17,7 @@ The parametric nature of this system allows designing and building a battery sys
 3) the battery's latching mechanism presents a common interface for battery swapping (either manually or by robot arm); this is important since battery swapping vastly increases system uptime when compared with on-board charging
 
 ## Battery Mounting Choice
-This battery system is designed such that the battery itself is top-mounted onto the vehicle its powering (and top-mounted onto its charging station). This mounting method was chosen to simplify battery swapping (either by human hand or by robot gripper); the algorithm to swap the battery is as follows:
+This battery system is designed such that the battery itself is top-mounted onto the vehicle its powering (and top-mounted onto its charging station). This mounting method was chosen to simplify battery swapping (either by human hand or by robot gripper); the process to swap the battery is as follows:
 1. get within close proximity of the battery
 2. translate grippers directly over the battery
 3. rotate grippers to be aligned with the battery end plates
