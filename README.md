@@ -6,23 +6,22 @@ It consists of...
 
 1) a battery using lithium ion 21700-form-factor cells, with battery configurations spanning from 6s3p to 12s6p (8s5p battery shown below)
    <p align="center">
-      <img src="Images/Readme_Images/readme_battery_top.jpg" width="500" height="500">
+      <img src="Images/Readme_Images/readme_battery_top.jpg" width="350" height="500">
    </p>
 
 
 2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism (8s5p vehicle adapter shown below)
    <p align="center">
-      <img src="Images/Readme_Images/readme_vehicle_adapter.jpg" width="500" height="500">
+      <img src="Images/Readme_Images/readme_vehicle_adapter.jpg" width="350" height="500">
    </p>
 
 
 3) an off-vehicle charging station (8s5p charging station shown below)
    <p align="center">
-      <img src="Images/Readme_Images/readme_charging_station.jpg" width="500" height="500">
+      <img src="Images/Readme_Images/readme_charging_station.jpg" width="350" height="500">
    </p>
 
-**This is a complete and working system, with all design files provided for your use:**
-
+**This is a complete and working system, with all design files provided for your use:**\
 Multiple battery system configurations have been built and flight tested. Additionally, all CAD models have been 3D printed to ensure they work as intended. Additionally, if none of the configurations presented here suit your needs then you can create your own battery configuration, since all CAD files (Solidworks part files and STLs) and PCB design files (KiCad project files) are included here for your use.
 
 ## Purpose
