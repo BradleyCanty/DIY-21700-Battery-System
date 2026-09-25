@@ -10,7 +10,7 @@ It consists of...
 
 (12s4p charging station shown below)
    <p align="center">
-      <img src="Images/Readme_Images/readme_12s4p_battery_system.jpg" width="700" height="700">
+      <img src="Images/Readme_Images/readme_12s4p_battery_system.jpg" width="1000" height="1000">
    </p>
 
 **This is a complete and working system, with all design files provided for your use:**\
