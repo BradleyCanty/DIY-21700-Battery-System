@@ -10,6 +10,8 @@ This is a do-it-yourself battery system intended for use with Unmanned Aerial Ve
 3) an off-vehicle charging station\
    [PUT IMAGE HERE]
 
+I attest that this is a complete and working system: I have built and tested multiple battery system configurations, and have 3D printed all CAD models to ensure they work as intended.
+
 ## Purpose
 The parametric nature of this system allows designing and building a battery system specific to your vehicle's requirements. As such, **the value add of this system is threefold:**
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity) in a configuration suitable for your vehicle's operating envelope (battery configurations spanning from 6s3p to 12s6p)
@@ -138,7 +140,7 @@ For a UAV, the appropriate battery configuration can be determined as follows: *
 Things you should know before starting:
 1. ASA filament is used for 3D printing all the parts because it is ultraviolet resistant, so it can be left outdoors without degrading in strength. However, 3D printing it releases toxic fumes (specifically, printing it releases volatile organic compounds along with ultrafine particles, either of which may be carcinogenic), so use a fan-filter system when printing ASA. Also, ASA is prone to warping and so must be printed in a heated enclosure. Even with a heated enclosure, a brim is often needed on large parts to keep them from peeling away from the print bed. If the peeling at edges occurs at any time during the print, its a failed print so cancel it and reprint it with a 5 mm increase to the brim width. Do this iteratively until the print is successful.
 2. The printed circuit boards (PCBs) can be manufactured by uploading the zipped gerber files (provided in the repo) to a PCB manufacturer, such as PCBWay or JLCPCB
-3. The PCB components can be purchased from electronic component suppliers, such as DigiKey or Mouser, but know that you will need to hand-solder the through-hole components and hotplate solder the SMD components
+3. The PCB components can be purchased from electronic component suppliers, such as DigiKey or Mouser, but know that you will need to hand-solder the through-hole components and hot plate solder the SMD components
 4. The build process is very frustrating and time-consuming, especially
    - 3D printing the parts, with ASA prints likely to fail due to warping
    - populating the antispark circuits with SMD components and soldering them using a hot plate
