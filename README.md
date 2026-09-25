@@ -46,7 +46,7 @@ Additionally, safety is paramount. A temperature sensor circuit consisting of a 
 
 Concerning the electrical system limitations, the PCBs (the 'Battery Board', 'Vehicle Adapter', and 'Antispark Board') are designed to handle 60 amps of continuous current (assuming a maximum temperature rise of 20°C). **You should consider the 60 amps of continuous current limitation as the primary limiting factor in your selected configuration.** This current limitation is written out on each PCB via silkscreen text. Note that this is max continuous current, <ins>not max short-duration current</ins>: max short-duration current is dictated by the 21700 cell you choose (should be listed in its datasheet) and the number of cells used in parallel. Specifically, the max short-duration current limitation is given by:
 
-$I_{max\ total,short\ duration}$ = $I_{max\ cell} * N$\
+$$I_{max\ total,short\ duration}$ = $I_{max\ cell} * N$$\
 where\
 $N$ = number of cells in parallel
 
@@ -100,7 +100,7 @@ where\
 $cell\ max\ voltage$ = 4.1 V (for LiIon cells)
 
 **The number of cells in parallel determines the battery charge capacity:**\
-$battery\ charge\ capacity = (cell\ expected\ charge\ capacity) * (number\ of\ cells\ in\ parallel)$\
+$$battery\ charge\ capacity = (cell\ expected\ charge\ capacity) * (number\ of\ cells\ in\ parallel)$$\
 where\
 $cell\ expected\ charge\ capacity$ = a function of expected average current draw in cruise (fixed wing) or hover (VTOL)
 
