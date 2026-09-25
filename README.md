@@ -63,7 +63,7 @@ Whether you are building from raw materials or building from the kit, pictures a
 The battery system consists of the following components:
 1) the battery
 2) the vehicle adapter
-3) the charger
+3) the charging station
 
 Each component is sized according to the chosen battery configuration. Possible battery configurations range from 6 to 12 cells in series, and 3 to 6 cells in parallel. Spelled out, these configurations are:
 * Six in series:
