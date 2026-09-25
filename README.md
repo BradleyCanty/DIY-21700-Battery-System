@@ -65,7 +65,7 @@ Whether you are building from raw materials or building from the kit, pictures a
 The battery system consists of the following components:
 1) the battery
 2) the vehicle adapter
-3) the charging station
+3) the charging station (please note that this connects to a standard RC battery charger, and is not a charger itself: its an interface between the battery and the charger)
 
 Each component is sized according to the chosen battery configuration. Possible battery configurations range from 6 to 12 cells in series, and 3 to 6 cells in parallel. Spelled out, these configurations are:
 * Six in series:
@@ -171,8 +171,12 @@ Things you should know before starting:
 
 ## VERSION 2 TO DO
 * implement the voltage sensing functionality and report over MAVLink via UART
-* rework the end plate latching mechanism which unlatches by pinching, with ingress from the top surface and load bearing on the interior top surface (spitballing... TBD). Need to make it more robot gripper friendly for automated battery swapping, but also human hand compatible.
-* make an automated battery swapping system composed of a robot arm with a gripper and some way to precisely orient the gripper to actuate the latching mechanism on the battery (maybe can use RTK GPS to make the vehicle position very accurate, move robot arm over that position, then have a camera on the robot arm find an ArUco target located next to the battery and use it to 1) orient the gripper, 2) center gripper over battery)
+* Implement temperature measurement via two thermistors and report over MAVLink via UART
+* rework the end plate latching mechanism which unlatches by pinching, with ingress from the top surface and load bearing on the interior top surface. This would make it easy to vertically lift away/toward a sky-facing cutout in an airframe, such that it's suitable for use in a fixed-wing UAV. Keep in mind that it must be more robot-gripper friendly for automated battery swapping, but also human hand compatible.
 * Complete the battery low voltage alarm circuit (flashing orange LED lights and loud buzzer) and add the details to this project
+* Replace JST-XH connector interface (used between battery and charging station/vehicle adapter) with machine pin headers
+
+## VERSION 3 TO DO (TENTATIVE)
+* make an automated battery swapping system composed of a robot arm with a gripper and some way to precisely orient the gripper to actuate the latching mechanism on the battery (maybe can use RTK GPS to make the vehicle position very accurate, move robot arm over that position, then have a camera on the robot arm find an ArUco target located next to the battery and use it to 1) orient the gripper, 2) center gripper over battery)
 * Eliminate balance pins entirely (such as Tattu Plus DroneCAN battery): the battery would instead have an internal battery management system that broadcasts telemetry (real-time individual cell voltages, cycles, capacity, and temperature) directly onto a Controller Area Network (CAN) bus (use DroneCAN protocol?). The charger would reads this data dynamically to manage current distribution safely. See https://ardupilot.org/copter/docs/common-tattu-dronecan-battery.html?st_source=ai_mode
 * Extend battery configuration to 24 cells in series (~100V). Requires extra safety precautions for creepage and redesign of PCBs, specifically MOSFETs in antispark circuit
