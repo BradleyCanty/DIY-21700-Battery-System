@@ -10,7 +10,7 @@ This is a do-it-yourself battery system intended for use with Unmanned Aerial Ve
 3) an off-vehicle charging station\
    [PUT IMAGE HERE]
 
-**This is a complete and working system:** I have built and tested multiple battery system configurations, and have 3D printed all CAD models to ensure they work as intended. Additionally, if you want to make changes to the prebuilt configurations, then you are free to do so: all CAD files (Solidworks part files and STLs) and PCB design files (KiCad project files) are included in this repo for your personal use.
+**This is a complete and working system:** I have built and tested multiple battery system configurations, and have 3D printed all CAD models to ensure they work as intended. Additionally, if you want to make changes to the prebuilt configurations presented here, then you are free to do so: all CAD files (Solidworks part files and STLs) and PCB design files (KiCad project files) are included in this repo for your personal use.
 
 ## Purpose
 The parametric nature of this system allows designing and building a battery system specific to your vehicle's requirements. As such, **the value add of this system is threefold:**
