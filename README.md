@@ -157,16 +157,16 @@ For a UAV, the appropriate battery configuration can be determined as follows: *
   4. Build the battery
   5. Build the vehicle adapter
 
-### Antispark Board Build Steps
+### 1. Antispark Board Build Steps
 [COMPLETE THIS]
 
-### Charging Station Build Steps
+### 2. Charging Station Build Steps
 [COMPLETE THIS]
 
-### Battery Build Steps
+### 3. Battery Build Steps
 [COMPLETE THIS]
 
-### Vehicle Adapter Build Steps
+### 4. Vehicle Adapter Build Steps
 [COMPLETE THIS]
 
 ## IMMEDIATE TO DO
