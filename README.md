@@ -51,7 +51,7 @@ where\
 $N$ = number of cells in parallel
 
 ## DIY or Build from a Kit
-Building this system consists of many steps (see the 'Pre-build Steps' and 'Build Steps' sections), and requires specific tools (see 'Required Tools' section). As a consequence, many people may find that doing this on their own is too advanced for them. Therefore, a kit is available to make the the build process easier: in essence, all you need to do upon receiving the kit is
+Building this system consists of many steps (see 'Build Steps' section), and requires specific tools (see 'Required Tools' section). As a consequence, many people may find that doing this on their own is too advanced for them. Therefore, a kit is available to make the the build process easier: in essence, all you need to do upon receiving the kit is
 1) spot weld the terminals of your favorite cells (purchased separately) to the pre-wired bus bars
 2) fasten the fully-prepared 3D printed parts and pre-populated PCBs together with screws
 3) Test the battery by performing a few charge/discharge cycles on your battery charger (the battery charger is not included in the kit)
