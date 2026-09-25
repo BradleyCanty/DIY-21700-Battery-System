@@ -1,20 +1,25 @@
 # DIY-21700-Battery-System
 ## Overview
-This is a do-it-yourself battery system intended for use with Unmanned Aerial Vehicles or Unmanned Ground Vehicles. It consists of 
-1) **a battery using lithium ion 21700-form-factor cells**, with battery configurations spanning from 6s3p to 12s6p (8s5p battery shown)
+This is a do-it-yourself battery system intended for use with Unmanned Aerial Vehicles or Unmanned Ground Vehicles.
+
+It consists of...
+
+1) a battery using lithium ion 21700-form-factor cells, with battery configurations spanning from 6s3p to 12s6p (8s5p battery shown)
    <p align="center">
       <img src="Images/Readme_Images/readme_battery_top.jpg" width="500" height="500">
    </p>
    
-3) **a vehicle adapter with place-to-lock/press-to-unlock latching mechanism** (8s5p vehicle adapter shown)\
-   [PUT IMAGE HERE]
+2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism (8s5p vehicle adapter shown)\
+   <p align="center">
+      <img src="Images/Readme_Images/readme_vehicle_adapter.jpg" width="500" height="500">
+   </p>
    
-4) **an off-vehicle charging station** (8s5p charging station shown)\
-   [PUT IMAGE HERE]
+3) an off-vehicle charging station (8s5p charging station shown)\
+   <p align="center">
+      <img src="Images/Readme_Images/readme_charging_station.jpg" width="500" height="500">
+   </p>
 
 **This is a complete and working system:** I have built and tested multiple battery system configurations, and have 3D printed all CAD models to ensure they work as intended. Additionally, if you want to make changes to the prebuilt configurations presented here, then you are free to do so: all CAD files (Solidworks part files and STLs) and PCB design files (KiCad project files) are included in this repo for your personal use.
-
-**Build Kits Available:** since building a system entirely on your own is quite daunting, I am selling kits for each configuration at prices listed in this table [PUT LINK TO PRICE TABLE HERE]. If you are interested, please email <ins>DIY21700BatterySystem@gmail.com</ins> with the subject line found in the table.
 
 ## Purpose
 The parametric nature of this system allows designing and building a battery system specific to your vehicle's requirements. As such, **the value add of this system is threefold:**
@@ -62,7 +67,7 @@ Then, the tools required for building the battery system from the kit is
 2) metric hex wrenches
 3) a suitable battery charger
 
-If you are interested in buying a kit, please see 'Overview' section for doing this.
+If you are interested in buying a kit, I am selling kits for each configuration at prices listed in this table [PUT LINK TO PRICE TABLE HERE]. If you are interested, please email <ins>DIY21700BatterySystem@gmail.com</ins> with the subject line found in the table.
 
 Whether you are building from raw materials or building from the kit, pictures and descriptions are provided at each step to aid in the build process.
 
