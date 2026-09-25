@@ -142,24 +142,12 @@ For a multirotor, the appropriate battery configuration can be determined as fol
    - cutting wires to length and soldering them
    
    To save time and frustration, pre-made kits for each battery configuration are available for purchase here: [PUT LINK TO ECOMMERCE STORE HERE]
-* To make the battery system build process as simple as possible, proceed in the following order:
+### To make the battery system build process as simple as possible, proceed in the following order:
   1. Decide on a battery configuration
-  2. Build the antispark boards
-  3. Build the charging station
-  4. Build the battery
-  5. Build the vehicle adapter
-
-### 1. Antispark Board Build Steps
-[COMPLETE THIS]
-
-### 2. Charging Station Build Steps
-[COMPLETE THIS]
-
-### 3. Battery Build Steps
-[COMPLETE THIS]
-
-### 4. Vehicle Adapter Build Steps
-[COMPLETE THIS]
+  2. Build the antispark boards: [PUT LINK TO BUILD STEPS HERE]
+  3. Build the charging station: [PUT LINK TO BUILD STEPS HERE]
+  4. Build the battery: [PUT LINK TO BUILD STEPS HERE]
+  5. Build the vehicle adapter: [PUT LINK TO BUILD STEPS HERE]
 
 ## IMMEDIATE TO DO
 * Take pictures of build steps while building an 8s4p battery
