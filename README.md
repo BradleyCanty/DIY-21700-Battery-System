@@ -148,6 +148,8 @@ For a multirotor, the appropriate battery configuration can be determined as fol
   3. Build the charging station: [PUT LINK TO BUILD STEPS HERE]
   4. Build the battery: [PUT LINK TO BUILD STEPS HERE]
   5. Build the vehicle adapter: [PUT LINK TO BUILD STEPS HERE]
+  6. Integrate vehicle adapter into vehicle
+  7. Perform testing
 
 ## IMMEDIATE TO DO
 * Take pictures of build steps while building an 8s4p battery
