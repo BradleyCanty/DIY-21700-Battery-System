@@ -141,7 +141,7 @@ For a multirotor, the appropriate battery configuration can be determined as fol
    - populating the antispark circuits with SMD components and soldering them using a hot plate
    - cutting wires to length and soldering them
    
-   To save time and frustration, pre-made kits for each battery configuration are available for purchase here: [PUT LINK TO ECOMMERCE STORE HERE]
+   To save time and frustration, pre-made kits for each battery configuration are available for purchase here: see 'Overview' section for details on ordering a kit
 ### To make the battery system build process as simple as possible, proceed in the following order:
   1. Decide on a battery configuration
   2. Build the antispark boards: [PUT LINK TO BUILD STEPS HERE]
