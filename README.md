@@ -106,7 +106,7 @@ $cell\ expected\ charge\ capacity$ = a function of expected average current draw
 
 Specifically, to find the cell's expected charge capacity, check its datasheet for the plot of Voltage vs Charge Capacity (which contains curves of various discharge rates) and then match your vehicle's expected average current draw to the corresponding discharge rate curve in the plot. Finally, find the capacity corresponding to an "empty" voltage of around 2.8 V.
 
-For a UAV, the appropriate battery configuration can be determined as follows: [LINK HERE]
+For a multirotor, the appropriate battery configuration can be determined as follows: [multirotor design methodology](Multirotor_Design_Methodology.md).
 
 ## Required Tools
 * Soldering iron (for general soldering)
