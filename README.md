@@ -60,7 +60,7 @@ Then, the tools required for building the battery system from the kit is
 2) metric hex wrenches
 3) a suitable battery charger
 
-The web store for purchasing these kits is here [PUT LINK TO WEB STORE] (under development as of 2026/09/08)
+If you are interested in buying a kit, please see 'Overview' section for doing this.
 
 Whether you are building from raw materials or building from the kit, pictures and descriptions are provided at each step to aid in the build process.
 
