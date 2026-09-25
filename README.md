@@ -106,15 +106,7 @@ $cell\ expected\ charge\ capacity$ = a function of expected average current draw
 
 Specifically, to find the cell's expected charge capacity, check its datasheet for the plot of Voltage vs Charge Capacity (which contains curves of various discharge rates) and then match your vehicle's expected average current draw to the corresponding discharge rate curve in the plot. Finally, find the capacity corresponding to an "empty" voltage of around 2.8 V.
 
-For a UAV, the appropriate battery configuration can be determined as follows: **[SECTION IN PROGRESS]**
-1) Decide the max payload mass, and the max vehicle range or endurance
-2) Using a battery mass fraction of 66%, estimate the total vehicle mass
-3) Select the motors to be used in the vehicle, then use the motor's max voltage rating as the battery's max voltage, and then calculate the expected max discharge rate (in Amps) using the motor's thrust table (should be provided with the motor, and should list the thrust, efficiency, and current draw at each throttle percentage corresponding to each motor-prop pair)
-4) Determine the battery's number of cells in series ((nominal voltage required)/(cell voltage))
-5) Determine the number of cells in parallel (max battery discharge rate)/(max cell discharge rate), and select the 21700 cell having the highest charge capacity for the intended discharge rate. This is iterative. **NEEDS CLARIFICATION. NEEDS TO TAKE INTO ACCOUNT THE RANGE/ENDURANCE REQUIREMENTS.**
-
-"Generally speaking for efficiency you want to maximize prop diameter. You can also benefit from higher voltage if it means you can use thinner wiring and lower-current ESCs (though they need to support the higher voltage). This generally means motors with lower Kv to avoid spinning the prop unnecessarily fast. Pick the props first, then figure out how fast you need to spin them, then pick a motor/cell-count to give that speed, then pick an ESC and battery capacity and C-rating to be able to supply the necessary current for the required amount of time."
-[Mention use of ecalc: **ecalc.ch**]
+For a UAV, the appropriate battery configuration can be determined as follows: [LINK HERE]
 
 ## Required Tools
 * Soldering iron (for general soldering)
