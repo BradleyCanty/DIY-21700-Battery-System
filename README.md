@@ -8,13 +8,15 @@ It consists of...
    <p align="center">
       <img src="Images/Readme_Images/readme_battery_top.jpg" width="500" height="500">
    </p>
-   
-2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism (8s5p vehicle adapter shown)\
+
+
+2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism (8s5p vehicle adapter shown)
    <p align="center">
       <img src="Images/Readme_Images/readme_vehicle_adapter.jpg" width="500" height="500">
    </p>
-   
-3) an off-vehicle charging station (8s5p charging station shown)\
+
+
+3) an off-vehicle charging station (8s5p charging station shown)
    <p align="center">
       <img src="Images/Readme_Images/readme_charging_station.jpg" width="500" height="500">
    </p>
@@ -163,6 +165,7 @@ For a multirotor, the appropriate battery configuration can be determined using 
 
 ## IMMEDIATE TO DO
 * Write out build steps and include pictures here
+* Add CAD files
 * Add PCB design files (KiCad project files)
 * Add PCB fabrication files (gerber)
 * Clean up this README and repository to make it easy to understand (for examples of GitHub repos with clear documentation see https://github.com/sabogalc/KiCad-Arduino-Boards/tree/main and https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper)
