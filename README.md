@@ -147,14 +147,17 @@ Things you should know before starting:
    - cutting wires to length and soldering them
    
    To save time and frustration, pre-made kits for each battery configuration are available for purchase here: [PUT LINK TO ECOMMERCE STORE HERE]
-   
+
+### Antispark Board Build Steps
+[COMPLETE THIS]
+
+### Charging Station Build Steps
+[COMPLETE THIS]
+
 ### Battery Build Steps
 [COMPLETE THIS]
 
 ### Vehicle Adapter Build Steps
-[COMPLETE THIS]
-
-### Charging Station Build Steps
 [COMPLETE THIS]
 
 ## IMMEDIATE TO DO
