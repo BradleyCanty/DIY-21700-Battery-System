@@ -23,7 +23,7 @@ This battery system is designed such that the battery itself is top-mounted onto
 3. rotate grippers to be aligned with the battery end plates
 4. translate grippers underneath each end plate ledge
 5. close grippers such that the end plate buttons are pressed down, thus unlatching the battery from the vehicle adapter
-6. lift battery away from vehicle
+6. lift battery away from the vehicle
 7. carry battery to its charging station
 A similar, but reversed, process occurs for taking a fully charged battery off its charging station to the vehicle.
 
