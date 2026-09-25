@@ -12,7 +12,7 @@ This is a do-it-yourself battery system intended for use with Unmanned Aerial Ve
 
 **This is a complete and working system:** I have built and tested multiple battery system configurations, and have 3D printed all CAD models to ensure they work as intended. Additionally, if you want to make changes to the prebuilt configurations presented here, then you are free to do so: all CAD files (Solidworks part files and STLs) and PCB design files (KiCad project files) are included in this repo for your personal use.
 
-**Build Kits Available:** since building a system entirely on your own is quite daunting, I am selling kits for each configuration at prices listed in this table [PUT LINK TO PRICE TABLE HERE]. If you are interested, please email <ins>DIY21700BatterySystem@gmail.com</ins> with the subject line as listed in the table
+**Build Kits Available:** since building a system entirely on your own is quite daunting, I am selling kits for each configuration at prices listed in this table [PUT LINK TO PRICE TABLE HERE]. If you are interested, please email <ins>DIY21700BatterySystem@gmail.com</ins> with the subject line as listed in the table.
 
 ## Purpose
 The parametric nature of this system allows designing and building a battery system specific to your vehicle's requirements. As such, **the value add of this system is threefold:**
