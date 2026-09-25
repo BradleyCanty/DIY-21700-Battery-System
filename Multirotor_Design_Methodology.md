@@ -11,9 +11,9 @@ To size components, estimate your **Maximum Takeoff Weight (MTOW)** ($W_{mtow}$)
 $$\text{MTOW} \approx \frac{W_p}{0.20}$$
 
 where\
-Structural Mass ($m_{frame}$) $\approx 20\% - 25\%$ of MTOW
-Battery Mass ($m_{bat}$) $\approx 45\% - 55\%$ of MTOW
-Payload Mass ($m_{payload}$) $\approx 20\%$ of MTOW
+Structural Mass ($m_{frame}$) $\approx 20\% - 25\%$ of MTOW\
+Battery Mass ($m_{bat}$) $\approx 45\% - 55\%$ of MTOW\
+Payload Mass ($m_{payload}$) $\approx 20\%$ of MTOW\
 Avionics & Motors ($m_{elec}$) $\approx 10\% - 15\%$ of MTOW
 
 ---
