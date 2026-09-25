@@ -158,8 +158,6 @@ For a multirotor, the appropriate battery configuration can be determined as fol
 * Write out build steps and include pictures here
 * Add PCB design files (KiCad project files)
 * Add PCB fabrication files (gerber)
-* Refactor the steps for selecting the battery configuration of a UAV
-* Create steps for selecting the battery configuration of a UGV
 * Clean up this README and repository to make it easy to understand (for examples of GitHub repos with clear documentation see https://github.com/sabogalc/KiCad-Arduino-Boards/tree/main and https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper)
 
 ## VERSION 2 TO DO
