@@ -1,13 +1,13 @@
 # DIY-21700-Battery-System
 ## Overview
 This is a do-it-yourself battery system intended for use with Unmanned Aerial Vehicles or Unmanned Ground Vehicles. It consists of 
-1) a battery using lithium ion 21700-form-factor cells, with battery configurations spanning from 6s3p to 12s6p (example 8s5p battery shown below)\
+1) a battery using lithium ion 21700-form-factor cells, with battery configurations spanning from 6s3p to 12s6p (example 8s5p battery shown)\
    [PUT IMAGE HERE]
    
-2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism (example 8s5p vehicle adapter shown below)\
+2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism (example 8s5p vehicle adapter shown)\
    [PUT IMAGE HERE]
    
-3) an off-vehicle charging station (example 8s5p charging station shown below)\
+3) an off-vehicle charging station (example 8s5p charging station shown)\
    [PUT IMAGE HERE]
 
 **This is a complete and working system:** I have built and tested multiple battery system configurations, and have 3D printed all CAD models to ensure they work as intended. Additionally, if you want to make changes to the prebuilt configurations presented here, then you are free to do so: all CAD files (Solidworks part files and STLs) and PCB design files (KiCad project files) are included in this repo for your personal use.
