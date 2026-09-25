@@ -2,7 +2,7 @@
 ## Overview
 This is a do-it-yourself battery system intended for use with Unmanned Aerial Vehicles or Unmanned Ground Vehicles. It consists of 
 1) a battery using lithium ion 21700-form-factor cells, with battery configurations spanning from 6s3p to 12s6p (example 8s5p battery shown)\
-   [PUT IMAGE HERE]
+   ![batt_img](Images/Readme_Images/readme_battery_top.jpg)
    
 2) a vehicle adapter with place-to-lock/press-to-unlock latching mechanism (example 8s5p vehicle adapter shown)\
    [PUT IMAGE HERE]
