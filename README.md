@@ -202,13 +202,6 @@ For a multirotor, the appropriate battery configuration can be determined using 
   8. Integrate vehicle adapter into vehicle
   9. Perform vehicle operating envelope testing
 
-## IMMEDIATE TO DO
-* Write out build steps and include pictures here
-* Add CAD files
-* Add PCB design files (KiCad project files)
-* Add PCB fabrication files (gerber)
-* Clean up this README and repository to make it easy to understand (for examples of GitHub repos with clear documentation see https://github.com/sabogalc/KiCad-Arduino-Boards/tree/main and https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper)
-
 ## VERSION 2 TO DO
 * implement the voltage sensing functionality and report over MAVLink via UART
 * Implement temperature measurement via two thermistors and report over MAVLink via UART
