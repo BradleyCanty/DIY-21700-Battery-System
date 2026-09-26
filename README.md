@@ -114,27 +114,44 @@ $$battery\ charge\ capacity = (cell\ expected\ charge\ capacity) * (number\ of\ 
 where\
 $cell\ expected\ charge\ capacity$ = a function of expected average current draw in cruise (fixed wing) or hover (VTOL)
 
-Specifically, to find the cell's expected charge capacity, check its datasheet for the plot of Voltage vs Charge Capacity (which contains curves of various discharge rates) and then match your vehicle's expected average current draw divided by the number of cells in parallel to the corresponding discharge rate curve in the plot. Finally, find the capacity corresponding to an "empty" voltage of around 2.8 V.
+Specifically, to find the battery's expected charge capacity, check the 21700 cell's datasheet for the plot of Voltage vs Charge Capacity (which contains curves of various discharge rates) and then match your vehicle's expected average current draw divided by the number of cells in parallel to the corresponding discharge rate curve in the plot. Finally, find the capacity corresponding to an "empty" voltage of around 2.8 V.
 
 For example, suppose you are using Molicel P50B cells in an 8s5p battery configuration on a vehicle expected to draw 1300 Watts of power in nominal operation, then the steps to find the expected charge capacity are as follows: 
 
-1) Compute the average discharge current in nominal operation:
-   $I_{avg}$ = $P_{nominal}$ / $V_{batt,nominal}$ = P_{nominal} / ($V_{cell,nominal}$ * M)
-   where
-   M = number of cells in series = 8
+1) Compute the average discharge current in nominal operation:\
+   $I_{avg}$ = $P_{nominal}$ / $V_{batt,nominal}$ = P_{nominal} / ($V_{cell,nominal}$ * M)\
+   where\
+   M = number of cells in series = 8\
    $V_{cell,nominal}$ = li-ion cell nominal voltage = 3.6V
    
-   Plugging in the values...
+   Plugging in the values...\
    $I_{avg}$ = 1300 / (3.6 * 8) = 45.1 Amps
    
-3) Compute the discharge rate per cell: 45.1 Amps / 5 cells in parallel = 9.03 Amps
-4) Find the Voltage vs Charge capacity plot in the Molicel P50B datasheet
-5) Draw a horizontal line at the cutoff voltage (here 2.8V) across to the curve nearest the cell's discharge rate (here the 10 Amp curve)
-6) Draw a vertical line to the abscissa to obtain the cell's nominal charge capacity
+2) Compute the discharge rate per cell: 45.1 Amps / 5 cells in parallel = 9.03 Amps
+3) Find the Voltage vs Charge capacity plot in the Molicel P50B datasheet
+4) On the plot, draw a horizontal line at the cutoff voltage (here 2.8V) across the plot, and stop upon reaching the curve corresponding to the cell's discharge rate (here the 10 Amp curve)
+5) On the plot, draw a vertical line to the abscissa to obtain the cell's nominal charge capacity
 (see plot below)
 
 <img src="5_Misc/Readme_Images/readme_discharge_rate_plot_example.png" align="center" width="60%">
 
+6) Finally, compute the battery's nominal charge capacity:\
+   $Q_{batt,nominal}$ = $Q_{cell,nominal}$ * M\
+   where\
+   M = number of cells in parallel = 5
+
+   Plugging in the values...\
+   $Q_{batt,nominal}$ = 4500 * 5 = 22500 mAh = 22.5 Ah
+
+Once battery nominal charge capacity is found, you can **compute the vehicle's expected endurance** (i.e. operating time under nominal conditions) using the following equation:\
+t = $V_{batt,nominal}$ * $Q_{batt,nominal}$ / P\
+where\
+$V_{batt,nominal}$ = $V_{cell,nominal}$ * M
+
+Using the values from the previous example, we have...\
+t = (3.6 * 8) * 22.5 / 1300 = 0.498 hours = 29.9 minutes
+
+This is all predicated on the accuracy of your predicted power draw, which is a function of your payload mass, battery mass, structure mass, and the type of motors (and, for multirotors, type of propellers).
 For a multirotor, the appropriate battery configuration can be determined using this [multirotor design methodology](Misc/Multirotor_Design_Methodology.md).
 
 ## Required Tools
