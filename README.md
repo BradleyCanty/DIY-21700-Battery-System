@@ -37,7 +37,7 @@ A similar, but reversed, process occurs for taking a fully charged battery off i
 If you intend for such a battery to power your multirotor you might ask: "wouldn't the multirotor be top heavy, thereby adversely affecting stability and control?". The simple answer is no, it wouldn't **if you mount the battery directly above the bulkhead where the motor arms are mounted to the body**. In doing this, the center of mass would be nearer the thrust plane (i.e. the plane where the rotors spin), so there wouldn't be any stability or control issues. Additionally, if the aforementioned multirotor configuration is used, then a bottom mounted payload shifts the center of gravity downward. As final proof of functionality, I have personally flight tested a multirotor using a 12s4p battery, with no stability or control issues whatsoever.
 <p align="center">
    <img src="5_Misc/Readme_Images/readme_12s4p_quad_1.jpg" align="left" width="48%">
-   <img src="5_Misc/Readme_Images/readme_12s4p_quad_2.jpg" align="right" width="48%">
+   <img src="5_Misc/Readme_Images/readme_12s4p_quad_21.jpg" align="right" width="48%">
 </p>
 <p>&nbsp;</p>
 
@@ -45,7 +45,7 @@ If you intend for such a battery to power your multirotor you might ask: "wouldn
 Considering the cell form factor, **21700 cells** (i.e. cylindrical cells having 21[mm] height and 70[mm] length) **are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density**. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026). Concerning battery design, the battery configuration is defined by its number of cells in series (which sets its voltage) and its number of cells in parallel (which sets its charge capacity and its max current draw limit). In the system presented here, the possible number of cells in series ranges from 6 to 12, while the possible number of cells in parallel ranges from 3 to 6. That is, the smallest possible battery configuration is one having 6 cells in series and 3 cells in parallel (18 cells total), while the largest battery configuration is one having 12 cells in series and 6 cells in parallel (72 cells total).
 
 <p align="center">
-   <img src="5_Misc/Readme_Images/readme_6s3p_battery_system_41.jpg" align="left" width="48%">
+   <img src="5_Misc/Readme_Images/readme_6s3p_battery_system_4.jpg" align="left" width="48%">
    <img src="5_Misc/Readme_Images/readme_12s6p_battery_system_21.jpg" align="right" width="48%">
 </p>
 <p>&nbsp;</p>
