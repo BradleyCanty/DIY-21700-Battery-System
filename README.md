@@ -9,8 +9,9 @@ It consists of...
 3) an off-vehicle charging station
 
 (12s4p battery system configuration shown below)
+
 <p align="center">
-   <img src="5_Misc/Readme_Images/readme_12s4p_battery_system_2.jpg" width="100%">
+  <img src="5_Misc/Readme_Images/readme_12s4p_battery_system_2.jpg" width="100%">
 </p>
 
 **This is a complete and working system, with all design files (CAD and PCB design) provided for your use:**\
@@ -35,20 +36,19 @@ This battery system is designed such that the battery itself is top-mounted onto
 A similar, but reversed, process occurs for taking a fully charged battery off its charging station to the vehicle.
 
 If you intend for such a battery to power your multirotor you might ask: "wouldn't the multirotor be top heavy, thereby adversely affecting stability and control?". The simple answer is no, it wouldn't **if you mount the battery directly above the bulkhead where the motor arms are mounted to the body**. In doing this, the center of mass would be nearer the thrust plane (i.e. the plane where the rotors spin), so there wouldn't be any stability or control issues. Additionally, if the aforementioned multirotor configuration is used, then a bottom mounted payload shifts the center of gravity downward. As final proof of functionality, I have personally flight tested a multirotor using a 12s4p battery, with no stability or control issues whatsoever.
-<p align="center">
-   <img src="5_Misc/Readme_Images/readme_12s4p_quad_1.jpg" align="left" width="48%">
-   <img src="5_Misc/Readme_Images/readme_12s4p_quad_2.jpg" align="right" width="48%">
-</p>
 
+<p align="center">
+  <img src="5_Misc/Readme_Images/readme_12s4p_quad_1.jpg" align="left" width="48%">
+  <img src="5_Misc/Readme_Images/readme_12s4p_quad_2.jpg" align="right" width="48%">
+</p>
 
 ## Cell Form Factor Choice
 Considering the cell form factor, **21700 cells** (i.e. cylindrical cells having 21[mm] height and 70[mm] length) **are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density**. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026). Concerning battery design, the battery configuration is defined by its number of cells in series (which sets its voltage) and its number of cells in parallel (which sets its charge capacity and its max current draw limit). In the system presented here, the possible number of cells in series ranges from 6 to 12, while the possible number of cells in parallel ranges from 3 to 6. That is, the smallest possible battery configuration is one having 6 cells in series and 3 cells in parallel (18 cells total), while the largest battery configuration is one having 12 cells in series and 6 cells in parallel (72 cells total).
 
 <p align="center">
-   <img src="5_Misc/Readme_Images/readme_6s3p_battery_system_4.jpg" align="left" width="48%">
-   <img src="5_Misc/Readme_Images/readme_12s6p_battery_system_2.jpg" align="right" width="48%">
+  <img src="5_Misc/Readme_Images/readme_6s3p_battery_system_4.jpg" align="left" width="48%">
+  <img src="5_Misc/Readme_Images/readme_12s6p_battery_system_2.jpg" align="right" width="48%">
 </p>
-
 
 ## Safety
 Additionally, safety is paramount. A temperature sensor circuit consisting of a microcontroller and busbar voltage sensing is in progress (I had assumed thermistors would work in the cell failure detection role, but apparently the thermal mass of the busbar is too large to detect it in time). I am in the process of designing and prototyping a circuit which detects voltages at each busbar and sends them in MAVLink packets over UART to the flight controller (running either Ardupilot or PX4), with options of alerting the pilot or autolanding the vehicle if a measured busbar voltage is lower than some threshold. **The software development, physical packaging, and testing have posed significant issues which require a non-trivial amount of iteration, time, and money: I am working through these issues, but at some point I need to call a "pencils down" and declare victory, so Version 1 is without this safety feature. However, I assure you that Version 2 will have this safety feature, so stay tuned for that.** Additionally, I am in the process of making a low voltage alarm circuit featuring a buzzer and orange LED lights which buzz and flash upon low voltage detection, which I intend to include in Version 2 of this project.
@@ -132,7 +132,9 @@ For example, suppose you are using Molicel P50B cells in an 8s5p battery configu
 5) On the plot, draw a vertical line to the abscissa to obtain the cell's nominal charge capacity
 (see plot below)
 
-<img src="5_Misc/Readme_Images/readme_discharge_rate_plot_example.png" align="center" width="60%">
+<p align="center">
+  <img src="5_Misc/Readme_Images/readme_discharge_rate_plot_example.png" width="60%">
+</p>
 
 6) Finally, compute the battery's nominal charge capacity:\
    $Q_{batt,nominal}$ = $Q_{cell,nominal}$ * M\
@@ -182,12 +184,12 @@ For a multirotor, the appropriate battery configuration can be determined using 
 * The printed circuit boards (PCBs) can be manufactured by uploading the zipped gerber files (provided in the repo) to a PCB manufacturer, such as PCBWay or JLCPCB
 * The PCB components can be purchased from electronic component suppliers, such as DigiKey or Mouser, but know that you will need to hand-solder the through-hole components and hot plate solder the SMD components
 * The build process is very frustrating and time-consuming, especially
-   - 3D printing the parts, with ASA prints likely to fail due to warping
-   - populating the antispark circuits with SMD components and soldering them using a hot plate
-   - cutting wires to length and soldering them
-   
-   To save time and frustration, pre-made kits for each battery configuration are available for purchase: see 'DIY or Build from a Kit' section above for details on ordering a kit
-  
+    - 3D printing the parts, with ASA prints likely to fail due to warping
+    - populating the antispark circuits with SMD components and soldering them using a hot plate
+    - cutting wires to length and soldering them
+    
+    To save time and frustration, pre-made kits for each battery configuration are available for purchase: see 'DIY or Build from a Kit' section above for details on ordering a kit
+
 ### To make the battery system build process as simple as possible, proceed in the following order:
   1. Decide on a battery configuration
   2. Order the required PCBs: each system needs two antispark PCBs [LINK HERE], one configuration-specific charging station PCB [LINK HERE], one configuration-specific battery PCB [LINK HERE], and one vehicle adapter PCB [LINK HERE]
