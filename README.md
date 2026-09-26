@@ -46,7 +46,7 @@ If you intend for such a battery to power your multirotor you might ask: "wouldn
 Considering the cell form factor, **21700 cells** (i.e. cylindrical cells having 21[mm] height and 70[mm] length) **are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density**. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026). Concerning battery design, the battery configuration is defined by its number of cells in series (which sets its voltage) and its number of cells in parallel (which sets its charge capacity and its max current draw limit). In the system presented here, the possible number of cells in series ranges from 6 to 12, while the possible number of cells in parallel ranges from 3 to 6. That is, the smallest possible battery configuration is one having 6 cells in series and 3 cells in parallel (18 cells total), while the largest battery configuration is one having 12 cells in series and 6 cells in parallel (72 cells total).
 
 <p align="center">
-   <img src="3_Images/Readme_Images/readme_6s3p_battery_system_3.jpg" align="left" width="48%">
+   <img src="3_Images/Readme_Images/readme_6s3p_battery_system_4.jpg" align="left" width="48%">
    <img src="3_Images/Readme_Images/readme_12s6p_battery_system_2.jpg" align="right" width="48%">
 </p>
 
