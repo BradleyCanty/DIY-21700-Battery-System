@@ -9,6 +9,6 @@ Below are the screenshots of this board from KiCad's 3D board viewer.
 <img src="5_Misc/Readme_Images/readme_12s4p_battery_system_2.jpg" width="100%">
 
 ## How to Purchase the Board and Components
-Take the zipped 'fab' directory containing the PCB manufacturing instructions and upload it to a PCB manufacturer's website (e.g. JLCPCB or PCBWay) for purchase
+To purchase PCBs, take the zipped 'fab' directory containing the PCB manufacturing instructions and upload it to a PCB manufacturer's website (e.g. JLCPCB or PCBWay)
 
-As for the components, both through-hole and SMD components can be purchased from Digikey or Mouser
+To purchase components, open the ibom in your web browser and purchase the components in the required quantity from either Digikey or Mouser
