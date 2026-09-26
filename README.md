@@ -119,7 +119,7 @@ Specifically, to find the battery's expected charge capacity, check the 21700 ce
 For example, suppose you are using Molicel P50B cells in an 8s5p battery configuration on a vehicle expected to draw 1300 Watts of power in nominal operation, then the steps to find the expected charge capacity are as follows: 
 
 1) Compute the average discharge current in nominal operation:\
-   $I_{avg}$ = $P_{nominal}$ / $V_{batt,nominal}$ = P_{nominal} / ($V_{cell,nominal}$ * M)\
+   $I_{avg}$ = $P_{nominal}$ / $V_{batt,nominal}$ = $P_{nominal}$ / ($V_{cell,nominal}$ * M)\
    where\
    M = number of cells in series = 8\
    $V_{cell,nominal}$ = li-ion cell nominal voltage = 3.6V
