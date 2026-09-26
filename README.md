@@ -36,8 +36,8 @@ A similar, but reversed, process occurs for taking a fully charged battery off i
 
 If you intend for such a battery to power your multirotor you might ask: "wouldn't the multirotor be top heavy, thereby adversely affecting stability and control?". The simple answer is no, it wouldn't **if you mount the battery directly above the bulkhead where the motor arms are mounted to the body**. In doing this, the center of mass would be nearer the thrust plane (i.e. the plane where the rotors spin), so there wouldn't be any stability or control issues. Additionally, if the aforementioned multirotor configuration is used, then a bottom mounted payload shifts the center of gravity downward. As final proof of functionality, I have personally flight tested a multirotor using a 12s4p battery, with no stability or control issues whatsoever.
 <p align="center">
-   <img src="5_Misc/Readme_Images/readme_12s4p_quad_1.jpg" align="left" width="48%">
-   <img src="5_Misc/Readme_Images/readme_12s4p_quad_2.jpg" align="right" width="48%">
+   <img src="5_Misc/Readme_Images/readme_12s4p_quad_11.jpg" align="left" width="48%">
+   <img src="5_Misc/Readme_Images/readme_12s4p_quad_21.jpg" align="right" width="48%">
 </p>
 
 <p>&nbsp;</p>
