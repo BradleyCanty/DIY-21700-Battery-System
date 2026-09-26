@@ -118,7 +118,7 @@ $cell\ expected\ charge\ capacity$ = a function of expected average current draw
 Specifically, to find the cell's expected charge capacity, check its datasheet for the plot of Voltage vs Charge Capacity (which contains curves of various discharge rates) and then match your vehicle's expected average current draw to the corresponding discharge rate curve in the plot. Finally, find the capacity corresponding to an "empty" voltage of around 2.8 V. That is, draw a horizontal line at 2.8V across to the 10 Amp curve, then draw a vertical line to obtain the cell's nominal charge capacity (see the plot below).
 
 <p align="center">
-   <img src="5_Misc/Readme_Images/readme_discharge_rate_plot_example.jpg" align="right" width="60%">
+   <img src="5_Misc/Readme_Images/readme_discharge_rate_plot_example.png" align="right" width="60%">
 </p>
 
 For a multirotor, the appropriate battery configuration can be determined using this [multirotor design methodology](Misc/Multirotor_Design_Methodology.md).
