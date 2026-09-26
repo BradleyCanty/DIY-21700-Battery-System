@@ -116,7 +116,10 @@ $cell\ expected\ charge\ capacity$ = a function of expected average current draw
 
 Specifically, to find the cell's expected charge capacity, check its datasheet for the plot of Voltage vs Charge Capacity (which contains curves of various discharge rates) and then match your vehicle's expected average current draw divided by the number of cells in parallel to the corresponding discharge rate curve in the plot. Finally, find the capacity corresponding to an "empty" voltage of around 2.8 V.
 
-For example, suppose you are using Molicel P50B cells in a 5p battery configuration on a vehicle expected to draw 45 Amps of current in nominal operation, and choose the cutoff voltage of 2.8V. 
+For example, suppose you are using Molicel P50B cells in an 8s5p battery configuration on a vehicle expected to draw 550 Watts of power in nominal operation, then the steps to find the expected charge capacity are as follows: 
+45 Amps of current in nominal operation, and choose the cutoff voltage of 2.8V. 
+
+1) Compute the average discharge current in nominal operation: Power / $V_{nominal}$ = 
 1) Compute the discharge rate per cell: 45 Amps / 5 cells in parallel = 9 Amps
 2) Find the Voltage vs Charge capacity plot in the Molicel P50B datasheet
 3) Draw a horizontal line at 2.8V across to the curve closest to the cell's discharge rate (here the 10 Amp curve)
