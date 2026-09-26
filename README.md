@@ -45,7 +45,12 @@ If you intend for such a battery to power your multirotor you might ask: "wouldn
 ## Cell Form Factor Choice
 Considering the cell form factor, **21700 cells** (i.e. cylindrical cells having 21[mm] height and 70[mm] length) **are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density**. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026). Concerning battery design, the battery configuration is defined by its number of cells in series (which sets its voltage) and its number of cells in parallel (which sets its charge capacity and its max current draw limit). In the system presented here, the possible number of cells in series ranges from 6 to 12, while the possible number of cells in parallel ranges from 3 to 6. That is, the smallest possible battery configuration is one having 6 cells in series and 3 cells in parallel (18 cells total), while the largest battery configuration is one having 12 cells in series and 6 cells in parallel (72 cells total).
 
-[PUT IMAGE OF 12s6p AND 6s3p BATTERY SYSTEMS HERE]
+<p align="center">
+   <img src="3_Images/Readme_Images/readme_6s3p_battery_system.jpg" align="left" width="48%">
+   <img src="3_Images/Readme_Images/readme_12s6p_battery_system.jpg" align="right" width="48%">
+</p>
+
+<p>&nbsp;</p>
 
 ## Safety
 Additionally, safety is paramount. A temperature sensor circuit consisting of a microcontroller and busbar voltage sensing is in progress (I had assumed thermistors would work in the cell failure detection role, but apparently the thermal mass of the busbar is too large to detect it in time). I am in the process of designing and prototyping a circuit which detects voltages at each busbar and sends them in MAVLink packets over UART to the flight controller (running either Ardupilot or PX4), with options of alerting the pilot or autolanding the vehicle if a measured busbar voltage is lower than some threshold. **The software development, physical packaging, and testing have posed significant issues which require a non-trivial amount of iteration, time, and money: I am working through these issues, but at some point I need to call a "pencils down" and declare victory, so Version 1 is without this safety feature. However, I assure you that Version 2 will have this safety feature, so stay tuned for that.** Additionally, I am in the process of making a low voltage alarm circuit featuring a buzzer and orange LED lights which buzz and flash upon low voltage detection, which I intend to include in Version 2 of this project.
@@ -66,7 +71,7 @@ Then, the tools required for building the battery system from the kit is
 2) metric hex wrenches
 3) a suitable battery charger
 
-If you are interested in buying a kit, I am selling kits for each configuration at prices listed in this table [PUT LINK TO PRICE TABLE HERE]. If you are interested, please email <ins>DIY21700BatterySystem@gmail.com</ins> with the subject line found in the table.
+Kit contents, pricing, and ordering information is found here [PUT LINK TO KIT INFO].
 
 Whether you are building from raw materials or building from the kit, pictures and descriptions are provided at each step to aid in the build process.
 
@@ -147,7 +152,7 @@ For a multirotor, the appropriate battery configuration can be determined using 
    - populating the antispark circuits with SMD components and soldering them using a hot plate
    - cutting wires to length and soldering them
    
-   To save time and frustration, pre-made kits for each battery configuration are available for purchase: see 'Overview' section for details on ordering a kit
+   To save time and frustration, pre-made kits for each battery configuration are available for purchase: see 'DIY or Build from a Kit' section above for details on ordering a kit
   
 ### To make the battery system build process as simple as possible, proceed in the following order:
   1. Decide on a battery configuration
