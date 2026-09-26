@@ -116,14 +116,21 @@ $cell\ expected\ charge\ capacity$ = a function of expected average current draw
 
 Specifically, to find the cell's expected charge capacity, check its datasheet for the plot of Voltage vs Charge Capacity (which contains curves of various discharge rates) and then match your vehicle's expected average current draw divided by the number of cells in parallel to the corresponding discharge rate curve in the plot. Finally, find the capacity corresponding to an "empty" voltage of around 2.8 V.
 
-For example, suppose you are using Molicel P50B cells in an 8s5p battery configuration on a vehicle expected to draw 550 Watts of power in nominal operation, then the steps to find the expected charge capacity are as follows: 
-45 Amps of current in nominal operation, and choose the cutoff voltage of 2.8V. 
+For example, suppose you are using Molicel P50B cells in an 8s5p battery configuration on a vehicle expected to draw 1300 Watts of power in nominal operation, then the steps to find the expected charge capacity are as follows: 
 
-1) Compute the average discharge current in nominal operation: Power / $V_{nominal}$ = 
-1) Compute the discharge rate per cell: 45 Amps / 5 cells in parallel = 9 Amps
-2) Find the Voltage vs Charge capacity plot in the Molicel P50B datasheet
-3) Draw a horizontal line at 2.8V across to the curve closest to the cell's discharge rate (here the 10 Amp curve)
-4) Draw a vertical line to obtain the cell's nominal charge capacity
+1) Compute the average discharge current in nominal operation:
+   $I_{avg}$ = $P_{nominal}$ / $V_{batt,nominal}$ = P_{nominal} / ($V_{cell,nominal}$ * M)
+   where
+   M = number of cells in series = 8
+   $V_{cell,nominal}$ = li-ion cell nominal voltage = 3.6V
+   
+   Plugging in the values...
+   $I_{avg}$ = 1300 / (3.6 * 8) = 45.1 Amps
+   
+3) Compute the discharge rate per cell: 45.1 Amps / 5 cells in parallel = 9.03 Amps
+4) Find the Voltage vs Charge capacity plot in the Molicel P50B datasheet
+5) Draw a horizontal line at the cutoff voltage (here 2.8V) across to the curve nearest the cell's discharge rate (here the 10 Amp curve)
+6) Draw a vertical line to the abscissa to obtain the cell's nominal charge capacity
 (see plot below)
 
 <img src="5_Misc/Readme_Images/readme_discharge_rate_plot_example.png" align="center" width="60%">
