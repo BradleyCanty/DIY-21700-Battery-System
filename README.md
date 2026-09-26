@@ -73,7 +73,7 @@ Then, the tools required for building the battery system from the kit is
 2) metric hex wrenches
 3) a suitable battery charger
 
-Kit contents, pricing, and ordering information is found here [PUT LINK TO KIT INFO].
+Kit contents, pricing, and ordering information can be found [here](PUT LOCAL DIRECTORY LOCATION HERE).
 
 Whether you are building from raw materials or building from the kit, pictures and descriptions are provided at each step to aid in the build process.
 
@@ -199,11 +199,11 @@ For a multirotor, the appropriate battery configuration can be determined using 
   1. Decide on a battery configuration
   2. Order the required PCBs: each system needs two antispark PCBs [LINK HERE], one configuration-specific charging station PCB [LINK HERE], one configuration-specific battery PCB [LINK HERE], and one vehicle adapter PCB [LINK HERE]
      Additionally, order the antispark components [LINK TO ANTISPARK BOM] (use Digikey or Mouser for these items) and the parts listed in the BOM for each component.
-  4. Build the antispark boards: [PUT LINK TO BUILD STEPS HERE]
-  5. Build the charging station: [PUT LINK TO BUILD STEPS HERE]
-  6. Build the battery: [PUT LINK TO BUILD STEPS HERE]
-  7. Build the vehicle adapter: [PUT LINK TO BUILD STEPS HERE]
-  8. Integrate vehicle adapter into vehicle
+  4. [Build the antispark boards](PUT LOCAL DIRECTORY LOCATION HERE)
+  5. [Build the charging station](PUT LOCAL DIRECTORY LOCATION HERE)
+  6. [Build the battery](PUT LOCAL DIRECTORY LOCATION HERE)
+  7. [Build the vehicle adapter](PUT LOCAL DIRECTORY LOCATION HERE)
+  8. [Integrate vehicle adapter into vehicle](PUT LOCAL DIRECTORY LOCATION HERE)
   9. Perform vehicle operating envelope testing
 
 ## VERSION 2 TO DO
