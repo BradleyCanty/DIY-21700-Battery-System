@@ -151,7 +151,7 @@ $V_{batt,nominal}$ = $V_{cell,nominal}$ * M
 Using the values from the previous example, we have...\
 t = (3.6 * 8) * 22.5 / 1300 = 0.498 hours = 29.9 minutes
 
-This is all predicated on the accuracy of your predicted power draw, which is a function of your payload mass, battery mass, structure mass, and the type of motors (and, for multirotors, the size of the rotors). So, in summary, this is all iterative.
+This is all predicated on the accuracy of your predicted power draw, which is a function of your payload mass, battery mass, structure mass, and the type of motors (and, for multirotors, the size of the rotors). **So, in summary, this is all iterative.**\
 For a multirotor, the appropriate battery configuration can be determined using this [multirotor design methodology](Misc/Multirotor_Design_Methodology.md).
 
 ## Required Tools
