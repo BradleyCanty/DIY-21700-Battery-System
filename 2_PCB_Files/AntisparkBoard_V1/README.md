@@ -24,4 +24,3 @@ Below are the screenshots of this board from KiCad's 3D board viewer.
 To purchase PCBs, take the zipped 'fab' directory (which contains PCB manufacturing instructions) and upload it to a PCB manufacturer's website (e.g. JLCPCB or PCBWay)
 
 To purchase components, I recommend [Digikey](https://digikey.com) or [Mouser](https://mouser.com)
-<a href="https://mouser.com" target="_blank" rel="noopener noreferrer">Mouser</a>
