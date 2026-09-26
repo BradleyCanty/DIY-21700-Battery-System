@@ -195,7 +195,7 @@ For a multirotor, the appropriate battery configuration can be determined using 
     
     To save time and frustration, pre-made kits for each battery configuration are available for purchase: see 'DIY or Build from a Kit' section above for details on ordering a kit
 
-### To make the battery system build process as simple as possible, proceed in the following order:
+### To make the battery system build process as simple as possible, proceed as follows:
   1. Decide on a battery configuration
   2. Order the required PCBs: each system needs two antispark PCBs [LINK HERE], one configuration-specific charging station PCB [LINK HERE], one configuration-specific battery PCB [LINK HERE], and one vehicle adapter PCB [LINK HERE]
      Additionally, order the antispark components [LINK TO ANTISPARK BOM] (use Digikey or Mouser for these items) and the parts listed in the BOM for each component.
