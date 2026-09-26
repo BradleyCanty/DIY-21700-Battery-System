@@ -13,7 +13,7 @@ It consists of...
    <img src="5_Misc/Readme_Images/readme_12s4p_battery_system_2.jpg" width="100%">
 </p>
 
-**This is a complete and working system, with all design files (CAD and PCB) provided for your use:**\
+**This is a complete and working system, with all design files (CAD and PCB design) provided for your use:**\
 Multiple battery system configurations have been built and flight tested. Additionally, all CAD models have been 3D printed to ensure they work as intended. Finally, if none of the configurations presented here suit your needs then you can create your own battery configuration, since all CAD files (Solidworks part files and STLs) and PCB design files (KiCad project files) are included here for your use.
 
 ## Purpose
