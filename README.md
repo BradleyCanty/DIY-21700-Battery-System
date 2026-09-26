@@ -114,7 +114,7 @@ $$battery\ charge\ capacity = (cell\ expected\ charge\ capacity) * (number\ of\ 
 where\
 $cell\ expected\ charge\ capacity$ = a function of expected average current draw in cruise (fixed wing) or hover (VTOL)
 
-Specifically, to find the battery's expected charge capacity, check the 21700 cell's datasheet for the plot of Voltage vs Charge Capacity (which contains curves of various discharge rates) and then match your vehicle's expected average current draw divided by the number of cells in parallel to the corresponding discharge rate curve in the plot. Finally, find the capacity corresponding to an "empty" voltage of around 2.8 V.
+Specifically, to find the battery's expected charge capacity, check the 21700 cell's datasheet for the plot of Voltage vs Charge Capacity (which contains curves of various discharge rates) and then match your vehicle's expected average current draw divided by the number of cells in parallel to the corresponding discharge rate curve in the plot. Finally, find the cell's capacity corresponding to an "empty" voltage of around 2.8 V, and then multiply it by the number of cells in parallel to get the battery's charge capacity.
 
 For example, suppose you are using Molicel P50B cells in an 8s5p battery configuration on a vehicle expected to draw 1300 Watts of power in nominal operation, then the steps to find the expected charge capacity are as follows: 
 
