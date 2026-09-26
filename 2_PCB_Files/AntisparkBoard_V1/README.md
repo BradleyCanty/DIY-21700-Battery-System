@@ -8,4 +8,4 @@ Below are the screenshots of this board from KiCad's 3D board viewer.
 ## How to Purchase the Board and Components
 To purchase PCBs, take the zipped 'fab' directory containing the PCB manufacturing instructions and upload it to a PCB manufacturer's website (e.g. JLCPCB or PCBWay)
 
-To purchase components, open the ibom in your web browser and purchase the components in the required quantity from either Digikey or Mouser
+To purchase components, open the [ibom](bom/ibom.html) in your web browser and purchase the components in the required quantity from either Digikey or Mouser
