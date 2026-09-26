@@ -16,8 +16,6 @@ Below are the screenshots of this board from KiCad's 3D board viewer.
 | D1, D2 | 12 V | D_MiniMELF | 2 |
 | D3 | Zener 0.5 V | D_SOD-123 | 1 |
 | D4 | 10 V | D_SOD-323 | 1 |
-| Batt+1, Sw+1, Sw-1 | TestPoint | TestPoint_Pad_D2.0mm | 3 |
-| Batt-1, Load-1 | TestPoint | pad_6mmx6mm | 2 |
 | Q1, Q2 | IRFS7530TRL7PP | IRFS7530TRL7PP | 2 |
 | Q3 | FDS5670 | SOIC127P600X175-8N | 1 |
 | Q4 | NTA4001NT1G | SOT50P160X90-3N | 1 |
