@@ -4,7 +4,7 @@
 | Black ASA filament | 0.5 kg | $10 | $10 | |
 | Antispark PCB | 1 | $12 | $12 | Source from JLCPCB or PCBWay |
 | Antispark components | (see BOM) | N/A | $18 | See antispark BOM<br>Source from DigiKey or Mouser |
-| Vehicle adapter PCB | 1 | $6.4 | $6.4 | |
+| Vehicle adapter PCB | 1 | $6.4 | $6.4 | Source from JLCPCB or PCBWay |
 | XT90 female connector | 1 | $1 | $1 | |
 | 8 AWG Wire, red | 20 cm | $1 | $1 | |
 | 8 AWG wire, black | 20 cm | $1 | $1 | |
