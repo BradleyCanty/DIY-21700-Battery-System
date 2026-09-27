@@ -7,7 +7,7 @@
 | Charging Station PCB | 1 | $6.4 | $6.4 | Purchase via PCBWay or JLCPCB |
 | JST-XH female M+1-pin connector w/ wires | 1 | $1.5 | $1.5 | M = # of cells in series |
 | JST-XH male M+1-pin connector | 2 | $0.25 | $0.5 | M = # of cells in series |
-| male 12-pin, 2.7 mm pitch blade connector | 1 | $4 | $4 | model MISTA MSD-DB01F-12P |
+| male 12-pin, 2.7 mm pitch blade connector | 1 | $4 | $4 | model: MISTA MSD-DB01M-12P <br> source from AliExpress |
 | XT60 female connector | 1 | $0.5 | $0.5 | |
 | Large clear shrink tube | 1 | $0.1 | $0.1 | diam = 27 mm<br>length = 40 mm |
 | Small clear shrink tube | 1 | $0.1 | $0.1 | diam = 12 mm<br>length = 40 mm |
