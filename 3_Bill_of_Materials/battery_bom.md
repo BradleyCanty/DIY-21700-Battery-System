@@ -28,4 +28,4 @@ where\
 **M** = # of cells in series\
 **N** = # of cells in parallel\
 **C** = unit cost of chosen 21700 cell\
-**S** = `⌈(M × N) / 36⌉` = number of nickel-plated copper
+**S** = `⌈(M × N) / 36⌉` = number of nickel-plated copper strips
