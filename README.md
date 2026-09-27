@@ -190,7 +190,7 @@ The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bo
     - populating the antispark circuits with SMD components and soldering them using a hot plate
     - cutting wires to length and soldering them
     
-    To save time and frustration, pre-made kits for each battery configuration are available for purchase: see 'DIY or Build from a Kit' section above for details on ordering a kit
+    To save time and frustration, pre-made kits for each battery configuration are available for purchase: see 'DIY or Build from a Kit' section above for details on ordering a kit.
 
 ### To make the build process as simple as possible, proceed in this order:
   1. Decide on a battery configuration
