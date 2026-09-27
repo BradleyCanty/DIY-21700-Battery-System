@@ -118,8 +118,7 @@ It helps to place dabs of super glue where the busbar makes contact with the pla
 `[img 5p5a]` `[img 5p5b]` `[img 5p5c]`
 
 > **NOTICE:** Test your spot welder settings on scrap metal before attempting to spot weld the busbars, since failed welds can lead to destroying the entire busbar...\
-> `[img 5p5d]`
-
+> `[img 5p5d]`\
 > Do a tug test to make sure the weld is secure.\
 >`[img 5p5e]`
 
