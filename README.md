@@ -174,11 +174,11 @@ For a multirotor, the appropriate battery configuration can be determined using 
 * Hand drill or drill press (for cutting wire pass-through holes into busbars)
 
 ## Bill of Materials (BOM)
-View the battery BOM [here](3_Bill_of_Materials/battery_bom.md)
+The battery BOM is found [here](3_Bill_of_Materials/battery_bom.md)
 
-View the vehicle adapter BOM [here](3_Bill_of_Materials/vehicle_adapter_bom.md)
+The vehicle adapter BOM is found [here](3_Bill_of_Materials/vehicle_adapter_bom.md)
 
-View the charging station BOM [here](3_Bill_of_Materials/charging_station_bom.md)
+The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bom.md)
 
 ## Build Steps
 ### Things you should know before starting:
