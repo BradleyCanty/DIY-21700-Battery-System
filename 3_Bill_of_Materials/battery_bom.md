@@ -4,7 +4,7 @@
 | Black ASA | 0.5 kg | $10 | $10 | |
 | White ASA | 0.25 kg | $5 | $5 | |
 | Torsion spring | 4 | $0.5 | $2 | 1.2 mm × 10 mm × 3 laps × 120° |
-| Small dowel pin | 4 | $0.1 | $0.4 | Diameter = 3 mm, Length = 12 mm |
+| Small dowel pin | 4 | $0.1 | $0.4 | Diameter = 3 mm <br> Length = 12 mm |
 | 21700 cell | M × N | C | M × N × C | M = # of cells in series<br>N = # of cells in parallel |
 | Battery PCB | 1 | $6.4 | $6.4 | |
 | M3 × 4 mm × 5 mm brass threaded insert nut | 16 | $0.1 | $1.6 | |
