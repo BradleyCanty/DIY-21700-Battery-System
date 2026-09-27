@@ -12,6 +12,11 @@
 | M3 × 6 mm bolt | 4 | $0.1 | $0.4 | |
 | 28 AWG wire, red | 10 cm | $0.1 | $0.1 | |
 | male 12-pin, 2.7 mm pitch blade connector | 1 | $4 | $4 | Model: MISTA MSD-DB01M-12P <br> Source from AliExpress |
+| Rounded dowel pins | Q | $0.5 | Q × $0.5 | Diameter = 6 mm <br> Length = 15 mm <br> M = # of cells in series<br>if M ≤ 8, then Q = 4<br>else, Q = 8 |
 ---
 
-**Total cost** = `$54.0`
+**Total cost** = `$54.0` + Q × 0.5`\
+where\
+**Q** = # of rounded dowel pins\
+**M** = # of cells in series\
+If `M ≤ 8` then `Q = 4`; else, `Q = 8`
