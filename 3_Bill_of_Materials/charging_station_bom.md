@@ -16,3 +16,11 @@
 | 12 AWG wire, red | 20 cm | $0.2 | $0.2 | |
 | 12 AWG wire, black | 20 cm | $0.2 | $0.2 | |
 | M3 × 6 mm bolts | 4 | $0.1 | $0.4 | |
+
+---
+
+**Total cost** = `$54.0 + Q × 0.5`\
+where\
+**Q** = # of rounded dowel pins\
+**M** = # of cells in series\
+If `M ≤ 8` then `Q = 4`; else, `Q = 8`
