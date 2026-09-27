@@ -11,7 +11,7 @@
 | Clear shrink tube | 1 | $0.1 | $0.1 | diam = 27 mm<br>length = 40 mm |
 | M3 × 6 mm bolt | 4 | $0.1 | $0.4 | |
 | 28 AWG wire, red | 10 cm | $0.1 | $0.1 | |
-| male 12-pin, 2.7 mm pitch blade connector | 1 | $4 | $4 | model MISTA MSD-DB01M-12P |
+| male 12-pin, 2.7 mm pitch blade connector | 1 | $4 | $4 | model: MISTA MSD-DB01M-12P <br> Source from AliExpress |
 ---
 
 **Total cost** = `$54.0`
