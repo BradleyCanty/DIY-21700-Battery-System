@@ -53,7 +53,7 @@
 
 *This concludes the vehicle adapter board build*
 
-> **Note:** the XT90 connector remains separate from the 8 AWG wires protruding from the vehicle adapter board. The proper wire length will be determined upon bolting the vehicle adapter onto the vehicle, at which time the wires can be trimmed to length & soldered to the XT90 connector.\
+> **NOTICE:** the XT90 connector remains separate from the 8 AWG wires protruding from the vehicle adapter board. The proper wire length will be determined upon bolting the vehicle adapter onto the vehicle, at which time the wires can be trimmed to length & soldered to the XT90 connector.\
 > `[img 2.10c here]`
 
 ---
