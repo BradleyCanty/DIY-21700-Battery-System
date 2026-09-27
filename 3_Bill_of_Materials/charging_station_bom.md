@@ -3,7 +3,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Black ASA filament | 0.5 kg | $10 | $10 | |
 | Antispark PCB | 1 | $12 | $12 | Source from PCBWay or JLCPCB |
-| Antispark components | (See BOM) | N/A | $18 | see antispark BOM<br>Source from DigiKey or Mouser |
+| Antispark components | (See BOM) | N/A | $18 | See antispark BOM<br>Source from DigiKey or Mouser |
 | Charging Station PCB | 1 | $6.4 | $6.4 | Source from PCBWay or JLCPCB |
 | JST-XH female M+1-pin connector w/ wires | 1 | $1.5 | $1.5 | M = # of cells in series |
 | JST-XH male M+1-pin connector | 2 | $0.25 | $0.5 | M = # of cells in series |
