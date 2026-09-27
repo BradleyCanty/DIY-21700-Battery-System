@@ -23,10 +23,9 @@
 | Nickel-plated copper strip | S | $25.5 | $25.5 × S | Source from AliExpress<br>cell-to-cell distance = 22.5 mm<br>2p strip: each strip has 36 terminals along its length<br>S = ⌈M × N / 36⌉<br>e.g. if config. is 8s5p then M = 8 & N = 5<br>S = ⌈8 × 5 / 36⌉ = ⌈40 / 36⌉ = ⌈1.111⌉ = 2 |
 ---
 
-### **Formula & Variables Summary**
-
-* **Total Cost:** `$38.5 + (M × N × C) + ($25.5 × S)`
-* **M** = # of cells in series
-* **N** = # of cells in parallel
-* **C** = unit cost of chosen 21700 cell
-* **S** = `⌈(M × N) / 36⌉`
+**Total Cost** = `$38.5 + (M × N × C) + ($25.5 × S)`\
+where\
+**M** = # of cells in series\
+**N** = # of cells in parallel\
+**C** = unit cost of chosen 21700 cell\
+**S** = `⌈(M × N) / 36⌉`
