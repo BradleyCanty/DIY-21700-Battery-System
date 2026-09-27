@@ -59,10 +59,11 @@ Then, we can properly specify the size & quantity of busbars required for the ba
 For example, A battery that has 8 cells in series & 5 cells in parallel has a 8s5p configuration, so $M=8$ & $N=5$.
 
 Thus, the battery requires:
-- Two busbars having size of $1 \times N = 1 \times 5$\
-  `[image of 1 x 5 busbar here]`
-- and busbars having size of $2 \times N = 2 \times 5$ in quantity of $M - 1 = 8 - 1 = 7$
-  `[image of 2 x 5 busbar here]`
+Two busbars having size of $1 \times N = 1 \times 5$\
+`[image of 1 x 5 busbar here]`
+
+and busbars having size of $2 \times N = 2 \times 5$ in quantity of $M - 1 = 8 - 1 = 7$\
+`[image of 2 x 5 busbar here]`
 
 Finally, compute the total number of terminals on all busbars & then compute the number of busbar reels required (see BOM).
 
