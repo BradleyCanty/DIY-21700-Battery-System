@@ -16,13 +16,13 @@
 
 | Part | Quantity | Filament | Print Settings |
 | :--- | :--- | :--- | :--- |
-| Frame | 2 | black ASA | 100% infill |
-| Top plate | 1 | black ASA | 15% infill |
-| Bottom plate | 1 | black ASA | 15% infill, requires supports |
-| End plate | 2 | black ASA | 15% infill |
-| End plate cover | 2 | black ASA | 15% infill, requires supports |
-| End plate clamp | 4 | white ASA | 100% infill, requires supports |
-| End plate button | 2 | white ASA | 15% infill |
+| [Frame](LINK HERE) | 2 | black ASA | 100% infill |
+| [Top plate](LINK HERE)  | 1 | black ASA | 15% infill |
+| [Bottom plate](LINK HERE)  | 1 | black ASA | 15% infill, requires supports |
+| [End plate](LINK HERE)  | 2 | black ASA | 15% infill |
+| [End plate cover](LINK HERE)  | 2 | black ASA | 15% infill, requires supports |
+| [End plate clamp](LINK HERE)  | 4 | white ASA | 100% infill, requires supports |
+| [End plate button](LINK HERE)  | 2 | white ASA | 15% infill |
 
 ---
 
