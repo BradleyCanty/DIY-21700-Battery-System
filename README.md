@@ -158,7 +158,7 @@ t = (3.6 * 8) * 22.5 / 1300 = 0.498 hours = 29.9 minutes
 
 This is all predicated on the accuracy of your predicted power draw, which is a function of your payload mass, battery mass, structure mass, and the type of motors (and, for multirotors, the size of the rotors) used on the vehicle. **So, in summary, selecting a battery configuration is an iterative process.**
 
-For a multirotor, the appropriate battery configuration can be determined using this [multirotor design methodology](Misc/Multirotor_Design_Methodology.md).
+For a multirotor, the appropriate battery configuration can be determined using this [multirotor design methodology](5_Misc/Multirotor_Design_Methodology.md).
 
 ## Required Tools
 * Soldering iron (for general soldering)
