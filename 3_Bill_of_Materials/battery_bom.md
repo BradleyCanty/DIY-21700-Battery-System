@@ -4,14 +4,14 @@
 | Black ASA | 0.5 kg | $10 | $10 | |
 | White ASA | 0.25 kg | $5 | $5 | |
 | Torsion spring | 4 | $0.5 | $2 | 1.2 mm × 10 mm × 3 laps × 120° |
-| Small dowel pin | 4 | $0.1 | $0.4 | length = 12 mm, diam = 3 mm |
+| Small dowel pin | 4 | $0.1 | $0.4 | Diameter = 3 mm, Length = 12 mm |
 | 21700 cell | M × N | C | M × N × C | M = # of cells in series<br>N = # of cells in parallel |
 | Battery PCB | 1 | $6.4 | $6.4 | |
 | M3 × 4 mm × 5 mm brass threaded insert nut | 16 | $0.1 | $1.6 | |
 | 8 AWG black wire | 10 cm | $1 | $1 | |
 | 8 AWG red wire | 10 cm | $1 | $1 | |
 | 14 AWG bare copper wire | 20 cm | $2 | $2 | |
-| Female 12-pin, 2.7 mm pitch blade connector | 1 | $4 | $4 | model: MISTA MSD-DB01F-12P |
+| Female 12-pin, 2.7 mm pitch blade connector | 1 | $4 | $4 | Model: MISTA MSD-DB01F-12P |
 | 6 mm male bullet connector | 2 | $0.25 | $0.5 | |
 | 6 mm female bullet connector | 2 | $0.25 | $0.5 | |
 | JST-XH M+1-pin connector w/ wires | 1 | $1.5 | $1.5 | M = # of cells in series |
