@@ -15,7 +15,7 @@
 | Rounded dowel pins | Q | $0.5 | Q × $0.5 | Diameter = 6 mm <br> Length = 15 mm <br> M = # of cells in series<br>if M ≤ 8, then Q = 4<br>else, Q = 8 |
 ---
 
-**Total cost** = `$54.0` + Q × 0.5`\
+**Total cost** = `$54.0 + Q × 0.5`\
 where\
 **Q** = # of rounded dowel pins\
 **M** = # of cells in series\
