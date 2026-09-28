@@ -109,8 +109,10 @@ Whether you are building from raw materials or building from the kit, pictures a
 The battery system consists of the following components:
 1) the battery
 2) the vehicle adapter
-3) the charging station (<ins>please note that this connects to a standard RC battery charger, and is not a charger itself: its an interface between the battery and the charger</ins>)
+3) the charging station\
+Each is explained in turn
 
+### The Battery
 Each component is sized according to the chosen battery configuration. Possible battery configurations range from 6 to 12 cells in series, and 3 to 6 cells in parallel. Spelled out, these configurations are:
 * Six in series:
     - Three in parallel (21700_6s3p)
@@ -132,6 +134,27 @@ Each component is sized according to the chosen battery configuration. Possible 
     - Four in parallel (21700_12s4p)
     - Five in parallel (21700_12s5p)
     - Six in parallel (21700_12s6p)
+  
+  The battery consists of
+  - two frames, which hold the cells between them\
+    [PUT IMAGE HERE]
+    
+  - a top plate, which covers the top frame\
+    [PUT IMAGE HERE]
+
+    - a bottom plate, which connects with the bottom frame and houses the female 12-pin power and balance connectors\
+    [PUT IMAGE HERE]
+    
+  - two end plates, which clamp the frames together and serve as handles containing the button-press-to-unlatch mechanism\
+    [PUT IMAGE HERE]
+  
+### The Vehicle Adapter
+Connects the battery with the vehicle, both mechanically and electrically. For the mechanical interface, it has two latches which interface with the two button-press-to-unlatch mechanisms on either end of the battery. For the electrical interface, it has a male 12-pin connector\
+[PUT IMAGE HERE]
+
+### The Charging Station
+Interfaces the battery with a standard RC battery charger via XT60 connector for power and JST-XH connector for balancing. Again, <ins>this is not a charger itself: its an interface between the battery and the charger</ins>.\
+[PUT IMAGE HERE]
 
 ## Steps for Selecting a Battery Configuration
 In general,\
