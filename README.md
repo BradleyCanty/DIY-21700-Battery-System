@@ -44,7 +44,7 @@ If you intend for such a battery to power your multirotor you might ask: "wouldn
   <img src="5_Misc/Readme_Images/readme_12s4p_quad_2.jpg" width="48%">
 </p>
 
-Details on mounting the vehicle adapter to the vehicle can be found in Build Step 8: [Integrate vehicle adapter into vehicle](PUT LOCAL DIRECTORY LOCATION HERE)
+Details on mounting the vehicle adapter to the vehicle can be found in Build Step 8: [Integrate vehicle adapter into vehicle](4_Build_Instructions/5_Vehicle_Adapter_Integration_Instructions/vehicle_adapter_integration_instructions.md)
 
 ## Cell Form Factor Choice
 Considering the cell form factor, **21700 cells** (i.e. cylindrical cells having 21[mm] height and 70[mm] length) **are used in the battery since they are cheap, easily obtained, and have high gravimetric energy density**. In comparison to other cells types, 18650 cells tend to have lower gravimetric energy density, while 4680 cells, prismatic cells, and pouch cells aren't widely available to the general public (as of late 2026). Concerning battery design, the battery configuration is defined by its number of cells in series (which sets its voltage) and its number of cells in parallel (which sets its charge capacity and its max current draw limit). In the system presented here, the possible number of cells in series ranges from 6 to 12, while the possible number of cells in parallel ranges from 3 to 6. That is, the smallest possible battery configuration is one having 6 cells in series and 3 cells in parallel (18 cells total), while the largest battery configuration is one having 12 cells in series and 6 cells in parallel (72 cells total).
@@ -248,9 +248,9 @@ The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bo
   1. Decide on a battery configuration
   2. Order the required PCBs: each system needs two antispark PCBs [LINK HERE], one configuration-specific charging station PCB [LINK HERE], one configuration-specific battery PCB [LINK HERE], and one vehicle adapter PCB [LINK HERE]
      Additionally, order the antispark components [LINK TO ANTISPARK BOM] (use Digikey or Mouser for these items) and the parts listed in the BOM for each component.
-  4. [Build the antispark boards](PUT LOCAL DIRECTORY LOCATION HERE)
-  5. [Build the charging station](PUT LOCAL DIRECTORY LOCATION HERE)
-  6. [Build the battery](PUT LOCAL DIRECTORY LOCATION HERE)
-  7. [Build the vehicle adapter](PUT LOCAL DIRECTORY LOCATION HERE)
-  8. [Integrate vehicle adapter into vehicle](PUT LOCAL DIRECTORY LOCATION HERE)
+  4. [Build the antispark boards](4_Build_Instructions/1_Antispark_Build_Instructions/antispark_build_instructions.md)
+  5. [Build the charging station](4_Build_Instructions/2_Charging_Station_Build_Instructions/charging_station_build_instructions.md)
+  6. [Build the battery](4_Build_Instructions/3_Battery_Build_Instructions/battery_build_instructions.md)
+  7. [Build the vehicle adapter](4_Build_Instructions/4_Vehicle_Adapter_Build_Instructions/vehicle_adapter_build_instructions.md)
+  8. [Integrate vehicle adapter into vehicle](4_Build_Instructions/5_Vehicle_Adapter_Integration_Instructions/vehicle_adapter_integration_instructions.md)
   9. Perform vehicle operating envelope testing
