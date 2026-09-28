@@ -116,25 +116,25 @@ Each is explained in turn
 ### The Battery
 Each component is sized according to the chosen battery configuration. Possible battery configurations range from 6 to 12 cells in series, and 3 to 6 cells in parallel. Spelled out, these configurations are:
 * Six in series:
-    - Three in parallel (21700_6s3p)
-    - Four in parallel (21700_6s4p)
-    - Five in parallel (21700_6s5p)
-    - Six in parallel (21700_6s6p)
+    - Three in parallel (6s3p)
+    - Four in parallel (6s4p)
+    - Five in parallel (6s5p)
+    - Six in parallel (6s6p)
 * Eight in series:
-    - Three in parallel (21700_8s3p)
-    - Four in parallel (21700_8s4p)
-    - Five in parallel (21700_8s5p)
-    - Six in parallel (21700_8s6p)
+    - Three in parallel (8s3p)
+    - Four in parallel (8s4p)
+    - Five in parallel (8s5p)
+    - Six in parallel (8s6p)
 * Ten in series:
-    - Three in parallel (21700_10s3p)
-    - Four in parallel (21700_10s4p)
-    - Five in parallel (21700_10s5p)
-    - Six in parallel (21700_10s6p)
+    - Three in parallel (10s3p)
+    - Four in parallel (10s4p)
+    - Five in parallel (10s5p)
+    - Six in parallel (10s6p)
 * Twelve in series:
-    - Three in parallel (21700_12s3p)
-    - Four in parallel (21700_12s4p)
-    - Five in parallel (21700_12s5p)
-    - Six in parallel (21700_12s6p)
+    - Three in parallel (12s3p)
+    - Four in parallel (12s4p)
+    - Five in parallel (12s5p)
+    - Six in parallel (12s6p)
   
   The battery consists of
   - two frames, which hold the cells between them\
