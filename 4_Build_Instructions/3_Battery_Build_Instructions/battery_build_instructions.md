@@ -197,10 +197,10 @@ Solder the wires to the batt. board s.t. they are at a 45° angle from sticking 
 
 ## 8) Battery Cell Voltage Check & First Charge-up
 
-8.1) Connect the charging station with charger.\
+8.1) Connect the charging station with a charger.\
 `[img 8p1]`
 
-8.2) Place battery on charging station, then check that each cell voltage is near 3.5V. If not, must rework the balance cable wiring: check the wiring on the charging station, & if issue isn't there then check the wiring within the battery.\
+8.2) Place battery on the charging station, then check that each cell voltage is near 3.5V. If not, must rework the balance cable wiring: check the wiring on the charging station, & if issue isn't there then check the wiring within the battery.\
 `[img 8p2]`
 
 8.3) If each cell shows nominal voltages, either run balance charging (i.e., charge each cell to 3.75V) if putting it in storage or run ordinary charging (i.e., charge each cell to 4.1V) for immediate use.
