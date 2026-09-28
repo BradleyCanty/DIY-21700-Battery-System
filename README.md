@@ -167,7 +167,7 @@ Connects the battery with the vehicle, both mechanically and electrically. For t
 Interfaces the battery with a standard RC battery charger via XT60 connector for power and JST-XH connector for balancing. Again, <ins>this is not a charger itself: its an interface between the battery and the charger</ins>.\
 <p align="center">
   <img src="0_Misc/Readme_Images/readme_charging_station.jpg" width="48%">
-  <img src="0_Misc/Readme_Images/readme_charger_annotated.jpg" width="48%">
+  <img src="0_Misc/Readme_Images/readme_charger_annotated.png" width="48%">
 </p>
 
 ## Steps for Selecting a Battery Configuration
