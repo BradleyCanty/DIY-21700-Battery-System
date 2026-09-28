@@ -11,8 +11,8 @@
 
 | Part | Quantity | Filament | Print Settings |
 | :--- | :--- | :--- | :--- |
-| [Charging station body](LINK TO STL HERE) | 1 | black ASA | 15% infill, requires 15mm outer brim |
-| [Charging station cover](LINK TO STL HERE) | 1 | black ASA | 15% infill |
+| Charging station body | 1 | black ASA | 15% infill, requires 15mm outer brim |
+| Charging station cover | 1 | black ASA | 15% infill |
 
 ---
 
