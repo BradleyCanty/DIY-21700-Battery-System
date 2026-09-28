@@ -159,11 +159,16 @@ Each component is sized according to the chosen battery configuration. Possible 
   
 ### The Vehicle Adapter
 Connects the battery with the vehicle, both mechanically and electrically. For the mechanical interface, it has two latches which interface with the two button-press-to-unlatch mechanisms on either end of the battery. For the electrical interface, it has a male 12-pin connector\
-[PUT IMAGE HERE]
+  <p align="center">
+    <img src="0_Misc/Readme_Images/readme_charging_station.jpg" width="48%">
+  </p>
 
 ### The Charging Station
 Interfaces the battery with a standard RC battery charger via XT60 connector for power and JST-XH connector for balancing. Again, <ins>this is not a charger itself: its an interface between the battery and the charger</ins>.\
-[PUT IMAGE HERE]
+<p align="center">
+  <img src="0_Misc/Readme_Images/readme_charging_station.jpg" width="48%">
+  <img src="0_Misc/Readme_Images/readme_charger_annotated.jpg" width="48%">
+</p>
 
 ## Steps for Selecting a Battery Configuration
 In general,\
