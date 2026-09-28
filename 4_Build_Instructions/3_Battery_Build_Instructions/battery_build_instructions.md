@@ -78,12 +78,12 @@ For example, A battery that has 8 cells in series & 5 cells in parallel has a 8s
 Thus, the battery requires:
 Two busbars having size of $1 \times N = 1 \times 5$
 <p align="center">
-  <img src="Images/img_3a.jpg" width="50%">
+  <img src="Images/img_3b.jpg" width="50%">
 </p>
 
 and busbars having size of $2 \times N = 2 \times 5$ in quantity of $M - 1 = 8 - 1 = 7$
 <p align="center">
-  <img src="Images/img_3b.jpg" width="50%">
+  <img src="Images/img_3a.jpg" width="50%">
 </p>
 
 Finally, compute the total number of terminals on all busbars & then compute the number of busbar reels required (see BOM).
