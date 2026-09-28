@@ -11,7 +11,7 @@ It consists of...
 (12s4p battery system configuration shown below)
 
 <p align="center">
-  <img src="5_Misc/Readme_Images/readme_12s4p_battery_system_2.jpg" width="100%">
+  <img src="0_Misc/Readme_Images/readme_12s4p_battery_system_2.jpg" width="100%">
 </p>
 
 **This is a complete and working system, with all design files (CAD and PCB design) provided for your use:**\
@@ -40,8 +40,8 @@ If you intend for such a battery to power your multirotor you might ask: "wouldn
 (12s4p battery and vehicle adapter used on large quadcopter shown below)
 
 <p align="center">
-  <img src="5_Misc/Readme_Images/readme_12s4p_quad_1.jpg" width="48%">
-  <img src="5_Misc/Readme_Images/readme_12s4p_quad_2.jpg" width="48%">
+  <img src="0_Misc/Readme_Images/readme_12s4p_quad_1.jpg" width="48%">
+  <img src="0_Misc/Readme_Images/readme_12s4p_quad_2.jpg" width="48%">
 </p>
 
 Details on mounting the vehicle adapter to the vehicle can be found in Build Step 8: [Integrate vehicle adapter into vehicle](4_Build_Instructions/5_Vehicle_Adapter_Integration_Instructions/vehicle_adapter_integration_instructions.md)
@@ -52,8 +52,8 @@ Considering the cell form factor, **21700 cells** (i.e. cylindrical cells having
 (6s3p and 12s6p battery system configurations shown below)
 
 <p align="center">
-  <img src="5_Misc/Readme_Images/readme_6s3p_battery_system_4.jpg" width="48%">
-  <img src="5_Misc/Readme_Images/readme_12s6p_battery_system_2.jpg" width="48%">
+  <img src="0_Misc/Readme_Images/readme_6s3p_battery_system_4.jpg" width="48%">
+  <img src="0_Misc/Readme_Images/readme_12s6p_battery_system_2.jpg" width="48%">
 </p>
 
 As a final note, **the cell-to-pack mass fraction across all battery configurations is found to be around 83%**. This value is important since once you select a specific 21700 cell to use, you can then estimate the battery's total mass and the battery's gravimetric energy density:\
@@ -189,7 +189,7 @@ For example, suppose you are using Molicel P50B cells in an 8s5p battery configu
 (see plot below)
 
 <p align="center">
-  <img src="5_Misc/Readme_Images/readme_discharge_rate_plot_example.png" width="60%">
+  <img src="0_Misc/Readme_Images/readme_discharge_rate_plot_example.png" width="60%">
 </p>
 
 6) Finally, compute the battery's nominal charge capacity:\
@@ -252,5 +252,5 @@ The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bo
   5. [Build the charging station](4_Build_Instructions/2_Charging_Station_Build_Instructions/charging_station_build_instructions.md)
   6. [Build the battery](4_Build_Instructions/3_Battery_Build_Instructions/battery_build_instructions.md)
   7. [Build the vehicle adapter](4_Build_Instructions/4_Vehicle_Adapter_Build_Instructions/vehicle_adapter_build_instructions.md)
-  8. [Integrate vehicle adapter into vehicle](4_Build_Instructions/5_Vehicle_Adapter_Integration_Instructions/vehicle_adapter_integration_instructions.md)
-  9. Perform vehicle operating envelope testing
+  8. [Integrate vehicle adapter into vehicle](5_Integration_and_Test_Instructions/1_Vehicle_Adapter_Integration_Instructions/vehicle_adapter_integration_instructions.md)
+  9. [Perform vehicle operating envelope testing](5_Integration_and_Test_Instructions/2_Vehicle_Envelope_Testing_Instructions/vehicle_envelope_testing_instructions.md)
