@@ -65,8 +65,8 @@
 
 2.10) Place dabs of glue at the glue points on the vehicle adapter board, then glue the cover to it
 <p align="center">
-  <img src="Images/img_2p10a.jpg" width="50%">
-  <img src="Images/img_2p10b.jpg" width="50%">
+  <img src="Images/img_2p10a.jpg" width="48%">
+  <img src="Images/img_2p10b.jpg" width="48%">
 </p>
 
 *This concludes the vehicle adapter board build*
