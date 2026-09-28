@@ -103,7 +103,7 @@ Then, the tools required for building the battery system from the kit is
 
 Kit contents, pricing, and ordering information can be found [here](PUT LOCAL DIRECTORY LOCATION HERE).
 
-Whether you are building from raw materials or building from the kit, **the 'Build Steps' section found below contains pictures and descriptions at each step to aid in the build process.**
+Whether you are building from raw materials or building from the kit, the 'Build Steps' section found below contains pictures and descriptions at each step to aid in the build process.
 
 ## Battery System Components in Detail
 The battery system consists of the following components:
