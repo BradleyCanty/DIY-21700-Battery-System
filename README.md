@@ -137,22 +137,22 @@ Each component is sized according to the chosen battery configuration. Possible 
     - Six in parallel (12s6p)
   
   The battery consists of
-  - two frames, which hold the cells between them\
+  - two frames, which hold the cells between them
     <p align="center">
       <img src="0_Misc/Readme_Images/readme_battery_frames.jpg" width="48%">
     </p>
     
-  - a top plate, which covers the top frame\
+  - a top plate, which covers the top frame
     <p align="center">
       <img src="0_Misc/Readme_Images/readme_battery_top_plate.jpg" width="48%">
     </p>
 
-  - a bottom plate, which connects with the bottom frame and houses the female 12-pin power and balance connectors\
+  - a bottom plate, which connects with the bottom frame and houses the female 12-pin power and balance connectors
     <p align="center">
       <img src="0_Misc/Readme_Images/readme_battery_bottom_plate.jpg" width="48%">
     </p>
     
-  - two end plates, which clamp the frames together and serve as handles containing the button-press-to-unlatch mechanism\
+  - two end plates, which clamp the frames together and serve as handles containing the button-press-to-unlatch mechanism
     <p align="center">
       <img src="0_Misc/Readme_Images/readme_battery_end_plates.jpg" width="48%">
     </p>
@@ -269,7 +269,21 @@ The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bo
   9. **Integrate vehicle adapter into vehicle:** instructions found [here](5_Integration_and_Test_Instructions/1_Vehicle_Adapter_Integration_Instructions/vehicle_adapter_integration_instructions.md)
   10. **Perform vehicle operating envelope testing:** instructions found [here](5_Integration_and_Test_Instructions/2_Vehicle_Envelope_Testing_Instructions/vehicle_envelope_testing_instructions.md)
 
-## TO DO
+## TO DO IMMEDIATELY
+* Upload build images here
+* Insert build images into instructions
+* Upload sldprt and STL files
+* Create links to STLs in 3D print sections of build instructions
+* Make kit contents, pricing, and ordering info file
+* Do final check over README
+* Take pics of each configuration: each pic should contain battery, charging station, and vehicle adapter
+* Make battery system listings on Thingiverse
+* Make battery system listings on Printables
+* Make post on Reddit
+* Make post on RC forums
+* Make post on LinkedIn
+
+## TO DO LATER
 * Take pictures of antispark circuit build and put into instructions
 * Complete the 'Integrate vehicle adapter into vehicle' instructions
 * Complete the 'Perform vehicle operating envelope testing' instructions
