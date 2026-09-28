@@ -261,12 +261,18 @@ The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bo
   1. Decide on a battery configuration
   2. Order the required PCBs and associated components:\
      each system needs two antispark PCBs, one charging station PCB (pick the one that matches your configuration), one battery PCB (pick the one that matches your configuration), and one vehicle adapter PCB, all found [here](2_PCB_Files). See the READMEs for BOMs and ordering information.
-  4. Build the antispark boards: instructions found [here](4_Build_Instructions/1_Antispark_Build_Instructions/antispark_build_instructions.md)
-  5. Build the charging station: instructions found [here](4_Build_Instructions/2_Charging_Station_Build_Instructions/charging_station_build_instructions.md)
-  6. Build the battery: instructions found [here](4_Build_Instructions/3_Battery_Build_Instructions/battery_build_instructions.md)
-  7. Build the vehicle adapter: instructions found [here](4_Build_Instructions/4_Vehicle_Adapter_Build_Instructions/vehicle_adapter_build_instructions.md)
-  8. Integrate vehicle adapter into vehicle: instructions found [here](5_Integration_and_Test_Instructions/1_Vehicle_Adapter_Integration_Instructions/vehicle_adapter_integration_instructions.md)
-  9. Perform vehicle operating envelope testing: instructions found [here](5_Integration_and_Test_Instructions/2_Vehicle_Envelope_Testing_Instructions/vehicle_envelope_testing_instructions.md)
+  3. Build the antispark boards:\
+     instructions found [here](4_Build_Instructions/1_Antispark_Build_Instructions/antispark_build_instructions.md)
+  4. Build the charging station:\
+     instructions found [here](4_Build_Instructions/2_Charging_Station_Build_Instructions/charging_station_build_instructions.md)
+  5. Build the battery:\
+     instructions found [here](4_Build_Instructions/3_Battery_Build_Instructions/battery_build_instructions.md)
+  6. Build the vehicle adapter:\
+      instructions found [here](4_Build_Instructions/4_Vehicle_Adapter_Build_Instructions/vehicle_adapter_build_instructions.md)
+  7. Integrate vehicle adapter into vehicle:\
+      instructions found [here](5_Integration_and_Test_Instructions/1_Vehicle_Adapter_Integration_Instructions/vehicle_adapter_integration_instructions.md)
+  8. Perform vehicle operating envelope testing:\
+      instructions found [here](5_Integration_and_Test_Instructions/2_Vehicle_Envelope_Testing_Instructions/vehicle_envelope_testing_instructions.md)
 
 ## TO DO
 * Take pictures of antispark circuit build and put into instructions
