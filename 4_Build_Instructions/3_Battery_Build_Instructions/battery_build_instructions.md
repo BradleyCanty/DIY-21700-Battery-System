@@ -169,16 +169,16 @@ The solder points should be located below the bottom line of frame holes, with t
 6.8) Solder MISTA 12-pin female connector to the battery board\
 `[img 6p8a here]` `[img 6p8b here]`
 
-6.9) Mount the board with connector into the bottom plate. Note that the batt. bottom plate must close with wires inside. Thus, for this to happen, the wires from the battery board must meet with those of the battery. In the mind's eye, project where the female bullet connectors on the battery wires would lie in the bottom plate if it were closed against the bottom of the battery. Cut an 8 AWG wire which extends from the battery board to this projected location, being mindful that the bullet connectors are aligned when connected.\
+6.9) Mount the board with connector into the bottom plate. Note that the battery bottom plate must close with wires inside. Thus, for this to happen, the wires from the battery board must meet with those of the battery. In the mind's eye, project where the female bullet connectors on the battery wires would lie in the bottom plate if it were closed against the bottom of the battery. Cut an 8 AWG wire which extends from the battery board to this projected location, being mindful that the bullet connectors are aligned when connected.\
 `[img 6p9 here]`
 
 Then, cut the other wire using the length of this wire.
-6.10) Solder male 6mm bullet connectors to the wires, then solder the wires to the batt. board: red to Vbatt+, black to Vbatt-\
+6.10) Solder male 6mm bullet connectors to the wires, then solder the wires to the battery board: red to Vbatt+, black to Vbatt-\
 `[img 6p10]`
 
-Solder the wires to the batt. board s.t. they are at a 45° angle from sticking straight out, angled toward the side of the board w/o the notch in it.
+Solder the wires to the battery board such that they are at a 45° angle from sticking straight out, angled toward the side of the board w/o the notch in it.
 
-6.11) Using a multimeter, check continuity between the Vbatt+ terminal & Vbatt- terminal on the batt. board. If no shorts found, then seat it in the bottom plate, secure with four M3×6mm screws, & plug it into the battery\
+6.11) Using a multimeter, check continuity between the Vbatt+ terminal & Vbatt- terminal on the battery board. If no shorts found, then seat it in the bottom plate, secure with four M3×6mm screws, & plug it into the battery\
 `[img 6p11]`
 
 ---
