@@ -270,10 +270,6 @@ The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bo
   10. **Perform vehicle operating envelope testing:** instructions found [here](5_Integration_and_Test_Instructions/2_Vehicle_Envelope_Testing_Instructions/vehicle_envelope_testing_instructions.md)
 
 ## TO DO IMMEDIATELY
-* Upload build images here
-* Insert build images into instructions
-* Upload sldprt and STL files
-* Create links to STLs in 3D print sections of build instructions
 * Make kit contents, pricing, and ordering info file
 * Do final check over README
 * Take pics of each configuration: each pic should contain battery, charging station, and vehicle adapter
