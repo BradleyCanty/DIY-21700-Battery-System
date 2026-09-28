@@ -64,9 +64,11 @@ $M$ = number of cells in series\
 $N$ = number of cells in parallel\
 $CPMF$ = cell-to-pack mass fraction
 
-$E_{battery}^* = (battery\ nominal\ voltage) * (battery\ charge\ capacity) = (M * V_{cell, nominal})*(N * Q_{cell,expected}) / m_{battery}$ = gravimetric energy density [Wh/kg]\
+$E_{battery}^* = (battery\ nominal\ voltage) * (battery\ charge\ capacity)$\
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &thinsp;= $(M * V_{cell, nominal})*(N * Q_{cell,expected}) / m_{battery}$\
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &thinsp;= gravimetric energy density [Wh/kg]\
 where\
-$V_{cell, nominal}$ = nominal cell voltage = 3.6[V] (for li-ion cell)
+$V_{cell, nominal}$ = nominal cell voltage = 3.6[V] (for li-ion cell)\
 $Q_{cell,expected}$ = expected cell charge capacity for normal vehicle operation (computed using the process outlined in 'Steps for Selecting a Battery Configuration' section found below)
 
 For example, for a battery having 8 cells in series and 5 cells in parallel (i.e. MsNp = 8s5p) using EVE 50PL 21700 cells, we have\
