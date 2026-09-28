@@ -33,7 +33,7 @@ This battery system is designed such that the battery itself is top-mounted onto
 6. lift battery away from the vehicle
 7. carry battery to its charging station
 
-A similar, but reversed, process occurs for taking a fully charged battery off its charging station to the vehicle.
+A similar but reversed process occurs for taking a fully charged battery off its charging station to the vehicle.
 
 If you intend for such a battery to power your multirotor you might ask: "wouldn't the multirotor be top heavy, thereby adversely affecting stability and control?". The simple answer is no, it wouldn't **if you mount the battery directly above the bulkhead where the motor arms are mounted to the body**. In doing this, the center of mass would be nearer the thrust plane (i.e. the plane where the rotors spin), so there wouldn't be any stability or control issues. Additionally, if the aforementioned multirotor configuration is used, then a bottom mounted payload shifts the center of gravity downward. As final proof of functionality, I have personally flight tested a multirotor using a 12s4p battery, with no stability or control issues whatsoever.
 
