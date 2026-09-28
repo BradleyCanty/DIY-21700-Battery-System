@@ -11,9 +11,9 @@
 
 | Part | Quantity | Filament | Print Settings |
 | :--- | :--- | :--- | :--- |
-| Vehicle adapter body | 1 | black ASA | 15% infill, requires 15 mm outer brim |
-| Vehicle adapter cover | 1 | black ASA | 15% infill |
-| Latch | 2 | black ASA | 100% infill |
+| [Vehicle adapter body](PUT LINK HERE) | 1 | black ASA | 15% infill, requires 15 mm outer brim |
+| [Vehicle adapter cover](PUT LINK HERE) | 1 | black ASA | 15% infill |
+| [Latch](PUT LINK HERE) | 2 | black ASA | 100% infill |
 
 ---
 
