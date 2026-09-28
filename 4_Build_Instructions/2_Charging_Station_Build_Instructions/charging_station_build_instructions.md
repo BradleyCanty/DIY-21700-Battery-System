@@ -2,8 +2,8 @@
 
 ## Outline
 1. 3D print the parts
-2. Assemble the Charging Station Board
-3. Assemble the Charging Station
+2. Assemble the charging station board
+3. Assemble the charging station
 
 ---
 
