@@ -102,7 +102,7 @@
 
 3.2) Insert fully assembled charging station board into charging station body. Fasten using four M3x6mm bolts.
 <p align="center">
-  <img src="4_Build_Instructions/2_Charging_Station_Build_Instructions/Images/img_3p2.jpg" width="50%">
+  <img src="Images/img_3p2.jpg" width="50%">
 </p>
 
 *This concludes the charging station assembly*
