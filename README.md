@@ -76,10 +76,11 @@ $m_{cell} = 0.066 [kg]$ (measured in real life... datasheet gives 0.072 [kg] per
 $M$ = 8\
 $N$ = 5\
 $CPMF$ = 0.83\
-$Q_{cell,expected}$ = 4.5 [Ah]\
+$Q_{cell,expected}$ = 4.5 [Ah]
+
 Then, battery mass and gravimetric energy density are computed to be\
 $m_{battery} \approx 0.066 * 8 * 5 / 0.083 =  3.18$ [kg]\
-$E_{battery}^* = (8 * 3.6)*(5 * 4.5) / 3.18$ = 203.8 [Wh/kg]\
+$E_{battery}^* = (8 * 3.6)*(5 * 4.5) / 3.18$ = 203.8 [Wh/kg]
 
 ## Safety
 Additionally, safety is paramount. A temperature sensor circuit consisting of a microcontroller and busbar voltage sensing is in progress (I had assumed thermistors would work in the cell failure detection role, but apparently the thermal mass of the busbar is too large to detect it in time). I am in the process of designing and prototyping a circuit which detects voltages at each busbar and sends them in MAVLink packets over UART to the flight controller (running either Ardupilot or PX4), with options of alerting the pilot or autolanding the vehicle if a measured busbar voltage is lower than some threshold. **The software development, physical packaging, and testing have posed significant issues which require a non-trivial amount of iteration, time, and money: I am working through these issues, but at some point I need to call a "pencils down" and declare victory, so Version 1 is without this safety feature. However, I assure you that Version 2 will have this safety feature, so stay tuned for that.** Additionally, I am in the process of making a low voltage alarm circuit featuring a buzzer and orange LED lights which buzz and flash upon low voltage detection, which I intend to include in Version 2 of this project.
