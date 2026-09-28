@@ -169,7 +169,7 @@ The solder points should be located below the bottom line of frame holes, with t
 6.8) Solder MISTA 12-pin female connector to the battery board\
 `[img 6p8a here]` `[img 6p8b here]`
 
-6.9) Mount the board with connector into the bottom plate. Note that the battery bottom plate must close with wires inside. Thus, for this to happen, the wires from the battery board must meet with those of the battery. In the mind's eye, project where the female bullet connectors on the battery wires would lie in the bottom plate if it were closed against the bottom of the battery. Cut an 8 AWG wire which extends from the battery board to this projected location, being mindful that the bullet connectors are aligned when connected.\
+6.9) Mount the board with connector into the bottom plate. Note that the battery bottom plate must close with wires inside. Thus, for this to happen, the wires from the battery board must meet with those of the battery. In the mind's eye, project where the female bullet connectors on the battery wires would lie on the bottom plate if it were closed against the bottom of the battery. Then, cut an 8 AWG wire that extends from the battery board to this projected location, being mindful that the bullet connectors are aligned when connected.\
 `[img 6p9 here]`
 
 Then, cut the other wire using the length of this wire.
