@@ -1,0 +1,1 @@
+# Vehicle Adapter Integration Instructions
