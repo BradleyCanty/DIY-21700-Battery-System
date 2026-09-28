@@ -1,9 +1,9 @@
 # Vehicle Adapter Build Instructions
 
 ## Outline
-1. 3D print the parts
-2. Assemble the vehicle adapter board
-3. Assemble the vehicle adapter
+1. 3D Print the Parts
+2. Assemble the Vehicle Adapter Board
+3. Assemble the Vehicle Adapter
 
 ---
 
@@ -22,7 +22,7 @@
 2.1) Super glue a MISTA 12-pin male connector to the vehicle adapter board (plastic-to-board contact, don't glue the metal contacts!)\
 `[img 2p1 here]`
 
-2.2) Solder the conn. to the board\
+2.2) Solder the connector to the board\
 `[img 2p2 here]`
 
 2.3) Cut a black 8 AWG wire to 70 mm & solder to the antispark board 'batt-' terminal\
