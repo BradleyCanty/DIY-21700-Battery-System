@@ -71,31 +71,29 @@ Finally, compute the total number of terminals on all busbars & then compute the
 
 ## 4) Prepare the Busbars
 
-4.1) Compute size & quantity of the busbars required for the battery configuration
+4.1) Cut out the busbars from the nickel-copper strip using metal shears. Each strip should terminate along the line where the nickel strips attach to the copper.\
+`[img 4p1a]` `[img 4p1b]`
 
-4.2) Cut out the busbars from the nickel-copper strip using metal shears. Each strip should terminate along the line where the nickel strips attach to the copper.\
-`[img 4p2a]` `[img 4p2b]`
+4.2) Cut off corners at 45° on each busbar & cut out notches approximately 4mm deep on either end of the wide busbars using metal shears\
+`[img 4p2]`
 
-4.3) Cut off corners at 45° on each busbar & cut out notches approximately 4mm deep on either end of the wide busbars using metal shears\
-`[img 4p3]`
-
-4.4) Drill holes at the center of the four terminals at either end of each wide busbar using a hand drill or drill press with 5/16" or 8mm drill bit. First, mark the center-points on each busbar.\
-`[img 4p4a]`
+4.3) Drill holes at the center of the four terminals at either end of each wide busbar using a hand drill or drill press with 5/16" or 8mm drill bit. First, mark the center-points on each busbar.\
+`[img 4p3a]`
 
 Then, attach busbars to a piece of scrap wood using double-sided tape (e.g. carpet tape)\
-`[img 4p4b]`
+`[img 4p3b]`
 
 Finally, drill the holes through each busbar\
-`[img 4p4c]`
+`[img 4p3c]`
 
-4.5) Solder 14 AWG solid copper wire along the edge of the narrow busbars\
+4.4) Solder 14 AWG solid copper wire along the edge of the narrow busbars\
+`[img 4p4a]` `[img 4p4b]`
+
+4.5) Solder female 6mm bullet connector to black & red 8 AWG wires having length of 40mm, then cover with shrink tube\
 `[img 4p5a]` `[img 4p5b]`
 
-4.6) Solder female 6mm bullet connector to black & red 8 AWG wires having length of 40mm, then cover with shrink tube\
-`[img 4p6a]` `[img 4p6b]`
-
-4.7) Solder 8 AWG wires with connectors to the narrow busbars: mimic the images below.\
-`[img 4p7]`
+4.6) Solder 8 AWG wires with connectors to the narrow busbars: mimic the images below.\
+`[img 4p6]`
 
 ---
 
