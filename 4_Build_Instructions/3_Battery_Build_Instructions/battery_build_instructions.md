@@ -173,6 +173,7 @@ The solder points should be located below the bottom line of frame holes, with t
 `[img 6p9 here]`
 
 Then, cut the other wire using the length of this wire.
+
 6.10) Solder male 6mm bullet connectors to the wires, then solder the wires to the battery board: red to Vbatt+, black to Vbatt-\
 `[img 6p10]`
 
