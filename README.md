@@ -139,22 +139,22 @@ Each component is sized according to the chosen battery configuration. Possible 
   The battery consists of
   - two frames, which hold the cells between them
     <p align="center">
-      <img src="0_Misc/Readme_Images/readme_battery_frames.jpg" width="48%">
+      <img src="0_Misc/Readme_Images/readme_battery_frames_1.jpg" width="48%">
     </p>
     
   - a top plate, which covers the top frame
     <p align="center">
-      <img src="0_Misc/Readme_Images/readme_battery_top_plate.jpg" width="48%">
+      <img src="0_Misc/Readme_Images/readme_battery_top_plate_1.jpg" width="48%">
     </p>
 
   - a bottom plate, which connects with the bottom frame and houses the female 12-pin power and balance connectors
     <p align="center">
-      <img src="0_Misc/Readme_Images/readme_battery_bottom_plate.jpg" width="48%">
+      <img src="0_Misc/Readme_Images/readme_battery_bottom_plate_1.jpg" width="48%">
     </p>
     
   - two end plates, which clamp the frames together and serve as handles containing the button-press-to-unlatch mechanism
     <p align="center">
-      <img src="0_Misc/Readme_Images/readme_battery_end_plates.jpg" width="48%">
+      <img src="0_Misc/Readme_Images/readme_battery_end_plates_1.jpg" width="48%">
     </p>
   
 ### The Vehicle Adapter
