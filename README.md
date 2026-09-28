@@ -138,16 +138,24 @@ Each component is sized according to the chosen battery configuration. Possible 
   
   The battery consists of
   - two frames, which hold the cells between them\
-    [PUT IMAGE HERE]
+    <p align="center">
+      <img src="0_Misc/Readme_Images/readme_battery_frames.jpg" width="48%">
+    </p>
     
   - a top plate, which covers the top frame\
-    [PUT IMAGE HERE]
+    <p align="center">
+      <img src="0_Misc/Readme_Images/readme_battery_top_plate.jpg" width="48%">
+    </p>
 
-    - a bottom plate, which connects with the bottom frame and houses the female 12-pin power and balance connectors\
-    [PUT IMAGE HERE]
+  - a bottom plate, which connects with the bottom frame and houses the female 12-pin power and balance connectors\
+    <p align="center">
+      <img src="0_Misc/Readme_Images/readme_battery_bottom_plate.jpg" width="48%">
+    </p>
     
   - two end plates, which clamp the frames together and serve as handles containing the button-press-to-unlatch mechanism\
-    [PUT IMAGE HERE]
+    <p align="center">
+      <img src="0_Misc/Readme_Images/readme_battery_end_plates.jpg" width="48%">
+    </p>
   
 ### The Vehicle Adapter
 Connects the battery with the vehicle, both mechanically and electrically. For the mechanical interface, it has two latches which interface with the two button-press-to-unlatch mechanisms on either end of the battery. For the electrical interface, it has a male 12-pin connector\
