@@ -109,7 +109,8 @@ Whether you are building from raw materials or building from the kit, pictures a
 The battery system consists of the following components:
 1) the battery
 2) the vehicle adapter
-3) the charging station\
+3) the charging station
+
 Each is explained in turn
 
 ### The Battery
