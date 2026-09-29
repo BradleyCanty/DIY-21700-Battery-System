@@ -10,14 +10,14 @@ Note that this **<ins>does NOT come with 21700 cells: you must select and purcha
 
 ## Pricing
 Suppose that the battery system configuration is given by
-MsNp\
+**M**s**N**p\
 where 
 where\
-M = number of cells in series\
-N = number of cells in parallel
+**M** = number of cells in series\
+**N** = number of cells in parallel
 
 Then, the pricing scheme is as follows:\
-Total price = $5 * M * N\
+Total price = $5 * **M** * **N**
 
 The table below shows the kit price according to configuration:
 
