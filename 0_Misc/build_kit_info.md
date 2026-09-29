@@ -5,7 +5,7 @@ Each kit comes with:
   [IMAGE HERE]
   
 * a prebuilt vehicle adapter
-* [IMAGE HERE]
+  [IMAGE HERE]
 
 * all parts needed to build the battery, including pre-built end plates
 * step-by-step instructions
