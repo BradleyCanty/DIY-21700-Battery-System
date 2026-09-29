@@ -8,7 +8,8 @@
    | 5p | [6s5p](Images/6s5p_vehicle_adapter_dimensions.png) | [8s5p](Images/8s5p_vehicle_adapter_dimensions.png) | [10s5p](Images/10s5p_vehicle_adapter_dimensions.png) | [12s5p](Images/12s5p_vehicle_adapter_dimensions.png) |
    | 6p | [6s6p](Images/6s6p_vehicle_adapter_dimensions.png) | [8s6p](Images/8s6p_vehicle_adapter_dimensions.png) | [10s6p](Images/10s6p_vehicle_adapter_dimensions.png) | [12s6p](Images/12s6p_vehicle_adapter_dimensions.png) |
 
-   **Its very important to check that the battery will fit on your vehicle:** if the mount holes positions are wider/longer than your vehicle, then either
+
+   **Note that its very important to check that the battery will fit on your vehicle:** if the mount hole positions are wider/longer than your vehicle, then either
    
    * select a different battery configuration\
      or...
