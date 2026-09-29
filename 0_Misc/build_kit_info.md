@@ -11,7 +11,7 @@ Note that this **<ins>does NOT come with 21700 cells: you must select and purcha
 ## Pricing
 The pricing scheme is as follows:\
 Total price $= $5 * M * N$\
-where
+where\
 M = number of cells in series\
 N = number of cells in parallel
 
