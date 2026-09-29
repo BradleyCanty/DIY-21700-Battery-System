@@ -74,7 +74,7 @@ $V_{cell, nominal}$ = nominal cell voltage = 3.6[V] (for li-ion cell)\
 $Q_{cell,expected}$ = expected cell charge capacity for normal vehicle operation (computed using the process outlined in 'Steps for Selecting a Battery Configuration' section found below)
 
 For example, for a battery having 8 cells in series and 5 cells in parallel (i.e. MsNp = 8s5p) using EVE 50PL 21700 cells, we have\
-$m_{cell} = 0.066 [kg]$ (measured in real life... datasheet gives 0.072 [kg] per cell)\
+$m_{cell} = 0.066 [kg]$ (real-world value... datasheet gives 0.072 [kg] per cell)\
 $M$ = 8\
 $N$ = 5\
 $CPMF$ = 0.83\
