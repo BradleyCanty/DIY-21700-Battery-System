@@ -10,7 +10,7 @@ Each kit comes with:
 * all parts needed to build the battery, including pre-built end plates
 * step-by-step instructions
 
-Note that this **<ins>does NOT come with 21700 cells: you must select and purchase these on your own. Additionally, spot welding and hand soldering is required to build the battery</ins>**.
+Note that the kit **<ins>does NOT come with 21700 cells: you must select and purchase these on your own. Additionally, spot welding and hand soldering is required to build the battery</ins>**.
 
 ## Pricing
 Suppose that the battery system configuration is given by
