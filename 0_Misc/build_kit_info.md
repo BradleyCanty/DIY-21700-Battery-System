@@ -41,3 +41,5 @@ The e-commerce site for purchasing kits is still being developed and should be r
   
 * Body:\
   "Please notify me when this kit is available"
+
+I will try to respond to these inquiries as soon as possible.
