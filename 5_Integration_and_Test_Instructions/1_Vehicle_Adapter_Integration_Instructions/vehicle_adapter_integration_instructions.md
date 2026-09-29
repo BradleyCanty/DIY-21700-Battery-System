@@ -1,5 +1,5 @@
 # Vehicle Adapter Integration Instructions
-1. Make holes in your vehicle structure to account for the vehicle adapter mounting holes and wire pass-throughs.\
+1. Make holes in your vehicle structure to account for the vehicle adapter's mounting holes and wire pass-throughs.\
 This table contains links to the vehicle adapter mounting hole and wire pass-through dimensions for each configuration.
 
 || 6s | 8s | 10s | 12s |
