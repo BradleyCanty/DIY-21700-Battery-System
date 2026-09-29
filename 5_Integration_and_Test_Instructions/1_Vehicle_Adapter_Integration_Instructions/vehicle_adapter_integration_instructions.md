@@ -4,12 +4,12 @@ This table contains links to the vehicle adapter mounting hole and wire pass-thr
 
 || 6s | 8s | 10s | 12s |
 | :--- | :--- | :--- | :--- | :--- |
-| 3p | $90 | $120 | $150 | $180 |
-| 4p | $120 | $160 | $200 | $240 |
-| 5p | $150 | $200 | $250 | $300 |
-| 6p | $180 | $240 | $300 | $360 |
+| 3p | [6s3p](IMG LINK HERE) | [8s3p](IMG LINK HERE) | [10s3p](IMG LINK HERE) | [12s3p](IMG LINK HERE) |
+| 4p | [6s4p](IMG LINK HERE) | [8s4p](IMG LINK HERE) | [10s4p](IMG LINK HERE) | [12s4p](IMG LINK HERE) |
+| 5p | [6s5p](IMG LINK HERE) | [8s5p](IMG LINK HERE) | [10s5p](IMG LINK HERE) | [12s5p](IMG LINK HERE) |
+| 6p | [6s6p](IMG LINK HERE) | [8s6p](IMG LINK HERE) | [10s6p](IMG LINK HERE) | [12s6p](IMG LINK HERE) |
 
-**Its very critical and important to check that the battery will fit on your vehicle:**\
+**Its very important to check that the battery will fit on your vehicle:**\
 if the positions of the mount holes are wider/longer than your vehicle, then either...\
 select a different battery configuration\
 or\
