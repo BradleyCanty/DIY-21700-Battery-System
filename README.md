@@ -282,8 +282,6 @@ The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bo
 
 ## TO DO
 ### V1 TO DO IMMEDIATELY
-* Make kit contents, pricing, and ordering info file
-* Do final check over README
 * Take pics of each configuration: each pic should contain battery, charging station, and vehicle adapter
 * Make battery system listings on Thingiverse
 * Make battery system listings on Printables
