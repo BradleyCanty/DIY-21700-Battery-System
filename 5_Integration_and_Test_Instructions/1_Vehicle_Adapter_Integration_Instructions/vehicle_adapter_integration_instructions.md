@@ -9,11 +9,11 @@
    | 5p | [6s5p](IMG LINK HERE) | [8s5p](IMG LINK HERE) | [10s5p](IMG LINK HERE) | [12s5p](IMG LINK HERE) |
    | 6p | [6s6p](IMG LINK HERE) | [8s6p](IMG LINK HERE) | [10s6p](IMG LINK HERE) | [12s6p](IMG LINK HERE) |
 
-   **Its very important to check that the battery will fit on your vehicle:** if the positions of the mount holes are wider/longer than your vehicle, then\
-   **either**\
-   select a different battery configuration\
-   **or**\
-   open the CAD file and reposition the mount holes, then 3D print the new vehicle adapter
+   **Its very important to check that the battery will fit on your vehicle:** if the mount holes positions are wider/longer than your vehicle, then either
+   
+   * select a different battery configuration\
+     or...
+   * open the CAD file and reposition the mount holes, then 3D print the new vehicle adapter
 
 3. Use either M3 nylock nuts or M3 Stainless clinching rivet nuts to bolt down the vehicle adapter to the vehicle
 
