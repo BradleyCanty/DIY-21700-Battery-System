@@ -17,6 +17,6 @@
 
 2. Use a CNC machine or a drill press to cut out the specified holes in the material the vehicle adapter will be mounted on
    
-4. Use either M3 nylock nuts or M3 clinching rivet nuts to bolt down the vehicle adapter to the vehicle
+4. Use M3 bolts and either M3 nylock nuts or M3 clinching rivet nuts to bolt down the vehicle adapter to the vehicle
 
 5. Size the 8 AWG wires coming off the vehicle adapter board to the length required for connecting with the vehicle's power system, then solder on the XT90 connectors (female on battery side, male on vehicle side).
