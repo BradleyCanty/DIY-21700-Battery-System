@@ -4,10 +4,10 @@
 
    || 6s | 8s | 10s | 12s |
    | :--- | :--- | :--- | :--- | :--- |
-   | 3p | [6s3p](IMG LINK HERE) | [8s3p](IMG LINK HERE) | [10s3p](IMG LINK HERE) | [12s3p](IMG LINK HERE) |
-   | 4p | [6s4p](IMG LINK HERE) | [8s4p](IMG LINK HERE) | [10s4p](IMG LINK HERE) | [12s4p](IMG LINK HERE) |
-   | 5p | [6s5p](IMG LINK HERE) | [8s5p](IMG LINK HERE) | [10s5p](IMG LINK HERE) | [12s5p](IMG LINK HERE) |
-   | 6p | [6s6p](IMG LINK HERE) | [8s6p](IMG LINK HERE) | [10s6p](IMG LINK HERE) | [12s6p](IMG LINK HERE) |
+   | 3p | [6s3p](Images/6s3p_vehicle_adapter_dimensions.png) | [8s3p](Images/8s3p_vehicle_adapter_dimensions.png) | [10s3p](Images/10s3p_vehicle_adapter_dimensions.png) | [12s3p](Images/12s3p_vehicle_adapter_dimensions.png) |
+   | 4p | [6s4p](Images/6s4p_vehicle_adapter_dimensions.png) | [8s4p](Images/8s4p_vehicle_adapter_dimensions.png) | [10s4p](Images/10s4p_vehicle_adapter_dimensions.png) | [12s4p](Images/12s4p_vehicle_adapter_dimensions.png) |
+   | 5p | [6s5p](Images/6s5p_vehicle_adapter_dimensions.png) | [8s5p](Images/8s5p_vehicle_adapter_dimensions.png) | [10s5p](Images/10s5p_vehicle_adapter_dimensions.png) | [12s5p](Images/12s5p_vehicle_adapter_dimensions.png) |
+   | 6p | [6s6p](Images/6s6p_vehicle_adapter_dimensions.png) | [8s6p](Images/8s6p_vehicle_adapter_dimensions.png) | [10s6p](Images/10s6p_vehicle_adapter_dimensions.png) | [12s6p](Images/12s6p_vehicle_adapter_dimensions.png) |
 
    **Its very important to check that the battery will fit on your vehicle:** if the mount holes positions are wider/longer than your vehicle, then either
    
