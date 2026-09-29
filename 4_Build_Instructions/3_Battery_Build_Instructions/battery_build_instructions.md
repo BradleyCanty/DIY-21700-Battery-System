@@ -119,109 +119,172 @@ Finally, drill the holes through each busbar.
 </p>
 
 4.4) Solder 14 AWG solid copper wire along the edge of the narrow busbars.
-`[img 4p4a]` `[img 4p4b]`
+<p align="center">
+  <img src="Images/img_4p4a.jpg" width="48%">
+  <img src="Images/img_4p4b.jpg" width="48%">
+</p>
 
 4.5) Solder female 6mm bullet connector to black & red 8 AWG wires having length of 40mm, then cover with shrink tube.
-`[img 4p5a]` `[img 4p5b]`
+<p align="center">
+  <img src="Images/img_4p5a.jpg" width="48%">
+  <img src="Images/img_4p5b.jpg" width="48%">
+</p>
 
 4.6) Solder 8 AWG wires with connectors to the narrow busbars: mimic the images below.
-`[img 4p6]`
+<p align="center">
+  <img src="Images/img_4p6.jpg" width="50%">
+</p>
 
 ---
 
 ## 5) Place Cells in Frames & Spot Weld Busbars to Cells
 
 5.1) Insert eight M3×4mm×5mm brass insert nuts into each frame part: four on top surface & two on each end.
-`[img 5p1a]` `[img 5p1b]`
+<p align="center">
+  <img src="Images/img_5p1a.jpg" width="48%">
+  <img src="Images/img_5p1b.jpg" width="48%">
+</p>
 
 5.2) Put insulator rings on the positive terminals of all cells.
-`[img 5p2]`
+<p align="center">
+  <img src="Images/img_5p2.jpg" width="50%">
+</p>
 
 5.3) Insert cells into one frame: alternate the polarity along the long edge.
-`[img 5p3]`
+<p align="center">
+  <img src="Images/img_5p3.jpg" width="50%">
+</p>
 
 5.4) Fit the other frame over the cells: use mallet to seat in place if necessary.
-`[img 5p4]`
+<p align="center">
+  <img src="Images/img_5p4.jpg" width="50%">
+</p>
 
 5.5) Spot weld the wide busbars to the terminals: six spot welds per terminal is sufficient, with each spot weld pair made across the terminal cutout, not along it.
 It helps to place dabs of super glue where the busbar makes contact with the plastic frame to hold the busbar in place.
-`[img 5p5a]` `[img 5p5b]` `[img 5p5c]`
+<p align="center">
+  <img src="Images/img_5p5a.jpg" width="32%">
+  <img src="Images/img_5p5b.jpg" width="32%">
+  <img src="Images/img_5p5c.jpg" width="32%">
+</p>
 
 > **NOTICE:** Test your spot welder settings on scrap metal before attempting to spot weld the busbars, since failed welds can lead to destroying the entire busbar...
-> `[img 5p5d]`
+> <p align="center">
+>  <img src="Images/img_5p5d.jpg" width="50%">
+> </p>
 > 
 > Do a tug test to make sure the weld is secure.
->`[img 5p5e]`
+> <p align="center">
+>  <img src="Images/img_5p5e.jpg" width="50%">
+> </p>
 
 If you are using a battery-powered spot welder then I recommend that you charge up two batteries & switch off between them every ~60 welds to prevent them from overheating & exploding. Additionally, have a empty, sealable plastic container nearby: if the battery starts to swell, immediately unplug it, put it in the container, & take it outside for disposal.
 
 Upon completion of this step, we can now define the side of the battery having only wide busbars as the "top side" of the battery.
 
 5.6) Flip the battery over & place the thin busbars adjacent to their final positions: one w/ black wire near terminals w/ large exposed metal area, & one w/ red wire near terminals w/ insulator rings (see image).
-`[img 5p6]`
+<p align="center">
+  <img src="Images/img_5p6.jpg" width="50%">
+</p>
 
 5.7) Glue down the narrow busbars above their intended weld points: place glue on the plastic areas that make contact w/ the copper, NOT on the terminals! Be careful to not make contact w/ the adjacent parallel cells as this will short the battery!
-`[img 5p7]`
+<p align="center">
+  <img src="Images/img_5p7.jpg" width="50%">
+</p>
 
 5.8) Spot weld the narrow bus bars in place.
-`[img 5p8]`
+<p align="center">
+  <img src="Images/img_5p8.jpg" width="50%">
+</p>
 
 5.9) Glue down the remaining wide busbars in the open slots between the thin busbars, being careful not to make contact w/ adjacent parallel cells.
-`[img 5p9]`
+<p align="center">
+  <img src="Images/img_5p9.jpg" width="50%">
+</p>
 
 5.10) Spot weld the remaining terminals.
-`[img 5p10]`
+<p align="center">
+  <img src="Images/img_5p10.jpg" width="50%">
+</p>
 
 ---
 
 ## 6) Wire-up the Power & Balance Connectors
 
 6.1) Insert four threaded insert nuts into the bottom plate.
-`[img 6p1]`
+<p align="center">
+  <img src="Images/img_6p1.jpg" width="50%">
+</p>
 
 6.2) Position the battery on the edge of the bottom plate in the orientation seen in the image.
-`[img 6p2]`
+<p align="center">
+  <img src="Images/img_6p2.jpg" width="50%">
+</p>
 
 6.3) Separate the wires on the JST-XH connector (see image).
-`[img 6p3]`
+<p align="center">
+  <img src="Images/img_6p3.jpg" width="50%">
+</p>
 
 6.4) With the red wire on the right, thread the upper wires through the holes along the bottom edge to the top side of the battery.
-`[img 6p4a]` `[img 6p4b]`
+<p align="center">
+  <img src="Images/img_6p4a.jpg" width="48%">
+  <img src="Images/img_6p4b.jpg" width="48%">
+</p>
 
 6.5) Plug the JST-XH connector into its cutout in the bottom plate.
-`[img 6p5]`
+<p align="center">
+  <img src="Images/img_6p5.jpg" width="50%">
+</p>
 
 6.6) Pull each wire connected to the JST-XH connector lying on the bottom plate toward its respective busbar, then cut, strip, & solder it to the busbar.
 
 The solder points should be located below the bottom line of frame holes, with the wires oriented along the bottom edge (see image).
-`[img 6p6]`
+<p align="center">
+  <img src="Images/img_6p6.jpg" width="50%">
+</p>
 
 6.7) With the battery still on the edge of the bottom plate, turn the battery around & solder the remaining balance wires to their respective terminals.
-`[img 6p7]`
+<p align="center">
+  <img src="Images/img_6p7.jpg" width="50%">
+</p>
 
 6.8) Solder MISTA 12-pin female connector to the battery board.
-`[img 6p8a here]` `[img 6p8b here]`
+<p align="center">
+  <img src="Images/img_6p8a.jpg" width="48%">
+  <img src="Images/img_6p8b.jpg" width="48%">
+</p>
 
 6.9) Mount the board with connector into the bottom plate. Note that the battery bottom plate must close with wires inside. Thus, for this to happen, the wires from the battery board must meet with those of the battery. In the mind's eye, project where the female bullet connectors on the battery wires would lie on the bottom plate if it were closed against the bottom of the battery. Then, cut an 8 AWG wire that extends from the battery board to this projected location, being mindful that the bullet connectors are aligned when connected.
-`[img 6p9 here]`
+<p align="center">
+  <img src="Images/img_6p9.jpg" width="50%">
+</p>
 
 Then, cut the other wire using the length of this wire.
 
 6.10) Solder male 6mm bullet connectors to the wires, then solder the wires to the battery board: red to Vbatt+, black to Vbatt-. Solder the wires to the battery board such that they are at a 45° angle from sticking straight out, angled toward the side of the board w/o the notch in it.
-`[img 6p10]`
+<p align="center">
+  <img src="Images/img_6p10.jpg" width="50%">
+</p>
 
 6.11) Using a multimeter, check continuity between the Vbatt+ terminal & Vbatt- terminal on the battery board. If no shorts found, then seat it in the bottom plate, secure with four M3×6mm screws, & plug it into the battery.
-`[img 6p11]`
+<p align="center">
+  <img src="Images/img_6p11.jpg" width="50%">
+</p>
 
 ---
 
 ## 7) Attach Bottom, Top, & End Plates
 
 7.1) Fasten the bottom plate to the battery bottom frame using four M3×16mm bolts & fasten the top plate to the battery top frame using four M3×8mm bolts.
-`[img 7p1 here]`
+<p align="center">
+  <img src="Images/img_7p1.jpg" width="50%">
+</p>
 
 7.2) Fasten the assembled end plates to the ends of the battery using eight M3×16mm bolts, with four bolts used per end plate.
-`[img 7p2]`
+<p align="center">
+  <img src="Images/img_7p2.jpg" width="50%">
+</p>
 
 *This concludes the battery build*
 
@@ -230,10 +293,14 @@ Then, cut the other wire using the length of this wire.
 ## 8) Battery Cell Voltage Check & First Charge-up
 
 8.1) Connect the charging station with a charger.
-`[img 8p1]`
+<p align="center">
+  <img src="Images/img_8p1.jpg" width="50%">
+</p>
 
 8.2) Place battery on the charging station, then check that each cell voltage is near 3.5V. If not, must rework the balance cable wiring: check the wiring on the charging station, & if issue isn't there then check the wiring within the battery.
-`[img 8p2]`
+<p align="center">
+  <img src="Images/img_8p2.jpg" width="50%">
+</p>
 
 8.3) If each cell shows nominal voltages, either run balance charging (i.e., charge each cell to 3.75V) if putting it in storage or run ordinary charging (i.e., charge each cell to 4.1V) for immediate use.
 
