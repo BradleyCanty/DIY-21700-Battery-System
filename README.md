@@ -140,20 +140,20 @@ Each component is sized according to the chosen battery configuration. Possible 
   - two frames, which hold the cells between them
     <p align="center">
       <img src="0_Misc/Readme_Images/readme_battery_frames_1.jpg" width="48%">
-      <img src="0_Misc/Readme_Images/readme_8s4p_battery_frames.jpg" width="48%">
+      <img src="0_Misc/Readme_Images/readme_8s5p_battery_frames.jpg" width="48%">
     </p>
     
   - a top plate, which covers the top frame
     <p align="center">
       <img src="0_Misc/Readme_Images/readme_battery_top_plate_1.jpg" width="48%">
-      <img src="0_Misc/Readme_Images/readme_8s4p_battery_top.jpg" width="48%">
+      <img src="0_Misc/Readme_Images/readme_8s5p_battery_top.jpg" width="48%">
     </p>
 
   - a bottom plate, which connects with the bottom frame and houses the female 12-pin power and balance connectors
     <p align="center">
       <img src="0_Misc/Readme_Images/readme_battery_bottom_plate_1.jpg" width="32%">
-      <img src="0_Misc/Readme_Images/readme_8s4p_battery_bottom_plate.jpg" width="32%">
-      <img src="0_Misc/Readme_Images/readme_8s4p_battery_bottom.jpg" width="32%">
+      <img src="0_Misc/Readme_Images/readme_8s5p_battery_bottom_plate.jpg" width="32%">
+      <img src="0_Misc/Readme_Images/readme_8s5p_battery_bottom.jpg" width="32%">
     </p>
     
   - two end plates, which clamp the frames together and serve as handles containing the button-press-to-unlatch mechanism
