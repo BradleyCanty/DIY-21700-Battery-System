@@ -1,16 +1,21 @@
 # DIY 21700 Battery System Kit Info
 ## What You Get
 Each kit comes with:
-* a prebuilt charging station
-  [IMAGE HERE]
-  
 * a prebuilt vehicle adapter
-  [IMAGE HERE]
+  <p align="left">
+    <img src="Readme_Images/readme_vehicle_adapter.jpg" width="40%">
+  </p>
+  
+* a prebuilt charging station
+  <p align="left">
+    <img src="Readme_Images/readme_charging_station.jpg" width="40%">
+  </p>
+  
 
 * all parts needed to build the battery, including pre-built end plates
 * step-by-step instructions
 
-Note that the kit **<ins>does NOT come with 21700 cells: you must select and purchase these on your own. Additionally, spot welding and hand soldering is required to build the battery</ins>**.
+> IMPORTANT NOTE: kit **<ins>does NOT come with 21700 cells: you must select and purchase these on your own. Additionally, spot welding and hand soldering is required to build the battery</ins>**.
 
 ## Pricing
 Suppose that the battery system configuration is given by
@@ -32,7 +37,7 @@ The table below shows the kit price according to configuration:
 | 6p | $180 | $240 | $300 | $360 |
 
 ## Ordering Info
-The e-commerce site for purchasing kits is still being developed and should be ready by early October 2026. If you are interested in buying a kit, please send an email to **DIY21700BatterySystem@gmail.com** with the following:
+The e-commerce site for purchasing kits is still being developed and should be ready by early October 2026. However, if you are interested in buying a kit, please send an email to **DIY21700BatterySystem@gmail.com** with the following:
 * Subject line:\
   "**M**s**N**p Battery System Kit Interest"\
   where\
