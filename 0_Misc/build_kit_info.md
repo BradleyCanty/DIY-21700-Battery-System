@@ -9,11 +9,15 @@ Each kit comes with:
 Note that this **<ins>does NOT come with 21700 cells: you must select and purchase these on your own. Additionally, spot welding and hand soldering is required to build the battery</ins>**.
 
 ## Pricing
-The pricing scheme is as follows:\
-Total price = $5 * M * N\
+Suppose that the battery system configuration is given by
+MsNp\
+where 
 where\
 M = number of cells in series\
 N = number of cells in parallel
+
+Then, the pricing scheme is as follows:\
+Total price = $5 * M * N\
 
 The table below shows the kit price according to configuration:
 
