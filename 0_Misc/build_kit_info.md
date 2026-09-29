@@ -1,8 +1,12 @@
 # Build Kit Information
 ## What You Get
 Each kit comes with:
-* prebuilt charging station [IMAGE HERE]
-* prebuilt vehicle adapter [IMAGE HERE]
+* a prebuilt charging station
+  [IMAGE HERE]
+  
+* a prebuilt vehicle adapter
+* [IMAGE HERE]
+
 * all parts needed to build the battery, including pre-built end plates
 * step-by-step instructions
 
