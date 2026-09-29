@@ -288,6 +288,7 @@ The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bo
 * Make post on Reddit
 * Make post on RC forums
 * Make post on LinkedIn
+* Consolidate and simplify the battery sizing methodology
 
 ### V1 TO DO LATER
 * Take pictures of antispark circuit build and put into instructions
