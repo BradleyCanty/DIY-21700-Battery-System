@@ -9,5 +9,9 @@ This table contains links to the vehicle adapter mounting holes and wire pass-th
 | 5p | $150 | $200 | $250 | $300 |
 | 6p | $180 | $240 | $300 | $360 |
 
+A very critical and important thing to do is to check that the battery will fit on your vehicle: if the positions of the mount holes are wider/longer than your vehicle, then either...\
+select a different battery configuration\
+or\
+open the CAD file and reposition the mount holes, then 3D print the new vehicle adapter
 
-2. Size the 8 AWG wires coming off the vehicle adapter board to the length required for connecting with the vehicle's power system, then either solder on XT90 connectors (female on battery side, male on vehicle side) or solder directly.
+3. Size the 8 AWG wires coming off the vehicle adapter board to the length required for connecting with the vehicle's power system, then either solder on XT90 connectors (female on battery side, male on vehicle side) or solder directly.
