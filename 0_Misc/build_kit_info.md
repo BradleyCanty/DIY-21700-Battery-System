@@ -15,7 +15,7 @@ where\
 M = number of cells in series\
 N = number of cells in parallel
 
-The table below shows the price for each battery system configuration:
+The table below shows the price for each battery system kit according to configuration:
 
 || 6s | 8s | 10s | 12s |
 | :--- | :--- | :--- | :--- | :--- |
