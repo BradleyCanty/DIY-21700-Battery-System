@@ -1,5 +1,5 @@
 # Vehicle Adapter Integration Instructions
-1. Use a CNC machine or drill press to cut out the vehicle adapter's mounting holes and wire pass-throughs in the material the vehicle adapter will be mounted on. This table contains links to the vehicle adapter mounting hole and wire pass-through dimensions for each configuration.
+1. Use a CNC machine or drill press to cut out the vehicle adapter's mounting holes and wire pass-throughs in the material the vehicle adapter will be mounted on. The following table contains links to the vehicle adapter mounting hole and wire pass-through dimensions for each configuration.
 
    || 6s | 8s | 10s | 12s |
    | :--- | :--- | :--- | :--- | :--- |
