@@ -12,7 +12,18 @@ Each kit comes with:
   </p>
   
 
-* all parts needed to build the battery, including pre-built end plates
+* all parts needed to build the battery
+  - frames
+  - top plate
+  - bottom plate
+  - pre-built end plates
+  - battery PCB
+  - 8 AWG wires
+  - 6mm bullet connectors
+  - pre-wired JST-XH connectors
+  - prepared busbars
+  - 21700 insulator rings
+
 * step-by-step instructions
 
 > IMPORTANT NOTE: kit **<ins>does NOT come with 21700 cells: you must select and purchase these on your own. Additionally, spot welding and hand soldering is required to build the battery</ins>**.
