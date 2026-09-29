@@ -15,7 +15,6 @@ Note that the kit **<ins>does NOT come with 21700 cells: you must select and pur
 ## Pricing
 Suppose that the battery system configuration is given by
 **M**s**N**p\
-where 
 where\
 **M** = number of cells in series\
 **N** = number of cells in parallel
