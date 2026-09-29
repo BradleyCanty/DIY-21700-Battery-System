@@ -1,4 +1,4 @@
-# Build Kit Information
+# DIY 21700 Battery System Kit Information
 ## What You Get
 Each kit comes with:
 * a prebuilt charging station
