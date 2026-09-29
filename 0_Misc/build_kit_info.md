@@ -17,7 +17,7 @@ The e-commerce site for purchasing kits is still being developed and should be r
   "**M**s**N**p Battery System Kit Interest"\
   where\
   **M** = number of cells in series\
-  **N** = number of cells in parallel\
+  **N** = number of cells in parallel
   
 * Body:\
   "Please notify me when this kit is available"
