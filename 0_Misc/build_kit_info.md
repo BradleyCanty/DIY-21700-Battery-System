@@ -1,5 +1,5 @@
 # Build Kit Information
-## Build Kit Contents
+## What You Get
 Each kit comes with:
 * prebuilt charging station [IMAGE HERE]
 * prebuilt vehicle adapter [IMAGE HERE]
