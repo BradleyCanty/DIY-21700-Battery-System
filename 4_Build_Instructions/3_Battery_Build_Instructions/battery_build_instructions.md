@@ -28,36 +28,35 @@
 
 ## 2) Assemble the End Plate
 
-2.1) Using metal shears, cut the arms of the two torsion springs to length of 15mm, as measured from the center of the coil: mark the spot on each arm with pen, then cut
-`[img 2p1a]` `[img 2p1b]`
+2.1) Using metal shears, cut the arms of the two torsion springs to length of 15mm, as measured from the center of the coil: mark the spot on each arm with pen, then cut.
 <p align="center">
   <img src="Images/img_2p1a.jpg" width="48%">
   <img src="Images/img_2p1b.jpg" width="48%">
 </p>
 
-2.2) Assemble the spring, small dowel pin, & 3D printed clamp in the configuration shown in the image; do this twice
+2.2) Assemble the spring, small dowel pin, & 3D printed clamp in the configuration shown in the image; do this twice.
 <p align="center">
   <img src="Images/img_2p2.jpg" width="50%">
 </p>
 
-2.3) Insert a M3×3mm×5mm brass threaded insert nut into the 3D-printed end plate near the square cutout
+2.3) Insert a M3×3mm×5mm brass threaded insert nut into the 3D-printed end plate near the square cutout.
 <p align="center">
   <img src="Images/img_2p3.jpg" width="50%">
 </p>
 
-2.4) Insert the 3D-printed button into the slot in the end plate
+2.4) Insert the 3D-printed button into the slot in the end plate.
 <p align="center">
   <img src="Images/img_2p4a.jpg" width="48%">
   <img src="Images/img_2p4b.jpg" width="48%">
 </p>
 
-2.5) Insert the spring-dowel pin-clamp assemblies into the square cutout on the end plate. Note: if using a 3p end plate, must complete the battery build then fasten the end plate to the battery using two M3×16mm & two M3×5mm bolts before doing this step
+2.5) Insert the spring-dowel pin-clamp assemblies into the square cutout on the end plate. Note: if using a 3p end plate, must complete the battery build then fasten the end plate to the battery using two M3×16mm & two M3×5mm bolts before doing this step.
 <p align="center">
   <img src="Images/img_2p5a.jpg" width="48%">
   <img src="Images/img_2p5b.jpg" width="48%">
 </p>
 
-2.6) Place 3D-printed cover over the square cutout, & fasten using M3×12mm bolt
+2.6) Place 3D-printed cover over the square cutout, & fasten using M3×12mm bolt.
 <p align="center">
   <img src="Images/img_2p6a.jpg" width="48%">
   <img src="Images/img_2p6b.jpg" width="48%">
