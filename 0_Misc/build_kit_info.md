@@ -41,8 +41,7 @@ Each kit comes with:
 
 * step-by-step instructions
 
-> IMPORTANT NOTE: kit **<ins>does NOT come with 21700 cells: you must select and purchase these on your own. Additionally, spot welding and hand soldering is required to build the battery</ins>**.\
-> Additionally, please check that the vehicle adapter's mounting holes and wire passthroughs will work on your vehicle: check the dimensions [here](4_Build_Instructions/4_Vehicle_Adapter_Build_Instructions/vehicle_adapter_build_instructions.md)
+> IMPORTANT NOTE: kit **<ins>does NOT come with 21700 cells: you must select and purchase these on your own. Additionally, spot welding and hand soldering is required to build the battery</ins>**. Finally, please check that the vehicle adapter's mounting holes and wire passthroughs will work on your vehicle: check the dimensions [here](4_Build_Instructions/4_Vehicle_Adapter_Build_Instructions/vehicle_adapter_build_instructions.md)
 
 ## Pricing
 Suppose that the battery system configuration is given by
