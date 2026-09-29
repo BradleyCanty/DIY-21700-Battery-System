@@ -95,13 +95,18 @@ $N$ = number of cells in parallel
 
 ## DIY or Build from a Kit
 Building this system consists of many steps (see 'Build Steps' section), and requires specific tools (see 'Required Tools' section). As a consequence, many people may find that doing this on their own is too advanced for them. Therefore, a kit is available to make the the build process easier: in essence, all you need to do upon receiving the kit is
-1) spot weld the terminals of your favorite cells (purchased separately) to the pre-wired bus bars
-2) fasten the fully-prepared 3D printed parts and pre-populated PCBs together with screws
-3) Test the battery by performing a few charge/discharge cycles on your battery charger (the battery charger is not included in the kit)
+1) Insert your favorite cells (purchased separately) into the fully-prepared 3D printed frames
+2) spot weld the busbars to the cell terminals
+3) Solder the balance cable wires to the busbars
+4) Cut and solder the 8 AWG power wires to the battery PCB
+5) fasten the fully-prepared 3D printed parts and pre-populated PCBs together with screws
+6) Test the battery by performing a few charge/discharge cycles on your battery charger (the battery charger is not included in the kit)
+
 Then, the tools required for building the battery system from the kit is
 1) a suitable spot welder
-2) metric hex wrenches
-3) a suitable battery charger
+2) soldering iron
+3) metric hex wrenches
+4) a suitable battery charger
 
 Kit contents, pricing, and ordering information can be found [here](0_Misc/build_kit_info.md).
 
