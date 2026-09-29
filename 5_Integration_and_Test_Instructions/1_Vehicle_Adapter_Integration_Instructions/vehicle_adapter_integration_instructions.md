@@ -17,4 +17,4 @@
 
 3. Use either M3 nylock nuts or M3 clinching rivet nuts to bolt down the vehicle adapter to the vehicle
 
-4. Size the 8 AWG wires coming off the vehicle adapter board to the length required for connecting with the vehicle's power system, then either solder on XT90 connectors (female on battery side, male on vehicle side) or solder directly.
+4. Size the 8 AWG wires coming off the vehicle adapter board to the length required for connecting with the vehicle's power system, then solder on the XT90 connectors (female on battery side, male on vehicle side).
