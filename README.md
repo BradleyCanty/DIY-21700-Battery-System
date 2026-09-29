@@ -275,7 +275,7 @@ The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bo
   9. **Integrate vehicle adapter into vehicle:** instructions found [here](5_Integration_and_Test_Instructions/1_Vehicle_Adapter_Integration_Instructions/vehicle_adapter_integration_instructions.md)
   10. **Perform vehicle operating envelope testing:** instructions found [here](5_Integration_and_Test_Instructions/2_Vehicle_Envelope_Testing_Instructions/vehicle_envelope_testing_instructions.md)
 
-## TO DO IMMEDIATELY
+## V1 TO DO IMMEDIATELY
 * Make kit contents, pricing, and ordering info file
 * Do final check over README
 * Take pics of each configuration: each pic should contain battery, charging station, and vehicle adapter
@@ -285,7 +285,16 @@ The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bo
 * Make post on RC forums
 * Make post on LinkedIn
 
-## TO DO LATER
+## V1 TO DO LATER
 * Take pictures of antispark circuit build and put into instructions
 * Complete the 'Integrate vehicle adapter into vehicle' instructions
 * Complete the 'Perform vehicle operating envelope testing' instructions
+
+## V2 TO DO IMMEDIATELY
+* Replace JST-XH balance connectors used in battery interface with machine header pins: female on battery, male on vehicle adapter and charging station
+* Implement safety features: measure voltages at each busbar, and measure temperatures at two cells, and report as a BATTERY_STATUS message over MAVLink
+* Refactor end plate latching mechanism to have clamp-from-top-to-unlatch, replacing the button-press-to-unlatch. This makes the battery usable on fixed-wing platforms, since battery swapping operations interact with the top surface only, as opposed to V1 where side clasping is required. It will also probably make it easier to automate battery swapping via robot arm, due to the simplified interface.
+
+## V2 TO DO LATER
+* Replace balance wires with a BMS
+* Extend battery configurations to 24s12p
