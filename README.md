@@ -17,6 +17,8 @@ It consists of...
 **This is a complete and working system, with all design files (CAD and PCB design) provided for your use:**\
 Multiple battery system configurations have been built and flight tested. Additionally, all CAD models have been 3D printed to ensure they work as intended. Finally, if none of the configurations presented here suit your needs then you can create your own battery configuration, since all CAD files (Solidworks part files and STLs) and PCB design files (KiCad project files) are included here for your use.
 
+**Version 2 will have cell voltage and temperature monitoring safety features (sent as a BATTERY_STATUS message over MAVLink to MAVLink-compatible flight controllers, such as Ardupilot and PX4) so star this repo for updates**
+
 ## Purpose
 The parametric nature of this system allows designing and building a battery system specific to your vehicle's requirements. As such, **the value add of this system is threefold:**
 1) you can use cells of your choice (i.e., can optimize for either power output or energy capacity) in a configuration suitable for your vehicle's operating envelope
