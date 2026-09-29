@@ -1,4 +1,19 @@
 # DIY 21700 Battery System Kit Info
+## Purpose
+Kits are available to make the the build process easier: in essence, all you need to do upon receiving the kit is
+1) Insert your favorite cells (purchased separately) into the fully-prepared 3D printed frames
+2) spot weld the busbars to the cell terminals
+3) Solder the balance cable wires to the busbars
+4) Cut and solder the 8 AWG power wires to the battery PCB
+5) fasten the fully-prepared 3D printed parts and pre-populated PCBs together with screws
+6) Test the battery by performing a few charge/discharge cycles on your battery charger (the battery charger is not included in the kit)
+
+Then, the tools required for building the battery system from the kit is
+1) a suitable spot welder
+2) soldering iron
+3) metric hex wrenches
+4) a suitable battery charger
+
 ## What You Get
 Each kit comes with:
 * a prebuilt vehicle adapter
