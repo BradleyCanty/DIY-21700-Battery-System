@@ -182,12 +182,12 @@ If you are using a battery-powered spot welder then I recommend that you charge 
 
 Upon completion of this step, we can now define the side of the battery having only wide busbars as the "top side" of the battery.
 
-5.6) Flip the battery over & place the thin busbars adjacent to their final positions: one w/ black wire near terminals w/ large exposed metal area, & one w/ red wire near terminals w/ insulator rings (see image).
+5.6) Flip the battery over & place the thin busbars adjacent to their final positions: one with black wire near terminals with large exposed metal area, & one with red wire near terminals with insulator rings (see image).
 <p align="center">
   <img src="Images/img_5p6.jpg" width="50%">
 </p>
 
-5.7) Glue down the narrow busbars above their intended weld points: place glue on the plastic areas that make contact w/ the copper, NOT on the terminals! Be careful to not make contact w/ the adjacent parallel cells as this will short the battery!
+5.7) Glue down the narrow busbars above their intended weld points: place glue on the plastic areas that make contact with the copper, NOT on the terminals! Be careful to not make contact with the adjacent parallel cells as this will short the battery!
 <p align="center">
   <img src="Images/img_5p7.jpg" width="50%">
 </p>
@@ -197,7 +197,7 @@ Upon completion of this step, we can now define the side of the battery having o
   <img src="Images/img_5p8.jpg" width="50%">
 </p>
 
-5.9) Glue down the remaining wide busbars in the open slots between the thin busbars, being careful not to make contact w/ adjacent parallel cells.
+5.9) Glue down the remaining wide busbars in the open slots between the thin busbars, being careful not to make contact with adjacent parallel cells.
 <p align="center">
   <img src="Images/img_5p9.jpg" width="50%">
 </p>
@@ -262,7 +262,7 @@ The solder points should be located below the bottom line of frame holes, with t
 
 Then, cut the other wire using the length of this wire.
 
-6.10) Solder male 6mm bullet connectors to the wires, then solder the wires to the battery board: red to Vbatt+, black to Vbatt-. Solder the wires to the battery board such that they are at a 45° angle from sticking straight out, angled toward the side of the board w/o the notch in it.
+6.10) Solder male 6mm bullet connectors to the wires, then solder the wires to the battery board: red to Vbatt+, black to Vbatt-. Solder the wires to the battery board such that they are at a 45° angle from sticking straight out, angled toward the side of the board witho the notch in it.
 <p align="center">
   <img src="Images/img_6p10.jpg" width="50%">
 </p>
