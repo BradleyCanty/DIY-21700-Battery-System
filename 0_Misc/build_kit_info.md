@@ -8,7 +8,7 @@ Kits are available to make the the build process easier: in essence, all you nee
 5) fasten the fully-prepared 3D printed parts and pre-populated PCBs together with screws
 6) Test the battery by performing a few charge/discharge cycles on your battery charger (the battery charger is not included in the kit)
 
-Then, the tools required for building the battery system from the kit is
+Then, the tools required reduces to
 1) a suitable spot welder
 2) soldering iron
 3) metric hex wrenches
@@ -41,7 +41,8 @@ Each kit comes with:
 
 * step-by-step instructions
 
-> IMPORTANT NOTE: kit **<ins>does NOT come with 21700 cells: you must select and purchase these on your own. Additionally, spot welding and hand soldering is required to build the battery</ins>**.
+> IMPORTANT NOTE: kit **<ins>does NOT come with 21700 cells: you must select and purchase these on your own. Additionally, spot welding and hand soldering is required to build the battery</ins>**.>
+> Additionally, please check that the vehicle adapter's mounting holes and wire passthroughs will work on your vehicle: see the dimensions [here](4_Build_Instructions/4_Vehicle_Adapter_Build_Instructions/vehicle_adapter_build_instructions.md)
 
 ## Pricing
 Suppose that the battery system configuration is given by
