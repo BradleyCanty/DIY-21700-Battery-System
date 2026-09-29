@@ -9,7 +9,11 @@ Each kit comes with:
 Note that this **<ins>does NOT come with 21700 cells: you must select and purchase these on your own. Additionally, spot welding and hand soldering is required in building the battery</ins>**.
 
 ## Pricing
-
+The pricing scheme is as follows:\
+Total price $= $5 * M * N$\
+where
+M = number of cells in series\
+N = number of cells in parallel
 
 ## Ordering Info
 The e-commerce site for purchasing kits is still being developed and should be ready by early October 2026. If you are interested in buying a kit, please send an email to **DIY21700BatterySystem@gmail.com** with the following:
