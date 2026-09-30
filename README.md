@@ -282,17 +282,10 @@ The charging station BOM is found [here](3_Bill_of_Materials/charging_station_bo
 
 ## TO DO
 ### V1 TO DO IMMEDIATELY
-* Take pics of each configuration: each pic should contain battery, charging station, and vehicle adapter
-* Make battery system listings on Thingiverse
-* Make battery system listings on Printables
-* Make post on Reddit
-* Make post on RC forums
-* Make post on LinkedIn
 * Consolidate and simplify the battery sizing methodology
 
 ### V1 TO DO LATER
 * Take pictures of antispark circuit build and put into instructions
-* Complete the 'Integrate vehicle adapter into vehicle' instructions
 * Complete the 'Perform vehicle operating envelope testing' instructions
 
 ### V2 TO DO IMMEDIATELY
